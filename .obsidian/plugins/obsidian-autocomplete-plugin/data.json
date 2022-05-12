@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "triggerLikeVim": false,
+  "latexProvider": true,
+  "flowProvider": true,
+  "flowProviderScanCurrent": true,
+  "flowProviderTokenizeStrategy": "default"
+}

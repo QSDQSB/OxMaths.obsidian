@@ -1,0 +1,13 @@
+{
+  "translucency": false,
+  "cssTheme": "Mogic Topaz",
+  "enabledCssSnippets": [
+    "tag-pills",
+    "font-change",
+    "auto-fade-control",
+    "tag-flag"
+  ],
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "baseFontSizeAction": false
+}

@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "6e2bd687b828ba8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "502ec7a135768e12",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "19f581d299ad8aa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fcdc87b8e347e9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "788c206ebc7d9809",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "da7b5f2d1c08be14",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#TODO",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "62aea939edae313e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 208.5036334991455
+  },
+  "right": {
+    "id": "ce9d5487f3afea6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "68189fde5d48a375",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7534166b62c60e08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b96309fd30c1d1cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae6f6552b94a2593",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md"
+              }
+            }
+          },
+          {
+            "id": "d2448b08f5dd9c60",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "948d32caeb5f0d26",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 192.03199768066406
+  },
+  "active": "502ec7a135768e12",
+  "lastOpenFiles": [
+    "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Analytic.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Inside.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Reparametrization.md",
+    "Numerical Analysis/QR Algorithm.md",
+    "Ox.Math.QSD/README.md",
+    "OxExam Paper/Collection2021TT.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Path's Chain Rule.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Path Differentiable.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Opposite Path.md"
+  ]
+}

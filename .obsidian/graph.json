@@ -1,0 +1,156 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#MostCrucial",
+      "color": {
+        "a": 1,
+        "rgb": 8453888
+      }
+    },
+    {
+      "query": "tag:#Subject",
+      "color": {
+        "a": 1,
+        "rgb": 12199
+      }
+    },
+    {
+      "query": "tag:#TODO",
+      "color": {
+        "a": 1,
+        "rgb": 2940898
+      }
+    },
+    {
+      "query": "tag:#ProblemSheet",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "tag:#important",
+      "color": {
+        "a": 1,
+        "rgb": 16514816
+      }
+    },
+    {
+      "query": "tag:#Unimportant",
+      "color": {
+        "a": 1,
+        "rgb": 15461355
+      }
+    },
+    {
+      "query": "tag:#TBV",
+      "color": {
+        "a": 1,
+        "rgb": 10879231
+      }
+    },
+    {
+      "query": "tag:#Q",
+      "color": {
+        "a": 1,
+        "rgb": 16711808
+      }
+    },
+    {
+      "query": "tag:#PastPaper",
+      "color": {
+        "a": 1,
+        "rgb": 9109480
+      }
+    },
+    {
+      "query": "tag:#ComplexAnalysis",
+      "color": {
+        "a": 1,
+        "rgb": 9823744
+      }
+    },
+    {
+      "query": "tag:#Probability",
+      "color": {
+        "a": 1,
+        "rgb": 13413805
+      }
+    },
+    {
+      "query": "tag:#Analysis",
+      "color": {
+        "a": 1,
+        "rgb": 5431401
+      }
+    },
+    {
+      "query": "tag:#LA",
+      "color": {
+        "a": 1,
+        "rgb": 16767631
+      }
+    },
+    {
+      "query": "tag:#Dynamics",
+      "color": {
+        "a": 1,
+        "rgb": 16567551
+      }
+    },
+    {
+      "query": "tag:#MVC",
+      "color": {
+        "a": 1,
+        "rgb": 10083839
+      }
+    },
+    {
+      "query": "tag:#DE",
+      "color": {
+        "a": 1,
+        "rgb": 10527465
+      }
+    },
+    {
+      "query": "tag:#FSPDE",
+      "color": {
+        "a": 1,
+        "rgb": 10724351
+      }
+    },
+    {
+      "query": "tag:#Calculus",
+      "color": {
+        "a": 1,
+        "rgb": 12118015
+      }
+    },
+    {
+      "query": "tag:#Groups",
+      "color": {
+        "a": 1,
+        "rgb": 16767658
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1.3,
+  "nodeSizeMultiplier": 1.81119211664797,
+  "lineSizeMultiplier": 0.465085723441756,
+  "collapse-forces": false,
+  "centerStrength": 0.525484460694698,
+  "repelStrength": 11.9444241316271,
+  "linkStrength": 0.835539305301645,
+  "linkDistance": 67,
+  "scale": 2.4030755076623294,
+  "close": true
+}
