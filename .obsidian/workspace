@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md",
+            "file": "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md",
             "mode": "preview"
           }
         }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md",
+                "file": "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md"
+                "file": "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md",
+                "file": "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,15 +137,15 @@
   },
   "active": "502ec7a135768e12",
   "lastOpenFiles": [
-    "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Winding Number.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Complex Differentiable.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Cauchy-Riemann equations.md",
     "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Analytic.md",
     "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Inside.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Reparametrization.md",
-    "Numerical Analysis/QR Algorithm.md",
-    "Ox.Math.QSD/README.md",
-    "OxExam Paper/Collection2021TT.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Path's Chain Rule.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Path Differentiable.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Opposite Path.md"
+    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Primitive.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Opposite Path.md",
+    "Analysis/Continuity/Chapters/1.3 Continuous Functions on Intervals.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/1 Geometry and Topology of the Complex Plane/Complex projective line.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/1 Geometry and Topology of the Complex Plane/Circline.md"
   ]
 }

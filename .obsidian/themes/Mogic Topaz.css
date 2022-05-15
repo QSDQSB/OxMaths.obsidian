@@ -4297,8 +4297,8 @@ line-height: 0.6;
 /*copy button for code blocks*/
 /*===========================*/
 .copy-code-button {
-  color: var(--background-primary) !important;
-  background-color: var(--text-faint);
+  color: var(--text-normal) !important;
+  background-color: lighter(var(--background-color));
   border-radius: 0px 5px 5px 0px !important;
   font-weight: 900 !important;
   margin-left: 0 !important;
@@ -4312,7 +4312,7 @@ line-height: 0.6;
 }
 
 .copy-code-button:hover {
-  background-color: var(--table-hover-color) !important;
+  background-color: var(--background-secondary) !important;
   color: var(--accent-strong) !important;
 }
 

@@ -5,7 +5,8 @@
     "tag-pills",
     "font-change",
     "auto-fade-control",
-    "tag-flag"
+    "tag-flag",
+    "list-outline"
   ],
   "theme": "obsidian",
   "baseFontSize": 16,
