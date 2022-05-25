@@ -28,4 +28,4 @@ State $i$ is [[recurrent]] if and only if $\sum_{n=0}^\infty p_{ii}^{(n)}=\infty
 
 ### Proposition 5.9
 1) Let $C$ be a [[communicating class]]. Either all states in $C$ are [[recurrent]], or all are ***transient*** (so we may refer to the whole class as transient or recurrent).
-2) Every recurrent class is [[Groups and Group Actions/2 Introduction to Groups/Closed]]. Every finite closed class is [[recurrent]].
+2) Every recurrent class is closed. Every finite closed class is [[recurrent]].

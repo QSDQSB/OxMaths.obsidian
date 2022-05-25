@@ -276,7 +276,7 @@ to get a right-side note block
   --font-family-h3:                        "SF Pro Rounded"              ;
   --font-family-h4:                        "SF Pro Rounded"              ;
   --font-family-h5:                        "SF Pro Rounded"              ;
-  --font-family-h6:                                                      ;
+  --font-family-h6:                        "SF Pro Rounded"                              ;
   --font-family-title:                                                   ;/*文件抬头标题*/
   --font-family-folder-file-title:                                       ;/*左侧边栏文件、文件夹字体*/
   --font-family-preview-edit-code:        "Consolas", "Monaco", monospace;
@@ -1424,7 +1424,12 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-task.cm-pr
   color: var(--h5-color);
 }
 .markdown-preview-view h6 {
-  color: var(--h6-color);
+    color: rgba(255,255,255,0.1);
+
+   background: linear-gradient(90deg, rgba(249,237,209,1) 0%, rgba(254,170,194,1) 20%, rgba(247,117,169,1) 40%, rgba(184,222,164,1) 60%, rgba(182,237,232,1) 80%, rgba(143,219,216,1) 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+
 }
 	
 .cm-header-1 {
@@ -1607,7 +1612,7 @@ ol ol::before*/ {
   border-left: 2px solid var(--background-modifier-border);
   position: absolute;
   height: 100%;
-  margin-left: 3px;
+  margin-left: 2px;
 }
 
 /*
@@ -1642,8 +1647,8 @@ pre.HyperMD-list-line::before {
 /* inspired by Gabroel from Obsidian discord group */
 /* https://discord.com/channels/686053708261228577/702656734631821413/784922140465692712 */
 li > p:not(.task-list-item) {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 ul,

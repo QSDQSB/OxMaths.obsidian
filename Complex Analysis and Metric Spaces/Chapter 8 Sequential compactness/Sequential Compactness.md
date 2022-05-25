@@ -12,9 +12,9 @@ The real line $\mathbf{R}$ is not [[Sequential Copactness|sequentially compact]]
 ```
 
 ### Lemma 8.2.1
-A [[Sequential Compactness|sequentially compact]] subspace of a metric space is [[Groups and Group Actions/2 Introduction to Groups/Closed]] and bounded.
+A [[Sequential Compactness|sequentially compact]] subspace of a metric space is [[Complex Analysis and Metric Spaces/Chapter 4 Open and Closed Sets/Closed|closed]] and bounded.
 #### Lemma 8.2.2
-A [[Groups and Group Actions/2 Introduction to Groups/Closed]] subset of a [[Sequential Compactness|sequentially compact]] [[metric space]] is sequentially compact.
+A [[Complex Analysis and Metric Spaces/Chapter 4 Open and Closed Sets/Closed|closed]] subset of a [[Sequential Compactness|sequentially compact]] [[metric space]] is [[sequentially compact]].
 
 ---
 ### Lemma 8.2.3
@@ -27,12 +27,12 @@ The image of a [[Sequential Compactness|sequentially compact]] [[metric space]] 
 #### Proof
 Let $X$ be sequentially compact, and suppose that $f: X \rightarrow Y$ is [[Continuous]]. Let $\sigma=\left(f\left(x_{n}\right)\right)_{n=1}^{\infty}$ be a sequence of elements of $f(X) .$ The sequence $\left(x_{n}\right)$ contains a convergent subsequence $\left(x_{n_{k}}\right)$ say, with $x_{n_{k}} \rightarrow a$ as $k \rightarrow \infty$ for some $a \in X .$ But then, since $f$ is continuous, we have $f\left(x_{n_{k}}\right) \rightarrow f(a)$, and so $\sigma^{\prime}=\left(f\left(x_{n_{k}}\right)\right)_{k=1}^{\infty}$ is a convergent subsequence of $\sigma$.
 
->As a consequence of [[#Lemma 8.2.1]], we see that continuous function $f$ from a sequentially compact metric space $X$ to $\mathbf{R}$ has closed and bounded image, so in particular $f$ is bounded and attains its bounds.
+>As a consequence of [[#Lemma 8.2.1]], we see that continuous function $f$ from a sequentially compact metric space $X$ to $\mathbf{R}$ has [[Complex Analysis and Metric Spaces/Chapter 4 Open and Closed Sets/Closed|closed]] and [[bounded]] image, so in particular $f$ is bounded and attains its bounds.
 
->Another consequence of [[#Lemma 8.3.1]] is the if $X$ and $Y$ are homeomorphic metric spaces and if $X$ is sequentially compact, then so is $Y$.
+>Another consequence of [[#Lemma 8.3.1]] is the if $X$ and $Y$ are [[Homeomorphism|homeomorphic]] [[Metric Space|metric spaces]] and if $X$ is sequentially compact, then so is $Y$.
 
 ### Proposition 8.3.2
-A [[continuous]] function from a sequentially compact metric space to $\mathbf{R}$ is uniformly continuous.
+A [[continuous]] function from a sequentially compact [[metric space]] to $\mathbf{R}$ is [[uniformly continuous]].
 
 #### Lemma from tutorial
 If S is compact and maps to $\mathbf{R}$, then the image of it attains its max/min.
@@ -53,5 +53,5 @@ $$
 1-2 t, & 0 \leqslant t \leqslant 1 / 2
 \end{array}\right.
 $$
-and $\phi(t)=0$ for $t \notin[-1 / 2,1 / 2]$. For each $n \in \mathbf{N}$ set $f_{n}(t)=\phi(t+n)$ (we might call this sequence of functions a "moving bump"). All of the functions $f_{n}$ lie in $\bar{B}(0,1)$ (that is, have sup norm bounded by 1 ). However, if $n \neq m$ then $f_{n}(n)=1$, whilst $f_{m}(n)=0$, so $\left\|f_{n}-f_{m}\right\|_{\infty}=1$. Thus the sequence $\left(f_{n}\right)_{n=1}^{\infty}$ has no Cauchy subsequence, and hence certainly no convergent subsequence.
+and $\phi(t)=0$ for $t \notin[-1 / 2,1 / 2]$. For each $n \in \mathbf{N}$ set $f_{n}(t)=\phi(t+n)$ (we might call this sequence of functions a "moving bump"). All of the functions $f_{n}$ lie in $\bar{B}(0,1)$ (that is, have sup [[norm]] [[bounded]] by 1). However, if $n \neq m$ then $f_{n}(n)=1$, whilst $f_{m}(n)=0$, so $\left\|f_{n}-f_{m}\right\|_{\infty}=1$. Thus the sequence $\left(f_{n}\right)_{n=1}^{\infty}$ has no [[Cauchy]] subsequence, and hence certainly no convergent subsequence.
 ```

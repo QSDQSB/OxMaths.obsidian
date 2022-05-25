@@ -5,7 +5,7 @@ aliases: [line integral, integral]
 #ComplexAnalysis 
 
 ### Definition
-If $\gamma:[a, b] \rightarrow \mathbb{C}$ is a [piecewise-$C^1$ path](Path%20Differentiable#Piecewise%20C1) and $f: \mathbb{C} \rightarrow \mathbb{C}$, then we define the [[Complex Line Integral|integral]] of $f$ along $\gamma$ to be
+If $\gamma:[a, b] \rightarrow \mathbb{C}$ is a [piecewise-$C^1$ path](Path%20Differentiable#Piecewise%20C1) and $f: \mathbb{C} \rightarrow \mathbb{C}$, then we define the [[Complex Path Integral|integral]] of $f$ along $\gamma$ to be
 $$
 \int_{\gamma} f(z) d z=\int_{a}^{b} f(\gamma(t)) \gamma^{\prime}(t) d t
 $$

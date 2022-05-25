@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md",
+            "file": "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
+                "query": "tag:#ComplexAnalysis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,14 +87,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md",
+                "file": "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md"
+                "file": "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md"
               }
             }
           },
@@ -114,14 +114,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md",
-                "linksCollapsed": false,
+                "file": "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "948d32caeb5f0d26",
+            "id": "b06369fae90f3d33",
             "type": "leaf",
             "state": {
               "type": "stats-tracker",
@@ -129,23 +129,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 192.03199768066406
+    "width": 192.03199768066406,
+    "collapsed": true
   },
   "active": "502ec7a135768e12",
   "lastOpenFiles": [
-    "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Harmonic.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Complex Differentiable.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Cauchy-Riemann equations.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Analytic.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/6 Winding Numbers/Inside.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Primitive.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Opposite Path.md",
-    "Analysis/Continuity/Chapters/1.3 Continuous Functions on Intervals.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/1 Geometry and Topology of the Complex Plane/Complex projective line.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/1 Geometry and Topology of the Complex Plane/Circline.md"
+    "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
+    "Numerical Analysis/Least-squares Approximation.md",
+    "Numerical Analysis/QR Algorithm.md",
+    "Numerical Analysis/Lagrange Interpolating Polynomial.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Residue.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Removable Singularity.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Principle Part.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Singularity.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Laurent's Theorem.md",
+    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Pole.md"
   ]
 }

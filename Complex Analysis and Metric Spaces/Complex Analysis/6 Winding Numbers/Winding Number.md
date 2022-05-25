@@ -62,7 +62,7 @@ $$
 hence $I_{f}(\gamma, w)$ is given by a power series in $B(0, r)$ (and hence is also [[holomorphic]] there) as required. Finally, if $f=1$, then since $I_{1}(\gamma, z)=I(\gamma, z)$ is integer-valued, it follows it must be constant on any connected component of $\mathbb{C} \backslash \gamma^{*}$ as required.
 
 #### Remark 6.9
-If $\gamma$ is a closed path then $\gamma^{*}$ is compact and hence bounded. Thus there is an $R>0$ such that the connected set $\mathbb{C} \backslash B(0, R) \cap \gamma^{*}=\emptyset .$ It follows that $\mathbb{C} \backslash \gamma^{*}$ has exactly one unbounded connected component. Since
+If $\gamma$ is a closed path then $\gamma^{*}$ is [[compact]] and hence bounded. Thus there is an $R>0$ such that the connected set $\mathbb{C} \backslash B(0, R) \cap \gamma^{*}=\emptyset .$ It follows that $\mathbb{C} \backslash \gamma^{*}$ has exactly one unbounded connected component. Since
 $$
 \left|\int_{\gamma} \frac{d \zeta}{\zeta-z}\right| \leq \ell(\gamma) \cdot \sup _{\zeta \in \gamma^{*}}|1 /(\zeta-z)| \rightarrow 0
 $$

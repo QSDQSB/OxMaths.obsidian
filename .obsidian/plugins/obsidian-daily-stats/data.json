@@ -89,28 +89,37 @@
     "2022/4/5": 36,
     "2022/4/9": 9,
     "2022/4/10": 105,
-    "2022/4/12": 613
+    "2022/4/12": 613,
+    "2022/4/18": 0,
+    "2022/4/19": 3,
+    "2022/4/21": 860,
+    "2022/4/22": 1849,
+    "2022/4/24": 1865
   },
   "todaysWordCount": {
-    "Simulation and Statistical Programming/Simulation/Past Paper/Revision 1.md": {
+    "Numerical Analysis/Lagrange Interpolating Polynomial.md": {
+      "initial": 1,
+      "current": 328
+    },
+    "Numerical Analysis/QR Algorithm.md": {
+      "initial": 291,
+      "current": 292
+    },
+    "Numerical Analysis/Least-squares polynomial approximation.md": {
       "initial": 0,
-      "current": 598
+      "current": 5
     },
-    "Complex Analysis and Metric Spaces/Complex Analysis/1 Geometry and Topology of the Complex Plane/Möbius map.md": {
-      "initial": 331,
-      "current": 331
+    "Numerical Analysis/Least-squares Polynomial Approximation.md": {
+      "initial": 5,
+      "current": 117
     },
-    "Complex Analysis and Metric Spaces/Complex Analysis/3 Complex Differentiability/Cauchy-Riemann equations.md": {
-      "initial": 568,
-      "current": 583
+    "Numerical Analysis/Least-squares Approximation.md": {
+      "initial": 116,
+      "current": 860
     },
-    "Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Path's Chain Rule.md": {
-      "initial": 297,
-      "current": 295
-    },
-    "Ox.Math.QSD/README.md": {
-      "initial": 8,
-      "current": 8
+    "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md": {
+      "initial": 4,
+      "current": 680
     }
   }
 }

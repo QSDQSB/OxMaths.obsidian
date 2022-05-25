@@ -7,7 +7,7 @@ If $i \rightarrow j$ and $j \rightarrow i$ then we say *$i$ communicates with $j
 Then $\leftrightarrow$ is an equivalence relation. It partitions the state space $I$ into communicating classes.
 
 ### Closed Class
-A class $C$ is called [[Groups and Group Actions/2 Introduction to Groups/Closed]] if $p_{i j}=0$ whenever $i \in C, j \notin C$, or equivalently $i \not\rightarrow j$ for any $i \in C, j \notin C .$ Once the chain enters a closed class, it can never escape from it. If $\{i\}$ is a closed class then $p_{i i}=1$, and $i$ is called an ***absorbing state***. If $C$ is not closed it is called open.
+A class $C$ is called closed if $p_{i j}=0$ whenever $i \in C, j \notin C$, or equivalently $i \not\rightarrow j$ for any $i \in C, j \notin C .$ Once the chain enters a closed class, it can never escape from it. If $\{i\}$ is a closed class then $p_{i i}=1$, and $i$ is called an ***absorbing state***. If $C$ is not closed it is called open.
 
 ### Irreducible
 A [[transition matrix]] for which $I$ consists of a single communicating class is called ***irreducible***. Equivalently, $i \rightarrow j$ for all $i, j \in I$.
