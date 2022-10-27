@@ -122,7 +122,7 @@ Let $S$ be an open subset of $\mathbb{R}^{3} .$ A vector field $\mathbf{F}: S \r
 # 5 Div, Grad, Curl
 ## 5.1 Definitions
  [[Gradient]]
- [[Divergence]]
+ [[Multivariable Calculus/5 Div Grad Curl/Divergence]]
  [[Curl]]
 ## 5.2 Identities
 [[Div Grad Curl]]

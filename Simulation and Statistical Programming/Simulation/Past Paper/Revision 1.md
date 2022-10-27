@@ -22,16 +22,16 @@ rlaplace = function(mu=0, lambda=1) {
 	if u<(1/2) {
 		return (mu+log(2*mu)/lambda)
 	} else {
-		return(mmu-1/lambda*log(2*(1-u)))
+		return(mu-1/lambda*log(2*(1-u)))
 	}
 }
 ```
 
 ### (c)
-[5 marks] Now suppose that $p(x)$ is the density of a real valued random variable. Explain how to use a Metropolis-Hastings algorithm with proposal distribution $q(y \mid x)$ to sample from $p(x)$.
+[5 marks] Now suppose that $p(x)$ is the density of a real valued random variable. Explain how to use a [[Metropolis Hastings Markov Chain Monte Carlo algorithm|Metropolis-Hastings]] algorithm with proposal distribution $q(y \mid x)$ to sample from $p(x)$.
 
 #### Solution
-MCMC-MH Algorithm:
+[[Metropolis Hastings Markov Chain Monte Carlo algorithm|MCMC]] Algorithm:
 1) Start at somem initial position $X_0=x_0$.
 2) for $t$ in $1:n$
 	- Let $X_{t-1}=x$
@@ -42,13 +42,13 @@ MCMC-MH Algorithm:
 
 ### (d)
 [5 marks] Write an $\mathrm{R}$ function MHstep ( ) to perform a single Metropolis-Hastings step. It should have the following arguments:
-- $x$, the current state of the Markov chain;
+- $x$, the current state of the [[Markov chain]];
 - $p$, a function of one variable $\mathrm{x}$ that returns the density of a target distribution $p$;
 - $q$, a function of two variables $\mathrm{x}$ and $\mathrm{y}$ that returns the density of the proposal distribution $q(y \mid x)$.
 - $rq$, a function of one variable $\mathrm{x}$ that returns a single sample from the proposal distribution $q(y \mid x)$.
 
-The function should propose a new state to move to using the function q, perform the Metropolis-Hastings step, and return a list containing
-- x, the new state of the Markov chain;
+The function should propose a new state to move to using the function q, perform the [[Metropolis Hastings Markov Chain Monte Carlo algorithm|Metropolis-Hastings]] step, and return a list containing
+- x, the new state of the [[Markov chain]];
 - move, an indicator of whether or not the chain moved from its previous step.
 
 #### Solution
@@ -68,7 +68,7 @@ MHStep <- function(x,p,q,rq) {
 
 Let $p(x)$ be a density function on $\mathbb{R}$ and $g(x)$ be a function satisfying $\int_{\mathbb{R}} p(x) g(x) d x<\infty$. Let $p(x)$ and $g(x)$ respectively be $R$ implementations of these functions.
 ### (e)
-[6 marks] Write code to estimate $\mathbb{E}_{p} g(X)$ using a [[Metropolis-Hastings algorithm]], with proposal density given by a Laplace distribution with $\lambda=1$ and centred around the current observation. Your method should make use of MHstep() and rlaplace(), and you may assume that $\mathrm{p}()$ and $\mathrm{g}()$ are provided. You should write any other functions required to make the code run.
+[6 marks] Write code to estimate $\mathbb{E}_{p} g(X)$ using a [[Metropolis Hastings Markov Chain Monte Carlo algorithm]], with proposal density given by a Laplace distribution with $\lambda=1$ and centred around the current observation. Your method should make use of MHstep() and rlaplace(), and you may assume that $\mathrm{p}()$ and $\mathrm{g}()$ are provided. You should write any other functions required to make the code run.
 #### Solution
 ```R
 dlaplace <- function(x,mu,lambda) {

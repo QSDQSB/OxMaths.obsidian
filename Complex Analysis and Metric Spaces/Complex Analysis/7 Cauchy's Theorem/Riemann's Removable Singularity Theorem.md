@@ -1,8 +1,11 @@
 # Riemann's Removable Singularity Theorem
 #ComplexAnalysis 
 
-## Theorem
+```ad-theorem
+title: Riemann's Removable Singularity Theorem
 Suppose that $U$ is an open subset of $\mathbb{C}$ and $z_{0} \in U$. If $f: U \backslash\left\{z_{0}\right\} \rightarrow \mathbb{C}$ is [[holomorphic]] and *bounded* near $z_{0}$, then $f$ **extends** to a [[holomorphic]] function on all of $U$.
+```
+
 ### Proof
 Define $h(z)$ by
 $$
@@ -15,7 +18,7 @@ Then clearly $h(z)$ is [[holomorphic]] on $U \backslash\left\{z_{0}\right\}$, us
 $$
 \frac{h(z)-h\left(z_{0}\right)}{z-z_{0}}=\left(z-z_{0}\right) f(z) \rightarrow 0
 $$
-as $z \rightarrow z_{0}$ since $f$ is bounded near $z_{0}$ by assumption. It follows that $h$ is in fact [[holomorphic]] everywhere in $U$. But then if we chose $r>0$ is such that $\bar{B}\left(z_{0}, r\right) \subset U$, then by [[Cauchy's Integral Formula#Corollary 7.11 derivative of f(z)]] $h(z)$ is equal to its Taylor series centred at $z_{0}$, thus
+as $z \rightarrow z_{0}$ since $f$ is bounded near $z_{0}$ by assumption. It follows that $h$ is in fact [[holomorphic]] everywhere in $U$. But then if we chose $r>0$ is such that $\bar{B}\left(z_{0}, r\right) \subset U$, then by [[Cauchy's Integral Formula#Corollary 7.11 derivative of f(z)]] $h(z)$ is equal to its [[Taylor's Theorem|Taylor series]] centred at $z_{0}$, thus
 $$
 h(z)=\sum_{k=0}^{\infty} a_{k}\left(z-z_{0}\right)^{k} .
 $$

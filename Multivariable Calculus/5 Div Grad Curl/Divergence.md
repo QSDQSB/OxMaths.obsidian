@@ -1,7 +1,7 @@
 ## Divergence
 #MVC 
 ### Definition
-Let $\mathbf{F}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ be a vector field with $\mathbf{F}=\left(F_{1}, F_{2}, F_{3}\right) .$ Then the [[divergence]] of $\mathbf{F}$ written $\operatorname{div} \mathbf{F}$ or $\nabla \cdot \mathbf{F}$ equals
+Let $\mathbf{F}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ be a vector field with $\mathbf{F}=\left(F_{1}, F_{2}, F_{3}\right) .$ Then the [[Multivariable Calculus/5 Div Grad Curl/Divergence]] of $\mathbf{F}$ written $\operatorname{div} \mathbf{F}$ or $\nabla \cdot \mathbf{F}$ equals
 $$
 \operatorname{div} \mathbf{F}=\nabla \cdot \mathbf{F}=\frac{\partial F_{1}}{\partial x}+\frac{\partial F_{2}}{\partial y}+\frac{\partial F_{3}}{\partial z} .
 $$

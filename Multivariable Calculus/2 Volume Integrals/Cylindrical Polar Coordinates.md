@@ -27,7 +27,7 @@ $$
 \mathbf{e}_{r}=(\cos \theta, \sin \theta, 0), \quad \mathbf{e}_{\theta}=(-\sin \theta, \cos \theta, 0), \quad \mathbf{e}_{z}=(0,0,1) .
 $$
 Note, for any values of $r, \theta, z$, the vectors $\mathbf{e}_{r}, \mathbf{e}_{\theta}, \mathbf{e}_{z}$ make a right-handed orthonormal basis of $\mathbb{R}^{3} .$
-#### [[Gradient]], [[Divergence]], [[Curl]], [[Laplacian]] in [[Cylindrical Polar Coordinates]]
+#### [[Gradient]], [[Multivariable Calculus/5 Div Grad Curl/Divergence]], [[Curl]], [[Laplacian]] in [[Cylindrical Polar Coordinates]]
 >[[Div Grad Curl#Proposition 84]]
 
 The formulae for grad, div, curl in terms of cylindrical polar co-ordinates of fields $\psi(r, \theta, z)$ and $\mathbf{F}=F_{r} \mathbf{e}_{r}+F_{\theta} \mathbf{e}_{\theta}+F_{z} \mathbf{e}_{z}$ are

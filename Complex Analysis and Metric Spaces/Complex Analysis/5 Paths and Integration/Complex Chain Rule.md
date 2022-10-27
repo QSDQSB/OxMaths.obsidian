@@ -2,10 +2,15 @@
 #ComplexAnalysis 
 
 ### Chain Rule
+
+```ad-theorem
+title: Chain Rule
 Let $U$ be an open subset of $\mathbb{C}$ and let $F: U \rightarrow \mathbb{C}$ be a [[holomorphic]] function. If $\gamma:[a, b] \rightarrow \mathbb{U}$ is a (piecewise) $C^{1}$-path, then $F(\gamma(t))$ is [[Complex Differentiable|differentiable]] on any $t$ where $\gamma$ is [[Path Differentiable|differentiable]] and
 $$
 \frac{d}{d t}(F(\gamma(t)))=F^{\prime}(\gamma(t)) \cdot \gamma^{\prime}(t)
 $$
+```
+^theorem
 
 #### Proof
 Assume that $\gamma$ is differentiable at $t_{0} \in[a, b]$ and let $z_{0}=\gamma\left(t_{0}\right) \in U$. By definition of $F^{\prime}$, there is a function $\epsilon(z)$ such that

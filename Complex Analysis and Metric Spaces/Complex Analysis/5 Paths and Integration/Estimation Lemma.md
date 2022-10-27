@@ -1,11 +1,17 @@
+---
+aliases: [Estimation Theorem]
+---
 ## Estimation Lemma
 #ComplexAnalysis 
 
-### Lemma
+```ad-theorem
+title: Estimation Lemma
 We have
 $$\left|\int_{\gamma} f(z) d z\right| \leq \sup _{z \in \gamma^{*}}|f(z)| \cdot \ell(\gamma)$$
+```
+^lemma
 
-#### Proof
+### Proof
 First note that [$\gamma([a, b])$](Path) is [[Sequential Compactness|compact]] in $\mathbb{C}$ since it is the image of the compact set $[a, b]$ under a [[continuous]] map. It follows that the function $|f|$ is bounded on this set so that $\sup _{z \in \gamma([a, b])}|f(z)|$ exists. Thus we have
 $$
 \begin{aligned}

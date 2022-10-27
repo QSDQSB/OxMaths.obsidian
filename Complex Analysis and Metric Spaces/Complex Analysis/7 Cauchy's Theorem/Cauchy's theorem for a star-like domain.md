@@ -1,11 +1,15 @@
 # Cauchy's theorem for a star-like domain
 #ComplexAnalysis 
 
-## Theorem 7.5.
+```ad-theorem
+title: Cauchy's theorem for a star-like domain
 Let $U$ be a star-like domain. Then if $f: U \rightarrow \mathbb{C}$ is [[holomorphic]] and $\gamma:[a, b] \rightarrow U$ is a closed path in $U$ we have
 $$
 \int_{\gamma} f(z) d z=0 .
 $$
+```
+^theorem
+
 ### Proof
 The proof proceeds similarly to the proof of [[Complex Fundamental Theorem of Calculus#Theorem 5 22]]: by [[Complex Fundamental Theorem of Calculus]] it suffices to show that $f$ has a [[primitive]] in $U$. To show this, let $z_{0} \in U$ be a point for which the line segment from $z_{0}$ to every $z \in U$ lies in $U$. Let $\gamma_{z}=z_{0}+t\left(z-z_{0}\right)$ be a parametrization of this curve, and define
 $$

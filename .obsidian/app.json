@@ -79,22 +79,30 @@
     "parametrizations",
     "piecewise",
     "Neighbourhood",
-    "unshifted"
+    "unshifted",
+    "injective",
+    "surjective",
+    "bilinear",
+    "holomorphic"
   ],
   "foldIndent": true,
   "readableLineLength": true,
   "showFrontmatter": false,
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": true,
+  "showUnsupportedFiles": false,
   "fileSortOrder": "alphabetical",
   "defaultViewMode": "preview",
   "pdfExportSettings": {
+    "includeName": true,
     "pageSize": "A4",
-    "landscape": true,
+    "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
   "emacsyKeys": false,
   "newFileLocation": "current",
-  "livePreview": false
+  "livePreview": true,
+  "attachmentFolderPath": "./",
+  "communityThemeSortOrder": "download",
+  "showInlineTitle": true
 }

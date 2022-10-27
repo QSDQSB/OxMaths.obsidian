@@ -2,11 +2,15 @@
 ## Cauchy-Riemann equation
 #ComplexAnalysis 
 
+```ad-theorem
+title: Cauchy-Riemann equation
 Let $a \in \mathbb{C}$, let $U$ be a neighbourhood of a and let $f: U \rightarrow \mathbb{C}$ be a function which is [[complex differentiable]] at a. Let $u, v: \mathbb{R}^{2} \rightarrow \mathbb{R}$ be the components of $f$. Then the four partial derivatives $\partial_{x} u$, $\partial_{y} u, \partial_{x} v, \partial_{y} v$ exist at a. Moreover, we have the [[Cauchy-Riemann equations]]
 $$
 \partial_{x} u=\partial_{y} v, \quad \partial_{x} v=-\partial_{y} u
 $$
 and $$f^{\prime}(a)=\partial_{x} u(a)+i \partial_{x} v(a)$$
+```
+^theorem
 
 ```ad-example
 >The function $f(z)=\bar{z}$ is not [[Complex Differentiable|differentiable]] anywhere.

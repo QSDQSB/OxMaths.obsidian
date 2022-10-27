@@ -1,7 +1,7 @@
 ## Characteristic
 #LA 
 ### Definition
-The smallest integer $p$ such that $$1+1+\cdots+1(p \text { times })=0$$ is called the [[Characteristic]] of $\mathbb{F}$. If no such $p$ exists, the characteristic of $\mathbb{F}$ is defined to be zero.
+The smallest integer $p$ such that $$1+1+\cdots+1(p \text { times })=0$$ is called the [[Linear Algebra/Part A/1 Vector Spaces and Linear maps/Characteristic]] of $\mathbb{F}$. If no such $p$ exists, the characteristic of $\mathbb{F}$ is defined to be zero.
 
 >If such a $p$ exists, it is necessarily prime.
 

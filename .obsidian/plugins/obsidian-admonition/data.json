@@ -1,5 +1,18 @@
 {
-  "userAdmonitions": {},
+  "userAdmonitions": {
+    "theorem": {
+      "type": "theorem",
+      "color": "215, 251, 147",
+      "icon": "balance-scale",
+      "command": true
+    },
+    "definition": {
+      "type": "definition",
+      "color": "242, 64, 126",
+      "icon": "address-card",
+      "command": true
+    }
+  },
   "syntaxHighlight": true,
   "copyButton": true,
   "version": "4.0.0",

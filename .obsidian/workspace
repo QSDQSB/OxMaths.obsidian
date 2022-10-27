@@ -4,13 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "502ec7a135768e12",
+        "id": "9e4d27fc7a7cde50",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
-            "mode": "preview"
+            "file": "Multivariable Calculus/2 Volume Integrals/Spherical Polar Coordinates.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": false
           }
         }
       }
@@ -39,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ComplexAnalysis",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.5036334991455
+    "width": 208.0036334991455
   },
   "right": {
     "id": "ce9d5487f3afea6e",
@@ -87,14 +89,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
+                "file": "Multivariable Calculus/2 Volume Integrals/Spherical Polar Coordinates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -104,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md"
+                "file": "Multivariable Calculus/2 Volume Integrals/Spherical Polar Coordinates.md"
               }
             }
           },
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
+                "file": "Multivariable Calculus/2 Volume Integrals/Spherical Polar Coordinates.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -129,24 +131,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 192.03199768066406,
+    "width": 217.633544921875,
     "collapsed": true
   },
-  "active": "502ec7a135768e12",
+  "active": "9e4d27fc7a7cde50",
   "lastOpenFiles": [
-    "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
-    "Numerical Analysis/Least-squares Approximation.md",
-    "Numerical Analysis/QR Algorithm.md",
-    "Numerical Analysis/Lagrange Interpolating Polynomial.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Residue.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Removable Singularity.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Principle Part.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Singularity.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Laurent's Theorem.md",
-    "Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Pole.md"
+    "Multivariable Calculus/2 Volume Integrals/Cylindrical Polar Coordinates.md",
+    "Multivariable Calculus/6 Divergence Theorem & Stokes' Theorem/Divergence Theorem.md",
+    "Multivariable Calculus/6 Divergence Theorem & Stokes' Theorem/Green's Theorem.md",
+    "Multivariable Calculus/5 Div Grad Curl/Div Grad Curl.md",
+    "Multivariable Calculus/5 Div Grad Curl/Curl.md",
+    "Multivariable Calculus/5 Div Grad Curl/Del.md",
+    "Multivariable Calculus/1 Multiple Integrals in 2D/Change of Variables.md",
+    "Multivariable Calculus/1 Multiple Integrals in 2D/Jacobian.md",
+    "Multivariable Calculus/2 Volume Integrals/Median.md",
+    "Multivariable Calculus/3 Surface Integrals/Surface Integral.md"
   ]
 }

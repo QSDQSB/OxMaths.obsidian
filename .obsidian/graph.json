@@ -5,13 +5,13 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#MostCrucial",
       "color": {
         "a": 1,
-        "rgb": 8453888
+        "rgb": 16774912
       }
     },
     {
@@ -151,6 +151,6 @@
   "repelStrength": 11.7977813532052,
   "linkStrength": 0.873825048691676,
   "linkDistance": 67,
-  "scale": 0.6935080366486865,
+  "scale": 1.1978320350204612,
   "close": true
 }

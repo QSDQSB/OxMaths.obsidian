@@ -1,3 +1,6 @@
+---
+aliases: [orthogonal polynomials, orthogonal polynomial]
+---
 # Gram–Schmidt Orthogonalization Procedure
 #NumericalAnalysis 
 ## Description
@@ -64,10 +67,25 @@ $$
 $$
 ```
 
-### Lemma
+### Lemma: Orthogonality for Every Degree < n
 Suppose that $\left\{\phi_{0}, \phi_{1}, \ldots, \phi_{k}, \ldots\right\}$ are orthogonal polynomials for a given inner product $\langle\cdot, \cdot\rangle$. Then, $\left\langle\phi_{k}, q\right\rangle=0$ whenever $q \in \Pi_{k-1}$.
 #### Proof
 This follows since if $q \in \Pi_{k-1}$, then $q(x)=\sum_{i=0}^{k-1} \sigma_{i} \phi_{i}(x)$ for some $\sigma_{i} \in \mathbb{R}, i=$ $0,1, \ldots, k-1$, so
 $$
 \left\langle\phi_{k}, q\right\rangle=\sum_{i=0}^{k-1} \sigma_{i}\left\langle\phi_{k}, \phi_{i}\right\rangle=0
 $$
+
+### Lemma: K distinct Roots in Interval
+Let $\left\{\phi_{0}, \phi_{1}, \ldots, \phi_{n}, \ldots\right\}$ be orthogonal polynomials for the inner product $\langle f, g\rangle=$ $\int_{a}^{b} w(x) f(x) g(x) \mathrm{d} x$. Then, for each $k=0,1, \ldots, \phi_{k}$ has $k$ distinct roots in the interval $(a,b)$.
+#### Proof
+Since $\phi_{0}(x) \equiv$ const. $\neq 0$, the result is trivially true for $k=0$. Suppose that $k \geq 1$ : $\left\langle\phi_{k}, \phi_{0}\right\rangle=\int_{a}^{b} w(x) \phi_{k}(x) \phi_{0}(x) \mathrm{d} x=0$ with $\phi_{0}$ constant implies that $\int_{a}^{b} w(x) \phi_{k}(x) \mathrm{d} x=0$ with $w(x)>0, x \in(a, b)$. Thus $\phi_{k}(x)$ must change sign in $(a, b)$, i.e., $\phi_{k}$ has at least one root in $(a, b)$.
+
+Suppose that there are $\ell$ points $a<r_{1}<r_{2}<\cdots<r_{\ell}<b$ where $\phi_{k}$ changes sign for some $1 \leq \ell \leq k$. Then
+$$
+q(x)=\prod_{j=1}^{\ell}\left(x-r_{j}\right) \times \text { the sign of } \phi_{k} \text { on }\left(r_{\ell}, b\right)
+$$
+has the same sign as $\phi_{k}$ on $(a, b)$. Hence
+$$
+\left\langle\phi_{k}, q\right\rangle=\int_{a}^{b} w(x) \phi_{k}(x) q(x) \mathrm{d} x>0,
+$$
+and thus it follows from the previous lemma (cf. Lecture 12) that $q$, (which is of degree $\ell)$ must be of degree $\geq k$, i.e., $\ell \geq k$. However, $\phi_{k}$ is of exact degree $k$, and therefore the number of its distinct roots, $\ell$, must be $\leq k$. Hence $\ell=k$, and $\phi_{k}$ has $k$ distinct roots in $(a, b)$

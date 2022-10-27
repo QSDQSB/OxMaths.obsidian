@@ -6,10 +6,13 @@ aliases: [metric, metric spaces, metrics]
 #ComplexAnalysis  #Subject 
 
 ### Definition: Distance Function
+```ad-definition
+title: Distance Function
 Let $X$ be a set. Then a distance function on $X$ is a function $d: X \times X \rightarrow \mathbf{R}$ with the following properties:
 - (positivity) $d(x, y) \geqslant 0$ and $d(x, y)=0$ if and only if $x=y$;
 - (symmetry) $d(x, y)=d(y, x)$;
 - (triangle inequality) if $x, y, z \in X$ then we have $d(x, z) \leqslant d(x, y)+d(y, z)$.
+```
 
 ### Definition: Metric Space
 >The pair $(X, d)$ consisting of a set $X$ together with a distance function $d$ on it is called a [[metric space]].

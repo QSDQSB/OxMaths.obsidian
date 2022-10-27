@@ -23,6 +23,9 @@ Let $\mathrm{c}$ be a constant vector and $\mathbf{F}=\mathbf{c} \phi$. Then
 $$
 \operatorname{div}(\mathbf{c} \phi)=\mathbf{c} \cdot \nabla \phi+\phi \operatorname{div} \mathbf{c}=\mathbf{c} \cdot \nabla \phi
 $$
+
+^9c8ea1
+
 as $\mathbf{c}$ is constant. By the [[Divergence Theorem]]
 $$
 \iiint_{R} \mathbf{c} \cdot \nabla \phi \mathrm{d} V=\iint_{\partial R} \mathbf{c} \phi \cdot \mathrm{d} \mathbf{S}, \Longrightarrow \mathbf{c} \cdot\left(\iiint_{R} \nabla \phi \mathrm{d} V\right)=\mathbf{c} \cdot\left(\iint_{\partial R} \phi \mathrm{d} \mathbf{S}\right)

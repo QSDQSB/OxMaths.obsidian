@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "6e2bd687b828ba8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0256f8f84379d84b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "996712d80c1fda60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Cramer-Rao Lower Bound.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c4a1acaa15574a7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "19f581d299ad8aa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fcdc87b8e347e9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "788c206ebc7d9809",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "da7b5f2d1c08be14",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#InfoTheory",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "62aea939edae313e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.50260543823242
+  },
+  "right": {
+    "id": "ce9d5487f3afea6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "68189fde5d48a375",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7534166b62c60e08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b96309fd30c1d1cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Cramer-Rao Lower Bound.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae6f6552b94a2593",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Cramer-Rao Lower Bound.md"
+              }
+            }
+          },
+          {
+            "id": "d2448b08f5dd9c60",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Cramer-Rao Lower Bound.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "287463a7dcbb2f8d",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 217.633544921875
+  },
+  "active": "996712d80c1fda60",
+  "lastOpenFiles": [
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Minimum Variance Unbiased Estimator.md",
+    "Foundations of Statistical Inference/3 Fisher Information/Fisher Information.md",
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Cramer-Rao Lower Bound.md",
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Smaller Covariance Matrix.md",
+    "Foundations of Statistical Inference/4 Point Estimation/Estimate.md",
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Efficient.md",
+    "Foundations of Statistical Inference/2 Sufficiency and Minimality/Minimal Sufficient.md",
+    "Foundations of Statistical Inference/3 Fisher Information/Regularity Assumptions.md",
+    "Foundations of Statistical Inference/3 Fisher Information/Score Function.md",
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Uniformly Better.md"
+  ]
+}

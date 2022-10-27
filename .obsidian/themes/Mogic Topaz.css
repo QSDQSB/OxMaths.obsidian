@@ -258,15 +258,15 @@ to get a right-side note block
   --font-size-h3:                            22px;
   --font-size-h4:                            20px;
   --font-size-h5:                            17px;
-  --font-size-h6:                            18px;
+  --font-size-h6:                            17px;
   --font-size-tag:                           18px;
   --font-size-list:                          18px;
   --font-size-preview-blockquote:            18px;
   --font-size-edit-blockquote:               18px;
-  --font-size-code:                          16px;
+  --font-size-code:                          18px;
   --font-size-edit-code:                     16px;
   --font-size-latex:                         18px;
-  --text-size-cloze:                         16px;
+  --text-size-cloze:                         18px;
 
   /*font family*/
   --font-family-list:                                                    ;/*列表字体*/
@@ -279,13 +279,13 @@ to get a right-side note block
   --font-family-h6:                        "SF Pro Rounded"                              ;
   --font-family-title:                                                   ;/*文件抬头标题*/
   --font-family-folder-file-title:                                       ;/*左侧边栏文件、文件夹字体*/
-  --font-family-preview-edit-code:        "Consolas", "Monaco", monospace;
+  --font-family-preview-edit-code:        "Monaco", monospace;
   --text-family-inline-code:              "Consolas", "Monaco", monospace;
   --font-family-tag:                                                     ;
   --font-family-vault:                                                   ;/*左侧库名字体*/
   --font-family-special-tag:       "Lucida Handwriting", "Dancing Script", "Hand of Sean", "Angelina", cursive;
   --font-family-YAML:              "Lucida Handwriting", "Dancing Script", "Hand of Sean", "Angelina", cursive;
-  --font-monospace: "Consolas", "Monaco", "Source Code Pro", monospace;
+  --font-monospace: "Charter", "Monaco", "Source Code Pro", monospace;
 } 
 
 .theme-dark {
@@ -355,7 +355,7 @@ to get a right-side note block
   --list-ul-disc-color: #db6019;
   --list-ul-hover: #e28915de;
   --list-ol-block-color: #2685bbb4;
-  --list-ol-number-color: #95afc4;
+  --list-ol-number-color: #26b49a;
   --list-ol-hover: #2c7bd6;
 
   /*tags*/
@@ -673,7 +673,6 @@ to get a right-side note block
 }
 .tag[href^="#Statistics"] {
   background-color: #6789d8 !important;
-  font-family: var(--font-family-h5);
 }
 
 .tag[href^="#Statistics"]::before {
@@ -717,7 +716,7 @@ to get a right-side note block
   font-size: 18px;
 }
 .tag[href^="#LA"]::before {
-  content:' 😵‍💫';
+  content:' 😵‍';
   font-size: 18px;
 }
 .tag[href^="#Dynamics"]::before {
@@ -752,6 +751,16 @@ to get a right-side note block
   content:'😾';
   font-size: 18px;
 }
+.tag[href^="#InfoTheory"]::before {
+  content:'🛎';
+  font-size: 18px;
+}
+.tag[href^="#InfoTheory"] {
+  background-color: #1f5ba7 !important;
+  font-weight: 400;
+  font-family: "SF Pro Rounded";
+}
+
 .tag[href^="#TBV"] {
   background-color: #191970 !important;
   font-weight: 300;
@@ -763,8 +772,15 @@ to get a right-side note block
 .tag[href^="#ComplexAnalysis"] {
   background-color: #1482B2 !important;
   font-style: italic;
+  font-family: "Georgia";
 }
-
+.tag[href^="#NumericalAnalysis"] {
+  background-color: darkcyan !important;
+  font-family: "Georgia";
+}
+.tag[href^="#NumericalAnalysis"]::before {
+  content: '🏮';
+}
 .tag[href^="#DE"] {
   background-color: #922142 !important;
 }
@@ -772,11 +788,6 @@ to get a right-side note block
   color: var(--stag1);
   font-family: var(--font-family-special-tag);
   font-weight: 600;
-}
-.tag[href^="#重要"] {
-  background-color: var(--stag1) !important;
-  font-weight: 600;
-  font-family: Webdings, Microsoft YaHei;
 }
 .tag[href^="#complete"] {
   background-color: var(--stag3) !important;
@@ -957,7 +968,7 @@ to get a right-side note block
 
 /*edit mode font size*/
 pre.CodeMirror-line {
-  font-size: var(--font-size-edit-normal) !important;
+  font-size: var(--font-size-edit-normal);
 }
 
 /*preview mode font size*/
@@ -1374,16 +1385,17 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-task.cm-pr
   font-weight:600;
   line-height: 1.2;
   padding-bottom:1px;
-  border-bottom: 2px solid var(--h1-color);
+  /*border-bottom: 1px dashed var(--h1-color);*/
   font-family: var(--font-family-h1);
 }
+
 
 .markdown-preview-view h2 {
   font-size: var(--font-size-h2); 
   font-weight:600;
   line-height: 1.2;
   padding-bottom: 1px;
-  border-bottom: 1px solid var(--h2-color);
+  border-bottom: 0.5px solid var(--h2-color);
   font-family: var(--font-family-h2);
 }
 
@@ -1647,8 +1659,8 @@ pre.HyperMD-list-line::before {
 /* inspired by Gabroel from Obsidian discord group */
 /* https://discord.com/channels/686053708261228577/702656734631821413/784922140465692712 */
 li > p:not(.task-list-item) {
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 ul,
@@ -1682,16 +1694,14 @@ ul ul ul ol ul {
 
 ul > li:not(.task-list-item) {
   margin-left: -5px;
-  padding-left: 6px;
   border-radius: 5px;
   width: fit-content;
-  margin-bottom: 10px;
   padding-right: 6px;
   word-wrap: break-word;
   word-break: break-word;
   transition: all 300ms ease-in-out;
 }
-
+/*
 .theme-dark ul > li:not(.task-list-item) {
   border-left: 2px solid var(--list-ul-block-color);
 }
@@ -1699,6 +1709,7 @@ ul > li:not(.task-list-item) {
 .theme-light ul > li:not(.task-list-item) {
   border-left: 2px solid var(--list-ul-block-color);
 }
+*/
 
 ul > li:not(.task-list-item):hover {
   border-color: var(--list-ul-hover);
@@ -1727,16 +1738,11 @@ ol ul ol ol {
 
 ol > li {
   margin-left: -5px;
-  padding-left: 6px;
   border-radius: 5px;
-  margin-bottom: 10px;
   padding-right: 6px;
   transition:all 300ms ease-in-out;
 } 
 
-.theme-dark ol > li {
-  border-left: 2px solid var(--list-ol-block-color);
-} 
 
 .theme-light ol > li {
   border-left: 2px solid var(--list-ol-block-color);
@@ -1747,7 +1753,7 @@ ol > li:hover {
 }
 
 ol > li::marker {
-  font-weight: bold;
+  font-style: italic;
   color: var(--list-ol-number-color);
   white-space: pre;
 }
@@ -2037,7 +2043,7 @@ a.external-link {
 
 .theme-light :not(pre) > code[class*='language-'],
 .theme-light pre[class*='language-'] {
-  background: var(--background-primary-alt);
+  background: var(--background-secondary);
   border-radius: 7px;
 }
 

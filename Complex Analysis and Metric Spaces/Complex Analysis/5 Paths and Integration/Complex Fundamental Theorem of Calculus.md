@@ -5,11 +5,15 @@ aliases: [fundamental theorem of calculus]
 #ComplexAnalysis 
 
 ### Theorem
+```ad-theorem
+title: Fundamental Theorem of Calculus (Complex Version)
 Let $U \subseteq \mathbb{C}$ be open and let $f: U \rightarrow \mathbb{C}$ be a continuous function. If $F: U \rightarrow \mathbb{C}$ is a [[primitive]] for $f$ and $\gamma:[a, b] \rightarrow U$ is a [piecewise $C^{1}$](Path%20Differentiable) [[path]] in $U$ then we have
 $$
 \int_{\gamma} f(z) d z=F(\gamma(b))-F(\gamma(a))
 $$
 In particular the [[Complex Path Integral|integral]] of such a function $f$ around any closed path is zero.
+```
+^theorem
 
 #### Proof
 First suppose that $\gamma$ is $C^{1} .$ Then we have

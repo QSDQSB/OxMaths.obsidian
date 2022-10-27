@@ -1,1 +1,159 @@
-{"workspaces":{"Standard Workspace":{"main":{"id":"6e2bd687b828ba8d","type":"split","children":[{"id":"355de78aaaf98fa4","type":"leaf","dimension":79.33333333333333,"state":{"type":"markdown","state":{"file":"Groups and Group Actions/Group Notations.md","mode":"source"}}},{"id":"482c3ba07f07d286","type":"split","dimension":20.66666666666667,"children":[{"id":"e46999848a0cd2e7","type":"leaf","dimension":66.44981412639405,"state":{"type":"markdown","state":{"file":"Groups and Group Actions/4 Subgroups/Chinese Remainder Theorem.md","mode":"source"}}},{"id":"71cab21cd23c5d33","type":"leaf","dimension":33.55018587360595,"state":{"type":"graph","state":{}}}],"direction":"horizontal"}],"direction":"vertical"},"left":{"id":"19f581d299ad8aa7","type":"split","children":[{"id":"3fcdc87b8e347e9e","type":"tabs","children":[{"id":"788c206ebc7d9809","type":"leaf","state":{"type":"file-explorer","state":{}}},{"id":"da7b5f2d1c08be14","type":"leaf","state":{"type":"search","state":{"query":"tag:#Groups","matchingCase":false,"explainSearch":false,"collapseAll":false,"extraContext":false,"sortOrder":"alphabetical"}}},{"id":"62aea939edae313e","type":"leaf","state":{"type":"starred","state":{}}}]}],"direction":"horizontal","width":183},"right":{"id":"ce9d5487f3afea6e","type":"split","children":[{"id":"68189fde5d48a375","type":"tabs","children":[{"id":"7534166b62c60e08","type":"leaf","state":{"type":"tag","state":{"sortOrder":"frequency","useHierarchy":true}}},{"id":"f9faad27cc7717e5","type":"leaf","state":{"type":"stats-tracker","state":{}}},{"id":"b96309fd30c1d1cd","type":"leaf","state":{"type":"backlink","state":{"file":"Groups and Group Actions/4 Subgroups/Chinese Remainder Theorem.md","collapseAll":false,"extraContext":false,"sortOrder":"alphabetical","showSearch":false,"searchQuery":"","backlinkCollapsed":false,"unlinkedCollapsed":true}}},{"id":"ae6f6552b94a2593","type":"leaf","state":{"type":"outline","state":{"file":"Groups and Group Actions/4 Subgroups/Chinese Remainder Theorem.md"}}}]}],"direction":"horizontal","width":231,"collapsed":true},"active":"e46999848a0cd2e7"}},"active":"Standard Workspace"}
+{
+  "Standard Workspace": {
+    "main": {
+      "id": "6e2bd687b828ba8d",
+      "type": "split",
+      "children": [
+        {
+          "id": "355de78aaaf98fa4",
+          "type": "leaf",
+          "dimension": 79.33333333333333,
+          "state": {
+            "type": "markdown",
+            "state": {
+              "file": "Groups and Group Actions/Group Notations.md",
+              "mode": "source"
+            }
+          }
+        },
+        {
+          "id": "482c3ba07f07d286",
+          "type": "split",
+          "dimension": 20.66666666666667,
+          "children": [
+            {
+              "id": "e46999848a0cd2e7",
+              "type": "leaf",
+              "dimension": 66.44981412639405,
+              "state": {
+                "type": "markdown",
+                "state": {
+                  "file": "Groups and Group Actions/4 Subgroups/Chinese Remainder Theorem.md",
+                  "mode": "source"
+                }
+              }
+            },
+            {
+              "id": "71cab21cd23c5d33",
+              "type": "leaf",
+              "dimension": 33.55018587360595,
+              "state": {
+                "type": "graph",
+                "state": {}
+              }
+            }
+          ],
+          "direction": "horizontal"
+        }
+      ],
+      "direction": "vertical"
+    },
+    "left": {
+      "id": "19f581d299ad8aa7",
+      "type": "split",
+      "children": [
+        {
+          "id": "3fcdc87b8e347e9e",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "788c206ebc7d9809",
+              "type": "leaf",
+              "state": {
+                "type": "file-explorer",
+                "state": {}
+              }
+            },
+            {
+              "id": "da7b5f2d1c08be14",
+              "type": "leaf",
+              "state": {
+                "type": "search",
+                "state": {
+                  "query": "tag:#Groups",
+                  "matchingCase": false,
+                  "explainSearch": false,
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical"
+                }
+              }
+            },
+            {
+              "id": "62aea939edae313e",
+              "type": "leaf",
+              "state": {
+                "type": "starred",
+                "state": {}
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "width": 183
+    },
+    "right": {
+      "id": "ce9d5487f3afea6e",
+      "type": "split",
+      "children": [
+        {
+          "id": "68189fde5d48a375",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "7534166b62c60e08",
+              "type": "leaf",
+              "state": {
+                "type": "tag",
+                "state": {
+                  "sortOrder": "frequency",
+                  "useHierarchy": true
+                }
+              }
+            },
+            {
+              "id": "f9faad27cc7717e5",
+              "type": "leaf",
+              "state": {
+                "type": "stats-tracker",
+                "state": {}
+              }
+            },
+            {
+              "id": "b96309fd30c1d1cd",
+              "type": "leaf",
+              "state": {
+                "type": "backlink",
+                "state": {
+                  "file": "Groups and Group Actions/4 Subgroups/Chinese Remainder Theorem.md",
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "ae6f6552b94a2593",
+              "type": "leaf",
+              "state": {
+                "type": "outline",
+                "state": {
+                  "file": "Groups and Group Actions/4 Subgroups/Chinese Remainder Theorem.md"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "width": 231,
+      "collapsed": true
+    },
+    "active": "e46999848a0cd2e7"
+  }
+}

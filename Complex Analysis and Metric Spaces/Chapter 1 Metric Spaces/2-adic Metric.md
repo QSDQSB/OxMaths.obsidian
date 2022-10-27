@@ -17,5 +17,7 @@ The role of 2 can be replaced by any other prime $p$, and the [[Metric Space|met
 
 ```ad-question
 Show that $\mathbb{Z}$ with the [[2-adic metric]] is not [[connected]].
+
+---
+Consider $B(0,1)$ and $B(1,1)$.
 ```
-> Consider $B(0,1)$ and $B(1,1)$.

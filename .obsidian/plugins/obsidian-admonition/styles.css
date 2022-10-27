@@ -9,7 +9,6 @@
     overflow: hidden;
     color: var(--text-normal);
     page-break-inside: avoid;
-    background-color: var(--background-secondary);
     border-left: 0.2rem solid rgb(var(--admonition-color));
     border-radius: 0.1rem;
     box-shadow: 0 0.2rem 0.5rem var(--background-modifier-box-shadow);
@@ -52,7 +51,7 @@
 }
 
 .admonition-content {
-    margin: 10px 15px;
+    margin: 10px 10px;
     padding-right: 25px;
     position: relative;
 }

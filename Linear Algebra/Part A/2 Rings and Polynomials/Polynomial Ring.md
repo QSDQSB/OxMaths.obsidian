@@ -1,4 +1,4 @@
-## Polynomial Ring
+# Polynomial Ring
 #LA 
 
 ---
@@ -10,7 +10,10 @@ Ghe ring of polynomials in $x$ with coefficients in $\mathbb{F}$ is denoted $\ma
 Here $a_{i}=0$ for all but finitely many values of $\mathrm{i}$.
 
 ### Theorem 2.8: Division algorithm for polynomials
-> Let $f(x), g(x) \in \mathbb{F}[x]$ be two polynomials with $g(x) \neq 0$. Then there exists $q(x), r(x) \in \mathbb{F}[x]$ such that $$f(x)=q(x) g(x)+r(x) \text { and } \operatorname{deg} r(x)<\operatorname{deg} g(x).$$
+```ad-theorem
+title: Division Algorithm for Polynomials
+Let $f(x), g(x) \in \mathbb{F}[x]$ be two polynomials with $g(x) \neq 0$. Then there exists $q(x), r(x) \in \mathbb{F}[x]$ such that $$f(x)=q(x) g(x)+r(x) \text { and } \operatorname{deg} r(x)<\operatorname{deg} g(x).$$
+```
 
 #### Proof
 If $\operatorname{deg} f(x)<\operatorname{deg} g(x)$, put $q(x)=0, r(x)=f(x)$.
@@ -46,3 +49,15 @@ $$
 f(a)=0=q(a)(a-a)+r=r
 $$
 and hence $r=0$.
+
+
+
+### Proposition 2.11
+Let $a(x), b(x) \in \mathbb{F}[x]$ be two polynomials. Let $c(x)$ be a monic polynomial of highest degree dividing both $a(x)$ and $b(x)$ and write $c=\operatorname{gcd}(a, b)$ (also wrote less commonly hcf $(a, b))$.
+```ad-theorem
+title: Proposition
+Let $a, b \in \mathbb{F}[x]$ be non-zero polynomials and let $\operatorname{gcd}(a, b)=c$. Then there exist $s, t \in \mathbb{F}[x]$ such that:
+$$
+a(x) s(x)+b(x) t(x)=c(x) .
+$$
+```

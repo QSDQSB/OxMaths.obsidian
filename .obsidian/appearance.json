@@ -1,14 +1,20 @@
 {
   "translucency": false,
-  "cssTheme": "Mogic Topaz",
+  "cssTheme": "Things",
   "enabledCssSnippets": [
-    "tag-pills",
     "font-change",
+    "tag-pills",
     "auto-fade-control",
-    "tag-flag",
-    "list-outline"
+    "list-outline",
+    "text-justify"
   ],
   "theme": "obsidian",
   "baseFontSize": 16,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": true,
+  "textFontFamily": "Charter",
+  "monospaceFontFamily": "",
+  "accentColor": "",
+  "interfaceFontFamily": "Charter",
+  "showViewHeader": true,
+  "nativeMenus": false
 }

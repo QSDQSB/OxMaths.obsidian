@@ -38,6 +38,7 @@ We will work in the complete metric space $\mathcal{C}_{\eta, k}=\mathcal{C}([a-
 We begin by proving Claim 1: ==If $\eta>0$ is so that $M \eta \leq k$ then $T: \mathcal{C}_{\eta, k} \rightarrow \mathcal{C}_{\eta, k}$==
 
 ##### Proof of Claim 1
+[[Picard's Theorem#Claim 1]]
 First we note that from the properties of integration, $(T y)(x) \in \mathcal{C}([a-\eta, a+\eta] ; \mathbb{R})$. All that we require is thus to show that $\|T y-b\|_{\text {sup }} \leq k$ if $\|y-b\|_{\text {sup }} \leq k$.
 But
 $$

@@ -71,6 +71,10 @@ $$
 $$
 Dividing both sides by $\left\|f-p_{n}\right\|_{2}$ gives the required result.
 
+```ad-note
+By considering $\|f-(p+\epsilon q)\|^{2}$ where $\epsilon \in \mathbb{R}, q \in \Pi_{n}$, show that if $p \in \Pi_{n}$ is a best approximation to $f$ in this norm with associated inner product $\langle\cdot, \cdot\rangle$ then $\langle f-p, q\rangle=0$ for any $q \in \Pi_{n}$.
+```
+
 ```ad-remark
 find $p_{n}(x)=\sum_{k=0}^{n} \alpha_{k} x^{k}$ such that
 $$\int_{a}^{b} w(x)\left(f-\sum_{k=0}^{n} \alpha_{k} x^{k}\right) x^{i} \mathrm{~d} x=0 \quad\text{for}\quad i=0,1, \ldots, n$$

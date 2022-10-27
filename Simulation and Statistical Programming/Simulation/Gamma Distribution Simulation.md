@@ -1,4 +1,5 @@
 # Gamma Distribution Simulation
+#Statistics 
 
 If for $i=1,2,3, \ldots, a, Y_{i}$ are iid rv distributed $Y_{i} \sim \operatorname{Exp}(1)$ (we can simulate these as above) and
 $$

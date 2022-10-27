@@ -1,14 +1,18 @@
 ---
-aliases: [singular]
+aliases: [singular, isolated singularity, singularities]
 ---
 # Singular
 #ComplexAnalysis 
 
 ## Definition
+```ad-definition
+title: Singularity
 Let $f: U \rightarrow \mathbb{C}$ be a function, where $U$ is open. We say that $z_{0} \in \bar{U}$ is a regular point of $f$ if $f$ is [[holomorphic]] at $z_{0}$. Otherwise we say that $z_{0}$ is [[Singularity|singular]].
-
-We say that $z_{0}$ is an [[isolated singularity]] if $f$ is [[holomorphic]] on $B\left(z_{0}, r\right) \backslash\left\{z_{0}\right\}$ for some $r>0$.
-
+```
+```ad-definition
+title: Isolated Singularity
+We say that $z_{0}$ is an [[Singularity|isolated singularity]] if $f$ is [[holomorphic]] on $B\left(z_{0}, r\right) \backslash\left\{z_{0}\right\}$ for some $r>0$.
+```
 ## Proposition 8.1.
 Let $U$ be an open set and suppose that $g: U \rightarrow \mathbb{C}$ is [[holomorphic]] on $U$. Let $S=\{z \in U: g(z)=0\}$. If $z_{0} \in S$ then
 - either $z_{0}$ is isolated in $S$ (so that $g$ is non-zero in some disk about $z_{0}$ except at $z_{0}$ itself)

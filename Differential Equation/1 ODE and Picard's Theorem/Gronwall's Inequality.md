@@ -1,3 +1,6 @@
+---
+aliases: [Gronwall]
+---
 ## Gronwall's Inequality
 #DE 
 
@@ -36,7 +39,7 @@ Suppose now that $y$ and $z$ are solutions of the ordinary differential equation
 $$
 y(x)-z(x)=b-c+\int_{a}^{x}(f(s, y(s))-f(s, z(s)) d s
 $$
-so setting $v(x)=|y(x)-z(s)|$ (note Gronwall requires $v$ to be non-negative) we get that
+so setting $v(x)=|y(x)-z(s)|$ (note [[Gronwall's Inequality|Gronwall]] requires $v$ to be non-negative) we get that
 $$
 |y(x)-z(x)| \leq|b-c|+\left|\int_{a}^{x} L\left| y(s)-z(s)\right|d s\right|
 $$

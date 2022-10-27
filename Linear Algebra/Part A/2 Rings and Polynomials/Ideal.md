@@ -1,5 +1,7 @@
+---
+tags: [LA]
+---
 ## Ideal
-#LA 
 ### Definition
 A non-empty subset $I$ of a [[ring]] $R$ is an [[ideal]] if for all $s, t \in I$ and $r \in R$ we have
 $$

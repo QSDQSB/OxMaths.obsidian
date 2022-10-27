@@ -7,7 +7,7 @@ $$
 $$
 
 ### Definition: Div
-Let $\mathbf{F}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ be a vector field with $\mathbf{F}=\left(F_{1}, F_{2}, F_{3}\right) .$ Then the [[divergence]] of $\mathbf{F}$ written $\operatorname{div} \mathbf{F}$ or $\nabla \cdot \mathbf{F}$ equals
+Let $\mathbf{F}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ be a vector field with $\mathbf{F}=\left(F_{1}, F_{2}, F_{3}\right) .$ Then the [[Multivariable Calculus/5 Div Grad Curl/Divergence]] of $\mathbf{F}$ written $\operatorname{div} \mathbf{F}$ or $\nabla \cdot \mathbf{F}$ equals
 $$
 \operatorname{div} \mathbf{F}=\nabla \cdot \mathbf{F}=\frac{\partial F_{1}}{\partial x}+\frac{\partial F_{2}}{\partial y}+\frac{\partial F_{3}}{\partial z} .
 $$
@@ -90,7 +90,7 @@ $$
 leads to $\alpha=\mathbf{e}_{1} \cdot \mathbf{i}, \beta=\mathbf{e}_{2} \cdot \mathbf{i}, \gamma=\mathbf{e}_{3} \cdot \mathbf{i}$, by dotting the equation with $\mathbf{e}_{1}, \mathbf{e}_{2}, \mathbf{e}_{3}$ respectively.
 
 ### Corollary 82
->We calculate [grad](Gradient), [div](Divergence) and [[curl]] using the same formulae, irrespective of what right-handed orthonormal coordinate system we are using.
+>We calculate [grad](Gradient), [div](Multivariable%20Calculus/5%20Div%20Grad%20Curl/Divergence.md) and [[curl]] using the same formulae, irrespective of what right-handed orthonormal coordinate system we are using.
 
 Let $\mathbf{f}: \mathbb{R}^{3} \rightarrow \mathbb{R}^{3}$ be a vector field given by $\mathbf{f}=\left(f_{1}, f_{2}, f_{3}\right)$, let $\phi: \mathbb{R}^{3} \rightarrow \mathbb{R}$ be a
 scalar field and let $\mathbf{e}_{1}, \mathbf{e}_{2}, \mathbf{e}_{3}$ be a right-handed orthonormal basis of $\mathbb{R}^{3} .$ Suppose that

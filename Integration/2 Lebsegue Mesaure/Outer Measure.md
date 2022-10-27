@@ -20,7 +20,8 @@ $6^{\prime} . m^{*}\left(\bigcup_{n=1}^{\infty} A_{n}\right) \leq \sum_{n=1}^{\i
 ### Null
 ![[Null#Definition]]
 
-### Example 2.4: $\bf m^*$ NOT COUNTABLY ADDITIVE
+```ad-example
+title: $\bf m^*$ NOT COUNTABLY ADDITIVE
 Let $A$ be a subset of $[0,1]$ with the following properties;
 (i) $x, y \in A, x \neq y \Longrightarrow x-y \notin \mathbb{Q}$
 (ii) For any $x \in[0,1]$, there exists $q \in \mathbb{Q}$ such that $x+q \in A$.
@@ -33,3 +34,4 @@ $$
 1=m^{*}[0,1] \leq \sum_{q \in \mathbb{Q} \cap[-1,1]} m^{*}(A-q)=\sum_{q \in \mathbb{Q} \cap[-1,1]} m^{*}(A) \leq 3
 $$
 This is impossible.
+```

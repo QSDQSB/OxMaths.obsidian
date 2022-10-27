@@ -1,125 +1,54 @@
 {
   "dayCounts": {
-    "2021/4/29": 5,
-    "2021/4/30": 2,
-    "2021/4/31": 175,
-    "2021/5/1": 30,
-    "2021/5/2": 0,
-    "2021/5/3": 335,
-    "2021/5/4": 1700,
-    "2021/5/7": 44,
-    "2021/5/8": 2,
-    "2021/5/10": 29,
-    "2021/5/13": 7,
-    "2021/5/15": 2,
-    "2021/5/16": 5,
-    "2021/5/17": 204,
-    "2021/5/20": 8,
-    "2021/5/21": 10,
-    "2021/5/29": 361,
-    "2021/6/5": 12,
-    "2021/6/6": 258,
-    "2021/6/8": 225,
-    "2021/6/15": 221,
-    "2021/6/16": 634,
-    "2021/6/17": 57,
-    "2021/6/25": 755,
-    "2021/6/26": 758,
-    "2021/6/27": 436,
-    "2021/6/28": 1259,
-    "2021/6/29": 481,
-    "2021/6/30": 155,
-    "2021/6/31": 304,
-    "2021/7/2": 34,
-    "2021/7/3": 394,
-    "2021/7/5": 125,
-    "2021/7/20": 0,
-    "2021/8/9": 0,
-    "2021/8/15": 949,
-    "2021/8/16": 608,
-    "2021/8/17": 669,
-    "2021/8/18": 0,
-    "2021/8/25": 765,
-    "2021/8/26": 66,
-    "2021/9/1": 577,
-    "2021/9/8": 381,
-    "2021/9/16": 388,
-    "2021/9/23": 501,
-    "2021/9/27": 0,
-    "2021/9/28": 1675,
-    "2021/9/30": 405,
-    "2021/10/1": 3309,
-    "2021/10/2": 68,
-    "2021/10/3": 4629,
-    "2021/10/4": 25,
-    "2021/10/6": 1169,
-    "2021/10/7": 448,
-    "2021/10/9": 783,
-    "2021/10/11": 0,
-    "2021/10/12": 2823,
-    "2021/10/13": 68,
-    "2021/10/14": 578,
-    "2021/10/15": 3530,
-    "2021/10/16": 1312,
-    "2021/10/19": 1002,
-    "2021/10/20": 20,
-    "2021/10/22": 0,
-    "2021/10/26": 0,
-    "2022/0/1": 1,
-    "2022/0/2": 257,
-    "2022/0/3": 0,
-    "2022/0/4": 160,
-    "2022/0/7": 11,
-    "2022/0/9": 0,
-    "2022/0/16": 695,
-    "2022/1/14": 100,
-    "2022/1/15": 181,
-    "2022/1/21": 856,
-    "2022/1/23": 178,
-    "2022/1/24": 17,
-    "2022/2/23": 21,
-    "2022/2/27": 43,
-    "2022/2/29": 35,
-    "2022/2/31": 191,
-    "2022/3/1": 298,
-    "2022/3/4": 50,
-    "2022/3/5": 138,
-    "2022/3/20": 167,
-    "2022/3/25": 6,
-    "2022/4/5": 36,
-    "2022/4/9": 9,
-    "2022/4/10": 105,
-    "2022/4/12": 613,
-    "2022/4/18": 0,
-    "2022/4/19": 3,
-    "2022/4/21": 860,
-    "2022/4/22": 1849,
-    "2022/4/24": 1865
+    "2022/9/4": 0,
+    "2022/9/5": 0,
+    "2022/9/6": 88,
+    "2022/9/19": 65,
+    "2022/9/20": 95,
+    "2022/9/21": 1448,
+    "2022/9/22": 476,
+    "2022/9/23": 662,
+    "2022/9/24": 771,
+    "2022/9/25": 5847,
+    "2022/9/26": 1481,
+    "2022/9/27": 1133
   },
   "todaysWordCount": {
-    "Numerical Analysis/Lagrange Interpolating Polynomial.md": {
-      "initial": 1,
-      "current": 328
+    "Foundations of Statistical Inference/3 Fisher Information/Score Function.md": {
+      "initial": 204,
+      "current": 167
     },
-    "Numerical Analysis/QR Algorithm.md": {
-      "initial": 291,
-      "current": 292
+    "Foundations of Statistical Inference/3 Fisher Information/Fisher Information.md": {
+      "initial": 40,
+      "current": 487
     },
-    "Numerical Analysis/Least-squares polynomial approximation.md": {
+    "Foundations of Statistical Inference/3 Fisher Information/Observed Information.md": {
       "initial": 0,
-      "current": 5
+      "current": 37
     },
-    "Numerical Analysis/Least-squares Polynomial Approximation.md": {
-      "initial": 5,
-      "current": 117
+    "Foundations of Statistical Inference/4 Point Estimation/Estimate.md": {
+      "initial": 37,
+      "current": 40
     },
-    "Numerical Analysis/Least-squares Approximation.md": {
-      "initial": 116,
-      "current": 860
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Cramer-Rao Lower Bound.md": {
+      "initial": 152,
+      "current": 664
     },
-    "Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md": {
-      "initial": 4,
-      "current": 680
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Efficient.md": {
+      "initial": 0,
+      "current": 60
+    },
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Minimum Variance Unbiased Estimator.md": {
+      "initial": 108,
+      "current": 109
+    },
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Uniformly Better.md": {
+      "initial": 58,
+      "current": 58
+    },
+    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Smaller Covariance Matrix.md": {
+      "initial": 0,
+      "current": 73
     }
   }
 }

@@ -54,7 +54,8 @@ $$
 $$
 ^Equation1-8
 
-![[Differential Equation/1 ODE and Picard's Theorem/Lipschitz]]
+[[Differential Equation/1 ODE and Picard's Theorem/Lipschitz]]
+
 ---
 ### Picard Existence Theorem
 Let $f: R \rightarrow \mathbb{R}$ be a function defined on the rectangle $R:=$$\{(x, y):$$|x-a| \leq h,|y-b| \leq k\}$ which satisfies
@@ -105,16 +106,14 @@ $$
 
 where $L$ is such that the [[Differential Equation/1 ODE and Picard's Theorem/Lipschitz]] condition holds.
 
-```ad-note
-We remark that this claim in particular implies that
+>We remark that this claim in particular implies that
 
 $$
 \left|e_{n}(x)\right| \leq \frac{L^{n-1} M}{n !} h^{n} \text { for all }|x-a| \leq h \quad\color{yellow}\text{(1.12)}
 $$
 ^Equation1-12
 
-which will be the estimate that we will use to show that $\sum e_{n}$ converges uniformly using M-test.
-```
+>which will be the estimate that we will use to show that $\sum e_{n}$ converges uniformly using M-test.
 
 ##### Proof of Claim 2
 We recall that the [[Differential Equation/1 ODE and Picard's Theorem/Lipschitz]] condition [P(ii)](#^P-ii) combined with the fact that the graph of $y_{n}$ is in the rectangle implies that for all $|t-a| \leq h$

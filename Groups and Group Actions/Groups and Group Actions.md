@@ -188,7 +188,7 @@ Let $m, n$ be integers. Let $h, l$ be positive integers such that $\langle m, n\
 ### Lemma 23
 Let $G$ be a group, let $g \in G$ be an element with finite order d. We have $g^{k}=e$ if and only if $d \mid k$.
 
-### [[Chinese Remainder Theorem]]
+### [[Groups and Group Actions/4 Subgroups/Chinese Remainder Theorem]]
 >Let $m, n$ be coprime positive integers. Then $C_{m} \times C_{n}$ is [[cyclic]], and is [isomorphic](Isomorphism.md) to $C_{m n}$.
 
 ## Equivalence Relations
