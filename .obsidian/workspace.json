@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applied Statistics/Generalised Linear Model/Exponential Dispersion Family.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applied Statistics/Generalised Linear Model/Exponential Dispersion Family.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applied Statistics/Generalised Linear Model/Exponential Dispersion Family.md"
+                "file": "README.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applied Statistics/Generalised Linear Model/Exponential Dispersion Family.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,15 +147,15 @@
   },
   "active": "4e090dbedcdb3806",
   "lastOpenFiles": [
+    "What to Choose in Part B.md",
+    "Applied Statistics/Generalised Linear Model/Exponential Dispersion Family.md",
+    "Applied Statistics/Generalised Linear Model/Link Function.md",
     "README.md",
     "Applied Statistics/Generalised Linear Model/Canonical Link.md",
     "Applied Statistics/Generalised Linear Model/Generalised Linear Model.md",
-    "Applied Statistics/Generalised Linear Model/Link Function.md",
     "Foundations of Statistical Inference/2 Sufficiency and Minimality/Minimal Sufficient.md",
     "Foundations of Statistical Inference/2 Sufficiency and Minimality/Sufficient.md",
     "Foundations of Statistical Inference/1 Exponential Families/Curved Exponential Family.md",
-    "Statistics/3 Hypothesis Testing/Hypothesis Testing.md",
-    "Simulation and Statistical Programming/Statistical Programming/R-Rep.md",
-    "Foundations of Statistical Inference/1 Exponential Families/Parameter Space.md"
+    "Statistics/3 Hypothesis Testing/Hypothesis Testing.md"
   ]
 }
