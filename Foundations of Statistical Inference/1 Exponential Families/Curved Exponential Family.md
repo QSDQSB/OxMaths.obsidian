@@ -10,7 +10,7 @@ $$
 Positive-definiteness of the covariance matrix guarantees that $k$ is not an arbitrary large number. In fact it guarantees that the [[exponential family]] is strictly $k$-parameter, although the parameter space forms a lower-dimensional, non-linear submanifold of the natural parameter space.
 ```
 ```ad-example
-title: Normal Distribution of Mean µ and Variance µ^2
+title: Normal Distribution of Mean µ and Variance $µ^2$
 Let the statistical model be the class of all normal distributions with $N\left(\mu, \mu^2\right)$ where $\mu$ is unknown and $\mu \neq 0$ with parameter $\theta=\mu \in \mathbb{R}^*$.
 $$
 \small

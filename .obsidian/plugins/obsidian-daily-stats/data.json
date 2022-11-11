@@ -7,12 +7,28 @@
     "2022/10/7": 2370,
     "2022/10/9": 12,
     "2022/10/10": 838,
-    "2022/10/11": 0
+    "2022/10/11": 1
   },
   "todaysWordCount": {
     "Juan/HRT.md": {
       "initial": 432,
       "current": 432
+    },
+    "Probability, Measure and Martingales/3 Independence/Independent.md": {
+      "initial": 747,
+      "current": 747
+    },
+    "Simulation and Statistical Programming/Statistical Programming/R-Rep.md": {
+      "initial": 2,
+      "current": 3
+    },
+    "Foundations of Statistical Inference/1 Exponential Families/Curved Exponential Family.md": {
+      "initial": 475,
+      "current": 475
+    },
+    "README.md": {
+      "initial": 29,
+      "current": 29
     }
   }
 }

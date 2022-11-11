@@ -2,9 +2,7 @@
 ## Definition
 > [!definition] Independence of σ-algebra
 > Let $(\Omega, \mathscr{F}, \mathbb{P})$ be a probability space and $\left(\mathscr{G}_i\right)_{i \leqslant n}$ a finite collection of $\sigma$-algebras, $\mathscr{G}_i \subseteq \mathscr{F}$ for $i \leqslant n$. We say that the [[σ-algebra|σ-algebras]] $\left(\mathscr{G}_i\right)_{i \leqslant n}$ are [[independent]] if and only if
-> $
-> \mathbb{P}\left(A_1 \cap \ldots \cap A_n\right)=\mathbb{P}\left(A_1\right) \cdot \ldots \cdot \mathbb{P}\left(A_n\right), \quad \text { for any } A_i \in \mathscr{G}_i, i \leqslant n .
-> $
+> $$\mathbb{P}\left(A_1 \cap \ldots \cap A_n\right)=\mathbb{P}\left(A_1\right) \cdot \ldots \cdot \mathbb{P}\left(A_n\right), \quad \text { for any } A_i \in \mathscr{G}_i, i \leqslant n .$$
 > For an arbitrary collection $\left(\mathscr{G}_i\right)_{i \in I}$ of sub- $\sigma$-algebras of $\mathscr{F}$, we say that these $\sigma$-algebras are independent if any finite sub-collection of them is.
 
 > [!definition] Independence of Random Variables
