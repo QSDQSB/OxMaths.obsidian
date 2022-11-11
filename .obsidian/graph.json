@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#MostCrucial",
@@ -40,13 +40,6 @@
       "color": {
         "a": 1,
         "rgb": 16514816
-      }
-    },
-    {
-      "query": "tag:#Unimportant",
-      "color": {
-        "a": 1,
-        "rgb": 15461355
       }
     },
     {
@@ -139,6 +132,34 @@
         "a": 1,
         "rgb": 16767658
       }
+    },
+    {
+      "query": "tag:#PMM",
+      "color": {
+        "a": 1,
+        "rgb": 11161680
+      }
+    },
+    {
+      "query": "tag:#Integration",
+      "color": {
+        "a": 1,
+        "rgb": 6628645
+      }
+    },
+    {
+      "query": "tag:#Statistics",
+      "color": {
+        "a": 1,
+        "rgb": 6383359
+      }
+    },
+    {
+      "query": "tag:#FOSI",
+      "color": {
+        "a": 1,
+        "rgb": 6057983
+      }
     }
   ],
   "collapse-display": true,
@@ -151,6 +172,6 @@
   "repelStrength": 11.7977813532052,
   "linkStrength": 0.873825048691676,
   "linkDistance": 67,
-  "scale": 1.1978320350204612,
+  "scale": 0.17005711623818168,
   "close": true
 }

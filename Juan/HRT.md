@@ -1,3 +1,4 @@
+# OT
 1. Check a list of number is sum of two fibonacci and return bool
 2. Python pandas operation using groupby and print selected feature
 ex. Given email, country, buy log print which country has largest buy volume
@@ -80,3 +81,16 @@ def solution(x, y):
 		if ((point1[0]+ax,point1[1]+ay) in pointset) and ((point2[0]+ax,point2[1]+ay) in pointset): ans+=1
 return(ans//2)
 ```
+
+# Second Round
+- ✅ Leetcode `464` **Can I Win**
+	- https://leetcode.com/problems/can-i-win/
+- ✅ Leetcode `1801` **Numbers of Orders in the Backlog**
+	- https://leetcode.com/problems/number-of-orders-in-the-backlog/
+	- heapq, maxheap needs negative sign
+	- collide and cancel
+- ✅Leetcode `336` **Palindrome Pairs**
+	- https://leetcode.com/problems/palindrome-pairs/
+- ✅Leetcode `140` **World Break II**
+	- https://leetcode.com/problems/word-break-ii/
+- 

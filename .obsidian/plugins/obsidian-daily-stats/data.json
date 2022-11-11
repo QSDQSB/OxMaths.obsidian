@@ -1,54 +1,18 @@
 {
   "dayCounts": {
-    "2022/9/4": 0,
-    "2022/9/5": 0,
-    "2022/9/6": 88,
-    "2022/9/19": 65,
-    "2022/9/20": 95,
-    "2022/9/21": 1448,
-    "2022/9/22": 476,
-    "2022/9/23": 662,
-    "2022/9/24": 771,
-    "2022/9/25": 5847,
-    "2022/9/26": 1481,
-    "2022/9/27": 1133
+    "2022/9/31": 135,
+    "2022/10/3": 1426,
+    "2022/10/4": 3517,
+    "2022/10/5": 0,
+    "2022/10/7": 2370,
+    "2022/10/9": 12,
+    "2022/10/10": 838,
+    "2022/10/11": 0
   },
   "todaysWordCount": {
-    "Foundations of Statistical Inference/3 Fisher Information/Score Function.md": {
-      "initial": 204,
-      "current": 167
-    },
-    "Foundations of Statistical Inference/3 Fisher Information/Fisher Information.md": {
-      "initial": 40,
-      "current": 487
-    },
-    "Foundations of Statistical Inference/3 Fisher Information/Observed Information.md": {
-      "initial": 0,
-      "current": 37
-    },
-    "Foundations of Statistical Inference/4 Point Estimation/Estimate.md": {
-      "initial": 37,
-      "current": 40
-    },
-    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Cramer-Rao Lower Bound.md": {
-      "initial": 152,
-      "current": 664
-    },
-    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Efficient.md": {
-      "initial": 0,
-      "current": 60
-    },
-    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Minimum Variance Unbiased Estimator.md": {
-      "initial": 108,
-      "current": 109
-    },
-    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Uniformly Better.md": {
-      "initial": 58,
-      "current": 58
-    },
-    "Foundations of Statistical Inference/5 MVUEs and the Cramer-Rao Lower Bound/Smaller Covariance Matrix.md": {
-      "initial": 0,
-      "current": 73
+    "Juan/HRT.md": {
+      "initial": 432,
+      "current": 432
     }
   }
 }
