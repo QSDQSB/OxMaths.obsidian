@@ -1,12 +1,11 @@
 #AppliedStats 
 
-Recall that we have both $\eta=\eta(\theta)$ and $\theta=\theta(\eta)$.
-One particularly simple possibility is that $\theta=\eta$.
+Recall that we have both $\eta=\eta(\theta)$ and $\theta=\theta(\eta)$. One particularly simple possibility is that $\theta=\eta$.
 ## Definition
 
 ```ad-definition
 title: Canonical Link Function
-The [[canonical link]] function is the $g$ for which $\eta=g(\mu)=\theta$. As
+The canonical [[link function]] is the $g$ for which $\eta=g(\mu)=\theta$. As
 $$
 \theta=\kappa^{\prime-1}(\mu)
 $$

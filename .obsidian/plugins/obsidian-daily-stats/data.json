@@ -7,28 +7,21 @@
     "2022/10/7": 2370,
     "2022/10/9": 12,
     "2022/10/10": 838,
-    "2022/10/11": 30
+    "2022/10/11": 147,
+    "2022/10/12": 2153
   },
   "todaysWordCount": {
-    "Juan/HRT.md": {
-      "initial": 432,
-      "current": 432
+    "Applied Statistics/Generalised Linear Model/Canonical Link Function.md": {
+      "initial": 272,
+      "current": 272
     },
-    "Probability, Measure and Martingales/3 Independence/Independent.md": {
-      "initial": 747,
-      "current": 747
+    "Applied Statistics/Generalised Linear Model/Generalised Linear Model.md": {
+      "initial": 214,
+      "current": 1793
     },
-    "Simulation and Statistical Programming/Statistical Programming/R-Rep.md": {
-      "initial": 2,
-      "current": 3
-    },
-    "Foundations of Statistical Inference/1 Exponential Families/Curved Exponential Family.md": {
-      "initial": 475,
-      "current": 475
-    },
-    "README.md": {
-      "initial": 29,
-      "current": 58
+    "Applied Statistics/Generalised Linear Model/IRLS Algorithm.md": {
+      "initial": 1,
+      "current": 575
     }
   }
 }

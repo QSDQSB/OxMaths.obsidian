@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Applied Statistics/Generalised Linear Model/Generalised Linear Model.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5fcec0940f8c004",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applied Statistics/Generalised Linear Model/Canonical Link Function.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#FOSI",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Applied Statistics/Generalised Linear Model/Canonical Link Function.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Applied Statistics/Generalised Linear Model/Canonical Link Function.md"
               }
             }
           },
@@ -124,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Applied Statistics/Generalised Linear Model/Canonical Link Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,23 +153,23 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 200
   },
-  "active": "4e090dbedcdb3806",
+  "active": "e5fcec0940f8c004",
   "lastOpenFiles": [
-    "What to Choose in Part B.md",
-    "Applied Statistics/Generalised Linear Model/Exponential Dispersion Family.md",
-    "Applied Statistics/Generalised Linear Model/Link Function.md",
-    "README.md",
-    "Applied Statistics/Generalised Linear Model/Canonical Link.md",
+    "Applied Statistics/Generalised Linear Model/IRLS Algorithm.md",
     "Applied Statistics/Generalised Linear Model/Generalised Linear Model.md",
+    "Integration/2 Lebsegue Mesaure/Lebesgue Measurable.md",
+    "Applied Statistics/Generalised Linear Model/Link Function.md",
+    "Applied Statistics/Generalised Linear Model/Canonical Link Function.md",
+    "Applied Statistics/Generalised Linear Model/Exponential Dispersion Family.md",
+    "README.md",
+    "What to Choose in Part B.md",
     "Foundations of Statistical Inference/2 Sufficiency and Minimality/Minimal Sufficient.md",
-    "Foundations of Statistical Inference/2 Sufficiency and Minimality/Sufficient.md",
-    "Foundations of Statistical Inference/1 Exponential Families/Curved Exponential Family.md",
-    "Statistics/3 Hypothesis Testing/Hypothesis Testing.md"
+    "Foundations of Statistical Inference/2 Sufficiency and Minimality/Sufficient.md"
   ]
 }

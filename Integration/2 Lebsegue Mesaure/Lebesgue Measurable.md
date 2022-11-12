@@ -20,8 +20,8 @@ Let $\Large\mathcal{M}_{\text {Leb }}$ be the set of all [[Lebesgue Measurable|L
 5. If $E_{n} \in \mathcal{M}_{\mathrm{Leb}}$ for $n=1,2, \ldots$ and $E_{n} \cap E_{k}=\emptyset$ whenever $n \neq k$, then $m^{*}\left(\bigcup_{n=1}^{\infty} E_{n}\right)=$ $\sum_{n=1}^{\infty} m^{*}\left(E_{n}\right)$.
 
 #### Corollary 2.6
-All open subsets, and all closed subsets of $\mathbb{R}$, are [[Lebesgue Measurable|Lebesgue measurable]].
->Proof. Any open subset of $\mathbb{R}$ is a countable union of intervals.
+All [[open]] subsets, and all [[Complex Analysis and Metric Spaces/Chapter 4 Open and Closed Sets/Closed|closed]] subsets of $\mathbb{R}$, are [[Lebesgue Measurable|Lebesgue measurable]].
+>Proof. Any [[open]] subset of $\mathbb{R}$ is a countable union of intervals.
 
 ---
 For $E \in \mathcal{M}_{\text {Leb }}$, we shall write $m(E)$ for $m^{*}(E) .$ Then $m: \mathcal{M}_{\text {Leb }} \rightarrow[0, \infty]$ is **countably additive**.

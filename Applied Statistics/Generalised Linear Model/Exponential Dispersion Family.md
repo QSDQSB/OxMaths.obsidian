@@ -19,4 +19,12 @@ P(Y=y) &=\frac{\lambda^y \exp (-\lambda)}{y !} \\
 &=\exp \left\{\frac{y \theta-\kappa(\theta)}{\phi}+c(y ; \phi)\right\}
 \end{aligned}
 $$
+
+---
+This corresponds to:
+- $\phi=1, \theta=\log \lambda$, and so $\lambda=e^\theta$
+- $\kappa(\theta)=\lambda=e^\theta$
+- $c(y ; \phi)=-\log (y !)$
 ```
+
+![[Generalised Linear Model#Moments: E(Y) and Var(Y)]]
