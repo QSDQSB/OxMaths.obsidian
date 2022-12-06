@@ -18,7 +18,7 @@ pd.DataFrame({'Bob': ['I liked it.', 'It was awful.'],
 
 index=['Product A', 'Product B'])
 ```
-### Combine
+### Combine, Append
 #### Concat
 The simplest combining method is `concat()`. Given a list of elements, this function will smush those elements together along an axis.
 
@@ -46,7 +46,10 @@ left.join(right, lsuffix='_CAN', rsuffix='_UK')
 ```py
  df.describe()
 ```
-
+#### Getting Quantiles
+```py
+pd.qcut(train['Age'],5)
+```
 #### Rename
 ```py
 reviews.rename(columns={'points': 'score'})
@@ -71,7 +74,7 @@ reviews.iloc[:3, 0] # 这个地方是从0选到2，in total 3
 reviews.iloc[[0, 1, 2], 0]
 reviews.iloc[-5:] # start counting forwards from the _end_ of the values. So for example here are the last five elements of the dataset.
 ```
-#### Index-Based Selection
+#### IndexName-Based Selection
 ```py
 reviews.loc[:, ['taster_name', 'taster_twitter_handle', 'points']]
 reviews.loc[0, 'country']
@@ -79,13 +82,17 @@ reviews.loc[reviews.country == 'Italy']
 ```
 
 #### Conditional Selection
+##### Column Selection
+```py
+X_train.loc[:,X_train.nunique()>=800]
+```
+##### Row Selection
 ```py
 reviews.loc[(reviews.country == 'Italy') & (reviews.points >= 90)]
 # '|' for or
 reviews.loc[reviews.country.isin(['Italy', 'France'])]
 reviews.loc[reviews.price.notnull()]
 reviews.loc[0:9,'description'] #这里是0选到9
-
 ```
 ### Assigning Values
 ```py
@@ -156,6 +163,20 @@ Group actions sometimes generate multi-index, and sometimes we need to convert i
 ```py
 countries_reviewed.reset_index()
 ```
+### Value_Counts
+```python
+df.value_counts()
+"""
+num_legs  num_wings
+4         0            2
+2         2            1
+6         0            1
+"""
+df.value_counts(sort=False)
+df.value_counts(ascending=True)
+df.value_counts(normalize=True) # frequency
+df.value_counts(dropna=False)
+```
 
 ### Sort
 ```py
@@ -167,6 +188,20 @@ best_rating_per_price = reviews.groupby('price').points.max().sort_index()
 # first group by price, then find greatest point in each price group, then sort by price.
 ```
 To sort by index values, use the companion method `sort_index()`. This method has the same arguments and default order:
+
+### N-Smallest
+Use `nsmallest` to select the rows having the smallest values in column “population”.
+```python
+ df.nsmallest(3, 'population')
+"""
+          population    GDP alpha-2
+Tuvalu         11300     38      TV
+Anguilla       11300    311      AI
+Iceland       337000  17036      IS
+"""
+```
+When using `keep='last'`, ties are resolved in reverse order.
+When using `keep='all'`, all duplicate items are maintained.
 
 ### Missing Values
 ```py
@@ -200,7 +235,8 @@ wine_reviews.shape
 ```
 - To make pandas use that column for the index (instead of creating a new one from scratch), we can specify an `index_col`.
 ```py
-wine_reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0)
+wine_reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0,
+	true_values = ['yes'], false_values = ['no'])
 ```
 - `head` method displays the first five rows.
 ```py

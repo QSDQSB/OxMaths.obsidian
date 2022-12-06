@@ -83,6 +83,7 @@ and in (4.1) both $J^{-1}$ and $\frac{\partial \ell}{\partial \beta}$ are evalua
 > $\beta$ is a column vector and $\beta \beta^T$ is a matrix, so the notation $\frac{\partial \ell}{\partial \beta}$ and $-\frac{\partial^2 \ell}{\partial \beta \partial \beta^T}$ makes sense.
 ```
 
+
 ```ad-algorithm
 title: Fisher Scoring Algorithm
 The Fisher scoring algorithm replaces $J$ by $I$ to give the iterations:
@@ -97,6 +98,12 @@ $$
 Continue on [[#Iteratively Reweighted Least Squares]]
 ```
 ^Fisher-scoring-algorithm
+
+### Equivalence of Two Algorithms in Canonical Link
+When the link function is canonical link function in our GLM, we will have the methods of scoring and Newton-Raphson being identical.
+
+#### Proof
+不知道为什么iPad粘贴不上来了 下次想起来再粘贴吧
 
 ### Finding MLE in GLM
 For a GLM we can simplify things a bit:
@@ -215,3 +222,49 @@ $$
 \end{aligned}
 $$
 Note that $\beta^{(k+1)}$ is a weighted least squares estimator, regressing $z^{(k)}$ on $X$, with weight matrix $W^{(k)}$.
+
+# Model Selection
+
+> We have already seen how to test the null hypothesis $H_0: \beta_j=0$.
+How do we test the null hypothesis that multiple parameters are equal to 0 ? We can use the likelihood ratio test ([[Likelihood ratio test|LRT]]).
+- For the normal [[linear model]] we managed to get an exact test by writing the [[Likelihood ratio test|LRT]] statistic as a monotone function of a statistic $F$, where $F$ has a distribution we know exactly.
+- For GLMs we use the limiting $\chi^2$ distribution of the [[Likelihood ratio test|LRT]] statistic, for $n \rightarrow \infty$, as the approximate, or asymptotic, distribution in finite samples.
+
+## LRT for Model Selection
+```ad-algorithm
+title: Likelihood Ratio Test for GLM
+Partition, wlog,
+$$
+\mathbf{x}=\left(\begin{array}{l}
+\mathbf{x}_{(1)} \\
+\mathbf{x}_{(2)}
+\end{array}\right) ; \beta=\left(\begin{array}{l}
+\beta_{(1)} \\
+\beta_{(2)}
+\end{array}\right),
+$$
+with $\beta_{(1)}$ a $(p-k)$-vector and $\beta_{(2)}$ a $k$-vector.
+Consider the null hypothesis $H_0: \beta_{(2)}=0$.
+
+Let $\widehat{\beta}$ be the MLE in the unrestricted model with $\eta=\mathbf{x}^T \beta$, with maximised log-likelihood given by $\ell(\widehat{\beta} ; y)$.
+
+Let $\widetilde{\beta}_{(1)}$ be the [[Maximum Likelihood Estimator|MLE]] in the restricted, nested, model with $\eta_r=\mathbf{x}_{(1)}^T \beta_{(1)}$, with maximised log-likelihood given by $\ell\left(\widetilde{\beta}_{(1)} ; y\right)$.
+
+Then, under the null, $H_0: \beta_{(2)}=0$, we have for the [[Likelihood ratio test|LRT]] [[statistic]]
+$$
+\Lambda(Y)=2\left(\ell(\widehat{\beta} ; Y)-\ell\left(\widetilde{\beta}_{(1)} ; Y\right)\right) \stackrel{d}{\rightarrow} \chi_k^2 .
+$$
+```
+
+## Wald Test
+
+$$W=\frac{(\widehat{\beta_0})^2}{Var(\widehat{\beta_0})}\stackrel{d}{\rightarrow}N(0,1)\quad \text{ Under }H_0$$
+
+## Saturated and Null Models
+![[Saturated Model#Saturated Model]]
+
+## Deviance-based $R^2$
+A generalisation to GLM of the standard $R^2$ measure of goodness of ﬁt for the linear model is the deviance based measure given by
+$$
+R_D^2=1-\frac{D(y)}{D^{(0)}(y)},
+$$

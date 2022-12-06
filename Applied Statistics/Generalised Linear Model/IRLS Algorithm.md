@@ -31,7 +31,7 @@ $$
 ```ad-example
 title: IRLS for Poisson
 Recall $\phi=1, \mu=\lambda, V(\mu)=\lambda=\mu, \eta=X \beta$
-Using the canonical link: $g(\mu)=\log (\mu)=\eta, \mu=\exp (\eta), g^{\prime}(\mu)=1 / \mu$.
+Using the [[Canonical Link Function|canonical link]]: $g(\mu)=\log (\mu)=\eta, \mu=\exp (\eta), g^{\prime}(\mu)=1 / \mu$.
 We then have that:
 $$
 \begin{aligned}
@@ -42,7 +42,8 @@ W &=\operatorname{diag}\left(\frac{1}{\phi V(\mu) g^{\prime}(\mu)^2}\right) \\
 \end{aligned}
 $$
 ```
-
+### IRLS Under Canonical Link Function
+Under [[Canonical Link Function|canonical link]], we will have $$V(\mu_i)g'(\mu_i)=1,$$9 then we can simplify $$W_{ii}=\frac{1}{\phi g'(\mu_i)}=\frac{V(\mu_i)}{\phi}.$$ Further, $$z_i=(X\beta)_i+\frac{y_i-\mu_i}{V(\mu_i)}$$
 ## Limit Distribution and Variance of MLEs
 Recall that as $\widehat{\beta}$ is an [[Maximum Likelihood Estimator|MLE]] then, as $n \rightarrow \infty$,
 $$
@@ -69,7 +70,7 @@ where in the second case $\widehat{I}_{j j}^{-1}=\widehat{\operatorname{var}}\le
 $$
 \widehat{I}=I(\widehat{\beta})=X^T W(\widehat{\beta}) X \text {. }
 $$
-We can use this result to construct an approximate $1-\alpha$ confidence interval for $\beta_j$ as
+We can use this result to construct an approximate $1-\alpha$ [[confidence interval]] for $\beta_j$ as
 $$
 \widehat{\beta_j} \pm z_{\alpha / 2} \sqrt{\widehat{\operatorname{var}}\left(\widehat{\beta_j}\right)},
 $$

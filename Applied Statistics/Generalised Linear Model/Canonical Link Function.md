@@ -1,5 +1,7 @@
-#AppliedStats 
-
+---
+aliases: [canonical link]
+tags: [AppliedStats] 
+---
 Recall that we have both $\eta=\eta(\theta)$ and $\theta=\theta(\eta)$. One particularly simple possibility is that $\theta=\eta$.
 ## Definition
 

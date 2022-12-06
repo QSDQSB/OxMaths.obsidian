@@ -9,7 +9,7 @@
     "text-justify"
   ],
   "theme": "obsidian",
-  "baseFontSize": 16,
+  "baseFontSize": 20,
   "baseFontSizeAction": true,
   "textFontFamily": "Charter",
   "monospaceFontFamily": "",

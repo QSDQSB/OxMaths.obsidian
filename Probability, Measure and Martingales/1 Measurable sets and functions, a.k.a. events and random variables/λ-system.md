@@ -1,7 +1,8 @@
 ---
 aliases: [d-system, Dynkin class]
+tag: [PMM]
 ---
-#Martingales 
+
 ## Definition
 A collection of sets $\mathscr{M}$ is called a [[λ-system]] if
 - $\Omega \in \mathscr{M}$,

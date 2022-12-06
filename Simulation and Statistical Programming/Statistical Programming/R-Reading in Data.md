@@ -11,18 +11,16 @@ hd <- read.table("hellung.txt", header=TRUE)
 ```R
 dim(hd)
 	[1] 51 3 
-
 names(hd)
 	[1] "glucose" "conc" "diameter"
-
 length(hd)
 	[1] 3
-
 ## extract a list
 hd$diameter[1:10]
-
 ## matrix
 hd[3:4,]
+## subset
+retval <- subset(data, Department == "chemistry")  # This will extract the student details who are in Biochemistry department 
 ```
 
 ## Summary
