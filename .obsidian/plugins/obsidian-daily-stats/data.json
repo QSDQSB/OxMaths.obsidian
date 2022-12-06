@@ -19,12 +19,16 @@
     "2022/10/25": 0,
     "2022/11/2": 1303,
     "2022/11/5": 46,
-    "2022/11/6": 162
+    "2022/11/6": 253
   },
   "todaysWordCount": {
     "Kaggle/Time Series.md": {
       "initial": 43,
       "current": 205
+    },
+    "Probability, Measure and Martingales/7 Filtrations and stopping times/Filtration.md": {
+      "initial": 1,
+      "current": 92
     }
   }
 }
