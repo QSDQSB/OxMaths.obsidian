@@ -58,7 +58,7 @@ bad_label_cols = list(set(object_cols)-set(good_label_cols))
 ### One-Hot Encoding # DO THIS!
 **One-hot encoding** creates new columns indicating the presence (or absence) of each possible value in the original data. 
 
-We use the [`OneHotEncoder`](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) class from scikit-learn to get one-hot encodings. There are a number of parameters that can be used to customize its behavior.
+We use the [`OneHotEncoder`](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) class from scikit-learn to get one-hot encodings. There are a number of parameters that can be used to customise its behaviour.
 
 -   We set `handle_unknown='ignore'` to avoid errors when the validation data contains classes that aren't represented in the training data, and
 -   setting `sparse=False` ensures that the encoded columns are returned as a numpy array (instead of a sparse matrix).

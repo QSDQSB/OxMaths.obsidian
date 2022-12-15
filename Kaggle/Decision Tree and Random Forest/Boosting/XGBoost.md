@@ -1,5 +1,13 @@
-## Gradient Boosting
-**Gradient boosting** is a method that goes through cycles to iteratively add models into an ensemble.
+---
+aliases: [extreme gradient boosting]
+---
+## Pros of XGBoost
+-   **Regularization**: XGBoost offers additional regularization hyperparameters, which we will discuss shortly, that provides added protection against overfitting.
+- **Early stopping**: XGBoost implements ***early stopping*** so that we can stop model assessment when additional trees offer no improvement.
+- **Parallel Processing**: Since [[gradient boosting]] is sequential in nature it is extremely difficult to parallelise. XGBoost has implemented procedures to support GPU and Spark compatibility which allows you to fit gradient boosting using powerful distributed processing engines.
+- 
+### Gradient Boosting
+**[[Gradient boosting]]** is a method that goes through cycles to iteratively add models into an ensemble.
 -   First, we use the current ensemble to generate predictions for each observation in the dataset. To make a prediction, we add the predictions from all models in the ensemble. 
 -   These predictions are used to calculate a loss function (like [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error), for instance).
 -   Then, we use the loss function to fit a new model that will be added to the ensemble. Specifically, we determine model parameters so that adding this new model to the ensemble will reduce the loss. (Side note: The "gradient" in "gradient boosting" refers to the fact that we'll use [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) on the loss function to determine the parameters in this new model.)

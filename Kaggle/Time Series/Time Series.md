@@ -14,7 +14,10 @@ moving_average = tunnel.rolling(
     min_periods=183,  # choose about half the window size
 ).mean()
 ```
-## Time Dummy by `DeterministicProcess`
+## Feature Set by `DeterministicProcess`
+
+`constant` adds a constant column to the feature set.
+
 ```py
 from statsmodels.tsa.deterministic import DeterministicProcess
 

@@ -1,4 +1,4 @@
-### Example
+# Code
 ```py
 import pandas as pd
 # Read the data

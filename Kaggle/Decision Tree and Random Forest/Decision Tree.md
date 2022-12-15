@@ -1,14 +1,93 @@
+---
+aliases: [decision trees]
+---
+
+## Splitting Feature
+Different measures (**Information Gain**, **Gini Index**, **Gain ratio**) are used for determining the best possible split at each node of the decision tree.
+
 As the splitting process proceeds, we wish more samples within each node to belong to a single class, that is, increasing the **purity** of each node.
 
-One of the most commonly used measures for purity is information entropy, or simply entropy.
-
-Suppose that the discrete feature $a$ has $V$ possible values $\left\{a^1, a^2, \ldots, a^V\right\}$. Then, splitting the data set $D$ by feature $a$ produces $V$ child nodes, where the $v$ th child node $D^v$ includes all samples in $D$ taking the value $a^v$ for feature $a$. Then, the entropy of $D^v$ can be calculated using (4.1). Since there are different numbers of samples in the child nodes, a weight $\left|D^v\right| /|D|$ is assigned to reflect the importance of each node, that is, the greater the number of samples, the greater the impact of the branch node. Then, the information gain of splitting the data set $D$ with feature $a$ is calculated as
+One of the most commonly used measures for purity is information [[entropy]], or simply [[entropy]].
+### Information Gain
+Suppose that the discrete feature $a$ has $V$ possible values $\left\{a^1, a^2, \ldots, a^V\right\}$. Then, splitting the data set $D$ by feature $a$ produces $V$ child nodes, where the $v$th child node $D^v$ includes all samples in $D$ taking the value $a^v$ for feature $a$. Then, the [[entropy]] of $D^v$ can be calculated using (4.1). Since there are different numbers of samples in the child nodes, a weight $\left|D^v\right| /|D|$ is assigned to reflect the importance of each node, that is, the greater the number of samples, the greater the impact of the branch node. Then, the **information gain** of splitting the data set $D$ with feature $a$ is calculated as
 $$
 \operatorname{Gain}(D, a)=\operatorname{Ent}(D)-\sum_{v=1}^V \frac{\left|D^v\right|}{|D|} \operatorname{Ent}\left(D^v\right) .
 $$
 In general, the higher the information gain, the more purity improvement we can expect by splitting $D$ with feature $a$. Therefore, information gain can be used for split selection, that is, using $a_*=\underset{a \in A \operatorname{Gain}(D, a)}{\arg \max }$ as the splitting feature.
+> Machine Learning, P83 contains an example of separating.
+
+```ad-error
+title: Bias of Information Gain
+It turns out that the information gain criterion is *biased toward features with more possible values*. To reduce this bias, the renowned decision tree algorithm employs **gain ratio** to select features instead of employing information gain.
+```
+### Gain Ratio
+The **gain ratio** of feature $a$ is defined as
+$$
+\text { Gain ratio }(D, a)=\frac{\operatorname{Gain}(D, a)}{\operatorname{IV}(a)},
+$$
+where
+$$
+\operatorname{IV}(a)=-\sum_{v=1}^V \frac{\left|D^v\right|}{|D|} \log _2 \frac{\left|D^v\right|}{|D|}
+$$
+is called the *intrinsic value* of feature $a$. $\operatorname{IV}(a)$ is large when feature a has **many** possible values (i.e., large V).
+
+In contrast to information gain, the gain ratio is biased toward features with **fewer possible values**.
+
+#### Combination of Information Gain and Gain Ratio
+
+```ad-algorithm
+title: Heuristic Method
+==(Quinlan 1993)== selecting the feature with the highest gain ratio from the set of candidate features with an information gain above the average.
+```
+
+### Gini Index
+Gini value of data set $D$ is defined as
+$$
+\begin{aligned}
+\operatorname{Gini}(D) & =\sum_{k=1}^{|\mathcal{Y}|} \sum_{k^{\prime} \neq k} p_k p_{k^{\prime}} \\
+& =1-\sum_{k=1}^{|\mathcal{Y}|} p_k^2 .
+\end{aligned}
+$$
+Intuitively, $\operatorname{Gini}(D)$ represents the **likelihood** of two samples we randomly selected from data set $D$ belonging to **different** classes.
+
+The lower the $\operatorname{Gini}(D)$, the higher the purity of data set $D$.
+
+The **Gini index** of feature $a$ is:
+
+$$\operatorname{Gini index }(D, a)=\sum_{v=1}^V \frac{\left|D^v\right|}{|D|} \operatorname{Gini}\left(D^v\right)$$
+Given a candidate feature set $A$, we select the feature with the **lowest** Gini index as the splitting feature, that is, $a_*=$ $\arg \min _{a \in A} \operatorname{Gini index} (D, a)$.
+#### Gini Impurity
+$$\boldsymbol{G}=\sum_{i=1}^c[p(i) *(1-p(i))]$$
+Gini Gain = original Gini impurity - weighted Gini impurities
+
+_higher the Gini Gain is better the split._
+
+---
+Classification Error $(\mathrm{CE})=1-\max \left[p_i\right]$
+Where, $\mathrm{k}$ is the number of classes
 
 
+## Continuous-Valued Attributes
+[Source](https://medium.com/geekculture/handling-continuous-attributes-in-decision-trees-bbc044986621)
+### two-way split
+-   A comparison bases test condition of the form `attribute >= v` involves the determination of v.
+-   It is easy to see that a brute force approach of trying out every single value of the continuous variable is computationally expensive.
+-   A better way for identifying the split candidates involves **sorting** the values of the continuous attribute and **taking the midpoint** of the adjacent values in the sorted array.
+
+### multiway split
+
+#### Equal Width
+- Converts the continuous data points into `n` categories each of equal width.
+- The number of categories is a **hyper-parameter**.
+- Sensitive to outliers.
+#### Equal Frequency
+- The **equal frequency** approach converts the continuous-valued attribute into `n` categories such that each category contains approximately the same number of data points.
+#### Clustering
+- More sophisticated methods involve the use of unsupervised clustering algorithms to define the optimal categories.
+
+## ![[Pruning]]
+---
+# Code
 ## Library Import
 ```py
 import pandas as pd

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kaggle/Decision Tree and Random Forest/Ridge Regression.md",
+                "file": "Juan/Finance Jargons/Options/Covered Call.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -34,38 +34,12 @@
             }
           },
           {
-            "id": "c6464b96a7c47152",
+            "id": "d2acab8d588dd7b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kaggle/Time Series.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbb2ae3af56bfd12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability, Measure and Martingales/4 Integration/Radon-Nikodym Theorem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "553ead5a6f7200cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability, Measure and Martingales/7 Filtrations and stopping times/Filtration.md",
+                "file": "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Martingales",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability, Measure and Martingales/7 Filtrations and stopping times/Filtration.md",
+                "file": "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability, Measure and Martingales/7 Filtrations and stopping times/Filtration.md"
+                "file": "Kaggle/Decision Tree and Random Forest/Decision Tree.md"
               }
             }
           },
@@ -177,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability, Measure and Martingales/7 Filtrations and stopping times/Filtration.md",
+                "file": "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,11 +166,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 225.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,17 +183,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "553ead5a6f7200cb",
+  "active": "d2acab8d588dd7b9",
   "lastOpenFiles": [
-    "Probability, Measure and Martingales/4 Integration/Radon-Nikodym Theorem.md",
-    "Kaggle/Time Series.md",
-    "README.md",
-    "Untitled.canvas",
-    "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
-    "Juan/Squarepoint.md",
-    "Kaggle/Decision Tree and Random Forest/Categorical Variables.md",
-    "Juan/Virtu Financial.md",
-    "Juan/OAF Stuffs/Statistical Arbitrage.md",
-    "Juan/OAF Stuffs/OAF Notes.md"
+    "Kaggle/Decision Tree and Random Forest/Random Forest.md",
+    "Statistics/1 Estimation/Multivariate Normal Distribution.md",
+    "Juan/Finance Jargons/Options/Black Scholes Equation.md",
+    "Juan/Finance Jargons/Options/Naked Call.md",
+    "Juan/Finance Jargons/Options/Covered Call.md",
+    "Juan/OAF Stuffs/Fixed Income Arbitrage.md",
+    "Juan/OAF Stuffs/OAF Notes.md",
+    "Juan/OAF Stuffs/High Frequency Trading.md",
+    "Juan/OAF Stuffs/OTC Trading.md",
+    "Juan/Finance Jargons/Lognormal Distribution.md"
   ]
 }
