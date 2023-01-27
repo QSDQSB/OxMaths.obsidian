@@ -26,56 +26,26 @@
     "2022/11/12": 912,
     "2022/11/13": 714,
     "2022/11/14": 1107,
-    "2022/11/15": 1390
+    "2022/11/15": 1427,
+    "2022/11/16": 161,
+    "2022/11/20": 420,
+    "2022/11/21": 536,
+    "2022/11/22": 5,
+    "2022/11/23": 720,
+    "2022/11/25": 1021,
+    "2022/11/26": 537,
+    "2023/0/1": 259,
+    "2023/0/14": 0,
+    "2023/0/16": 7,
+    "2023/0/17": 200,
+    "2023/0/19": 4,
+    "2023/0/26": 1029,
+    "2023/0/27": 5
   },
   "todaysWordCount": {
-    "Juan/Squarepoint.md": {
-      "initial": 1535,
-      "current": 1835
-    },
-    "Juan/OAF Stuffs/Black Scholes Equation.md": {
-      "initial": 0,
-      "current": 181
-    },
-    "Juan/OAF Stuffs/Finance Jargons/Call Option.md": {
-      "initial": 21,
-      "current": 182
-    },
-    "Juan/OAF Stuffs/Finance Jargons/Covered Call.md": {
-      "initial": 0,
-      "current": 135
-    },
-    "Juan/OAF Stuffs/Finance Jargons/Options/Call Option.md": {
-      "initial": 182,
-      "current": 257
-    },
-    "Juan/OAF Stuffs/Finance Jargons/Options/Naked Call.md": {
-      "initial": 90,
-      "current": 137
-    },
-    "Juan/Finance Jargons/Lognormal Distribution.md": {
-      "initial": 0,
-      "current": 328
-    },
-    "Juan/Finance Jargons/Options/Black Scholes Equation.md": {
-      "initial": 180,
-      "current": 285
-    },
-    "Juan/Finance Jargons/Options/Call Option.md": {
-      "initial": 257,
-      "current": 260
-    },
-    "Juan/Finance Jargons/Options/Covered Call.md": {
-      "initial": 135,
-      "current": 135
-    },
-    "Statistics/1 Estimation/Multivariate Normal Distribution.md": {
-      "initial": 214,
-      "current": 269
-    },
-    "Kaggle/Decision Tree and Random Forest/Random Forest.md": {
-      "initial": 253,
-      "current": 253
+    "A7 Numerical Analysis/Householder.md": {
+      "initial": 292,
+      "current": 297
     }
   }
 }

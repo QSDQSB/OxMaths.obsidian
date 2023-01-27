@@ -4,7 +4,7 @@ Taking the right-hand limit of $f$ at $c$ to be $$f\left(c_{+}\right)=\lim _{h \
 
 ### Definition: Piecewise Continuous
 $f$ is ***piecewise continuous*** on $(a, b) \subseteq \mathbb{R}$ if there exists a finite number of points $x_{1}, \ldots, x_{m} \in$ $\mathbb{R}$ with $a=x_{1}<x_{2}<\ldots<x_{m}=b$ such that
-1) $f$ is defined and [[continuous]] on $\left(x_{k}, x_{k+1}\right)$ for all $k=1, \ldots, m-1 ;$
+1) $f$ is defined and [[Continuous]] on $\left(x_{k}, x_{k+1}\right)$ for all $k=1, \ldots, m-1 ;$
 2) $f\left(x_{k+}\right)$ exists for $k=1, \ldots, m-1$;
 3) $f\left(x_{k-}\right)$ exists for $k=2, \ldots, m$.
 

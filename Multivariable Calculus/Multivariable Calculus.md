@@ -49,7 +49,7 @@ but this need not be the case if the integrand is continuous, but unbounded (She
 $$
 \int_{x=a_{1}}^{x=b_{1}} \int_{y=a_{2}}^{y=b_{2}}|f(x, y)| \mathrm{d} y \mathrm{~d} x \quad \text { or } \quad \int_{y=a_{2}}^{y=b_{2}} \int_{x=a_{1}}^{x=b_{1}}|f(x, y)| \mathrm{d} x \mathrm{~d} y
 $$
-exist, then we do have equality of the integrals in (1.1). This is a consequence of Tonelli's and [Fubini's](Fubini's%20Theorem) theorems.
+exist, then we do have equality of the integrals in (1.1). This is a consequence of Tonelli's and [Fubini's](Fubini's%20Theorem.md) theorems.
 
 ## 1.3 Change of Variables and Jacobians
 ### [[Moment of Inertia]]

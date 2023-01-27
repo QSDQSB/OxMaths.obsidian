@@ -1,15 +1,15 @@
 ---
 aliases: [decision trees]
 ---
-
+#ML
 ## Splitting Feature
 Different measures (**Information Gain**, **Gini Index**, **Gain ratio**) are used for determining the best possible split at each node of the decision tree.
 
 As the splitting process proceeds, we wish more samples within each node to belong to a single class, that is, increasing the **purity** of each node.
 
-One of the most commonly used measures for purity is information [[entropy]], or simply [[entropy]].
+One of the most commonly used measures for purity is information [[Entropy]], or simply [[Entropy]].
 ### Information Gain
-Suppose that the discrete feature $a$ has $V$ possible values $\left\{a^1, a^2, \ldots, a^V\right\}$. Then, splitting the data set $D$ by feature $a$ produces $V$ child nodes, where the $v$th child node $D^v$ includes all samples in $D$ taking the value $a^v$ for feature $a$. Then, the [[entropy]] of $D^v$ can be calculated using (4.1). Since there are different numbers of samples in the child nodes, a weight $\left|D^v\right| /|D|$ is assigned to reflect the importance of each node, that is, the greater the number of samples, the greater the impact of the branch node. Then, the **information gain** of splitting the data set $D$ with feature $a$ is calculated as
+Suppose that the discrete feature $a$ has $V$ possible values $\left\{a^1, a^2, \ldots, a^V\right\}$. Then, splitting the data set $D$ by feature $a$ produces $V$ child nodes, where the $v$th child node $D^v$ includes all samples in $D$ taking the value $a^v$ for feature $a$. Then, the [[Entropy]] of $D^v$ can be calculated using (4.1). Since there are different numbers of samples in the child nodes, a weight $\left|D^v\right| /|D|$ is assigned to reflect the importance of each node, that is, the greater the number of samples, the greater the impact of the branch node. Then, the **information gain** of splitting the data set $D$ with feature $a$ is calculated as
 $$
 \operatorname{Gain}(D, a)=\operatorname{Ent}(D)-\sum_{v=1}^V \frac{\left|D^v\right|}{|D|} \operatorname{Ent}\left(D^v\right) .
 $$
@@ -29,7 +29,7 @@ where
 $$
 \operatorname{IV}(a)=-\sum_{v=1}^V \frac{\left|D^v\right|}{|D|} \log _2 \frac{\left|D^v\right|}{|D|}
 $$
-is called the *intrinsic value* of feature $a$. $\operatorname{IV}(a)$ is large when feature a has **many** possible values (i.e., large V).
+is called the *intrinsic value* of feature $a$. $\operatorname{IV}(a)$ is large when feature $a$ has **many** possible values (i.e., large $V$).
 
 In contrast to information gain, the gain ratio is biased toward features with **fewer possible values**.
 

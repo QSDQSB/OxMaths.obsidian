@@ -1,7 +1,7 @@
 ## Integration by Parts
 #Analysis 
 ### Proposition 4.5
-Suppose that $f, g:[a, b] \rightarrow \mathbb{R}$ are [[continuous]] functions, differentiable on $(a, b)$. Suppose that the derivatives $f^{\prime}, g^{\prime}$ are [[integrable]] on $(a, b) .$
+Suppose that $f, g:[a, b] \rightarrow \mathbb{R}$ are [[Continuous]] functions, differentiable on $(a, b)$. Suppose that the derivatives $f^{\prime}, g^{\prime}$ are [[integrable]] on $(a, b) .$
 Then $f g^{\prime}$ and $f^{\prime} g$ are integrable on $(a, b)$, and
 $$
 \int_{a}^{b} f g^{\prime}=f(b) g(b)-f(a) g(a)-\int_{a}^{b} f^{\prime} g.

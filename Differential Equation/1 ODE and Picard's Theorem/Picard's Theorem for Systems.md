@@ -61,7 +61,7 @@ Then there exists $0<\eta \leq h$, such that the has a unique solution for $x \i
 
 #### Proof
 ##### Complete Metric Space
-We will work in the new [[complete]] metric space: $\mathcal{C}_{\eta}:=\mathcal{c}\left([a-\eta, a+\eta] ; B_{k}(\underline{b})\right)$, the space of continuous functions mapping from $[a-\eta, a+\eta]$ to $B_{k}(\underline{b})$ with [[norm]] (or distance) on $\mathcal{C}_{\eta}$ defined by
+We will work in the new [[Complete]] metric space: $\mathcal{C}_{\eta}:=\mathcal{c}\left([a-\eta, a+\eta] ; B_{k}(\underline{b})\right)$, the space of continuous functions mapping from $[a-\eta, a+\eta]$ to $B_{k}(\underline{b})$ with [[Norm]] (or distance) on $\mathcal{C}_{\eta}$ defined by
 
 $$\|\underline{y}\|_{\text {sup }}=\sup _{x \in[a-\eta, a+\eta]}\|\underline{y}(x)\|_{1}\left(:=\sup _{x \in[a-\eta, a+\eta]}\left(\left|y_{1}(x)\right|+\left|y_{2}(x)\right|\right) .\right)$$
 
@@ -75,7 +75,7 @@ where by the integral we mean that we integrate componentwise.
 Define $$(T \underline{y})(x)=\underline{b}+\int_{a}^{x} \underline{f}(s, \underline{y}(s)) d s$$
 
 ##### Proof by CMT
-As before we can now work in the complete metric space $\mathcal{C}_{\eta}$, to show that, provided we choose $\eta<\min \{h, k / M, 1 / L\}$, then $T: \mathcal{C}_{\eta} \rightarrow \mathcal{C}_{\eta}$ and is a [[contraction]].
+As before we can now work in the complete metric space $\mathcal{C}_{\eta}$, to show that, provided we choose $\eta<\min \{h, k / M, 1 / L\}$, then $T: \mathcal{C}_{\eta} \rightarrow \mathcal{C}_{\eta}$ and is a [[Contraction]].
 Again we can extend the range of the solution to all $x \in[a-h, a+h]$, by iteration.
 
 ### Corollary 1.7

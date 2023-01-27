@@ -2,7 +2,7 @@
 aliases: [gradient boosting machines, GBM, GB, boosting]
 ---
 [🍳](https://bradleyboehmke.github.io/HOML/gbm.html#ref-freund1999adaptive)
-
+#ML
 Whereas [[Random Forest|random forests]] build an ensemble of deep independent trees, GBMs build an ensemble of shallow trees in sequence with each tree learning and improving on the previous one.
 
 ### Main Idea

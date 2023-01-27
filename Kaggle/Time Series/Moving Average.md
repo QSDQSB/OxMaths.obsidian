@@ -1,3 +1,5 @@
+#ML 
+
 Also in [[Time Series#Moving Average]]
 
 >记得加`.mean()`，不然得到的type是一个`rolling`。

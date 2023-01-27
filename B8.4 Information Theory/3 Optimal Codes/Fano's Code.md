@@ -1,0 +1,6 @@
+Fanon suggested a different construction that is also very simple to implement. Given a pmf $p$ on $\mathcal{X}=\{1, \cdots, m\}$ with $X \sim p$ and $p_i=p\left(x_i\right)$, and a finite set $\mathcal{Y}$ with $d=|\mathcal{Y}|$, Fano gave an explicit construction for a $d$-ary [[Classes of Codes|prefix code]]. In the case of a binary encoding the construction is as follows:
+1) Order the symbols by their probability decreasingly, and assume (by relabelling) that $p_1 \geq \cdots \geq p_m$;
+2) Find $r$ that minimises $\left|\sum_{i \leq r} p_i-\sum_{i>r} p_i\right|$ and split $\mathcal{X}$ into two groups $\mathcal{X}_0:=\left\{x_i: i \leq r\right\}$ and $\mathcal{X}_1:=\left\{x_i: i>r\right\}$
+3) Define the first digit of the codewords for $\mathcal{X}_0$ as 0 and for $\mathcal{X}_1$ as 1 ,
+4) Repeat Steps (2) and (3) recursively until we can not split anymore.
+Above construction leads to the so-called Fano-code (also called Shannon-Fano code) $c_F: \mathcal{X} \longrightarrow \mathcal{Y}^*$. As for the Shannon code, it can be shown that $\mathbb{E}\left[\left|c_F(X)\right|\right] \leq H_d(X)+2$, that the Fano code is a [[Classes of Codes|prefix code]] and that in general the Fano code is not [[Optimal Codes|optimal]].

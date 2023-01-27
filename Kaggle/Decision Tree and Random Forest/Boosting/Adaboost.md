@@ -1,3 +1,4 @@
+#ML 
 https://blog.paperspace.com/adaboost-optimizer/
 
 AdaBoost is an ensemble learning method, AdaBoost uses an iterative approach to learn from the mistakes of weak classifiers, and turn them into strong ones.

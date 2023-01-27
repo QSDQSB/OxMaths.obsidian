@@ -1,6 +1,8 @@
 ---
 aliases: [lasso penalty]
 ---
+#ML 
+
 ==Least Absolute Shrinkage and Selection Operator==
 
 > https://towardsdatascience.com/from-linear-regression-to-ridge-regression-the-lasso-and-the-elastic-net-4eaecaf5f7e6

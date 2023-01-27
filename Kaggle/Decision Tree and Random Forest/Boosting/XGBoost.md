@@ -1,6 +1,7 @@
 ---
 aliases: [extreme gradient boosting]
 ---
+#ML
 ## Pros of XGBoost
 -   **Regularization**: XGBoost offers additional regularization hyperparameters, which we will discuss shortly, that provides added protection against overfitting.
 - **Early stopping**: XGBoost implements ***early stopping*** so that we can stop model assessment when additional trees offer no improvement.

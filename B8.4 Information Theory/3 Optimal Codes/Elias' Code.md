@@ -1,0 +1,4 @@
+
+Given a pmf $p$ on $\mathcal{X}=\{1, \cdots, m\}$ with $p_i=p\left(x_i\right)$ and $X \sim p$, and a set $\mathcal{Y}$ of cardinality $d$. Define the Elias code (alos Shannon-Fano-Elias code) $c_E\left(x_i\right)$ as the first $\left\lceil-\log _d\left(p_i\right)\right\rceil+1$ digits in the $d$-ary expansion of the real number $\sum_{i<r} p_i+\frac{p_r}{2}$.
+
+As above, one can show that $H_d(X)+1 \leq \mathbb{E}\left[\left|c_E(X)\right|\right] \leq H_d(X)+2$. Although it is less efficient than above codes, this construction has the big advantage that we do not need to order the elements of $\mathcal{X}$ by their probabilities. Further, it is a precursor of so-called arithmetic coding.

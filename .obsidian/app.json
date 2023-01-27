@@ -87,7 +87,7 @@
   ],
   "foldIndent": true,
   "readableLineLength": true,
-  "showFrontmatter": false,
+  "showFrontmatter": true,
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
   "fileSortOrder": "alphabetical",

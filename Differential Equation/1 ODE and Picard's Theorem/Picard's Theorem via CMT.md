@@ -10,7 +10,7 @@ Define $\mathcal{C}_{h, k}=\mathcal{C}([a-h, a+h] ;[b-k, b+k])$, the space of co
 $$
 d(y, z):=\|y-z\|_{\text {sup }}:=\sup _{x \in[a-h, a+h]}|y(x)-z(x)|
 $$
-then $\left(\mathcal{C}_{h, k}, d\right)$ is a [[complete]] [[metric space]] (we call $\|\cdot\|_{\text {sup }}$ the "sup norm").
+then $\left(\mathcal{C}_{h, k}, d\right)$ is a [[Complete]] [[Metric Space]] (we call $\|\cdot\|_{\text {sup }}$ the "sup norm").
 
 ---
 ### Picard's Existence Theorem
@@ -32,7 +32,7 @@ $$
 
 then we can write (1.22) as a **fixed point problem**
 $$y=T y$$
-We will work in the complete metric space $\mathcal{C}_{\eta, k}=\mathcal{C}([a-\eta, a+\eta] ;[b-k, b+k])$, where we will choose $\eta \leq h$ so that $T: \mathcal{C}_{\eta, k} \rightarrow \mathcal{C}_{\eta, k}$ and so that $T$ is a [[contraction]].
+We will work in the complete metric space $\mathcal{C}_{\eta, k}=\mathcal{C}([a-\eta, a+\eta] ;[b-k, b+k])$, where we will choose $\eta \leq h$ so that $T: \mathcal{C}_{\eta, k} \rightarrow \mathcal{C}_{\eta, k}$ and so that $T$ is a [[Contraction]].
 
 ---
 We begin by proving Claim 1: ==If $\eta>0$ is so that $M \eta \leq k$ then $T: \mathcal{C}_{\eta, k} \rightarrow \mathcal{C}_{\eta, k}$==
@@ -51,7 +51,7 @@ $$
 provided $M \eta \leq k .$
 
 ---
-Claim 2: ==If $L \eta<1$ then $T$ is a [[contraction]] (with $K=L \eta)$==
+Claim 2: ==If $L \eta<1$ then $T$ is a [[Contraction]] (with $K=L \eta)$==
 ##### Proof of Claim 2
 Given $y, z \in C_{\eta, k}$ we can bound
 $$
@@ -65,7 +65,7 @@ $$
 where $K:=\eta L<1$ provided $\eta<1 / L$.
 
 ---
-If we hence choose $\eta<\min \{h, k / M, 1 / L\}$ then $\mathrm{T}$ satisfies the conditions of the [[contraction mapping theorem]] and has a unique fixed point, $y(x) .$ So we have established that the initial value problem has a unique solution on the interval $[a-\eta, a+\eta]$.
+If we hence choose $\eta<\min \{h, k / M, 1 / L\}$ then $\mathrm{T}$ satisfies the conditions of the [[Contraction Mapping Theorem]] and has a unique fixed point, $y(x) .$ So we have established that the initial value problem has a unique solution on the interval $[a-\eta, a+\eta]$.
 
 #### Corollary 1.5
 If $Mh \leq k$, then the initial value problem has a unique solution on the whole interval $[a-h, a+h]$.
@@ -96,7 +96,7 @@ $$
 \leq M h \leq k
 \end{array}
 $$
-Also $T_{1}$ is a [[contraction]] as the proof of claim 2 only requires that the length of the interval we work on, which for $T_{1}$ is $\eta_{2}-\eta_{1}$, is less than $1 / L .$ Thus we obtain the existence of a unique solution on $\left[a, a+\eta_{2}\right]$.
+Also $T_{1}$ is a [[Contraction]] as the proof of claim 2 only requires that the length of the interval we work on, which for $T_{1}$ is $\eta_{2}-\eta_{1}$, is less than $1 / L .$ Thus we obtain the existence of a unique solution on $\left[a, a+\eta_{2}\right]$.
 
 Repeating this argument, both in positive and negative direction, we continue to be able to extend the solution and after finitely many steps have reached the endpoint $a+h$ of the original interval, since we can carry out each step except the very last one (where we will be able to choose $\eta_{j}=h$ since we'll have $\left.h-\eta_{j-1}<\frac{1}{L}\right)$ with the same 'stepsize' $\eta_{k}-\eta_{k-1}=\eta_{1}$.
 

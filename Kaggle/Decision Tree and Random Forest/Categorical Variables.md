@@ -2,6 +2,7 @@
 ```py
 X.FullBath = pd.Categorical(X.FullBath)
 ```
+#ML
 ### Get Number of Unique Elements 
 ```py
 # Get number of unique entries in each column with categorical data

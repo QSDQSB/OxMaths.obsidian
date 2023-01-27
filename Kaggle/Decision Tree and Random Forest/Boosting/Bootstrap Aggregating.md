@@ -1,6 +1,7 @@
 ---
 aliases: [bagging]
 ---
+#ML
 _Bootstrap aggregating_ (bagging) prediction models is a general method for fitting multiple versions of a prediction model and then combining (or ensembling) them into an aggregated prediction.
 
 Bagging is a fairly straight forward algorithm in which $b$ bootstrap copies of the original training data are created, the regression or classification algorithm (commonly referred to as the _base learner_) is applied to each bootstrap sample and, in the regression context, new predictions are made by **averaging** the predictions together from the individual base learners.

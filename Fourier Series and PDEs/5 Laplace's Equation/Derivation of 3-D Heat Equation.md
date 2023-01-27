@@ -16,7 +16,7 @@ $$
 where $\mathbf{n}$ is the outward pointing unit normal to $\partial V$.
 
 #### [[Green's Theorem]] in the plane
-Let $R$ be a region in the $(x, y)$-plane, whose boundary $\partial R$ is a piecewise smooth simple closed curve. Let $\mathbf{G}(x, y)$ be a vector field with [[continuous]] first-order partial derivatives on $R \cup \partial R$. Then
+Let $R$ be a region in the $(x, y)$-plane, whose boundary $\partial R$ is a piecewise smooth simple closed curve. Let $\mathbf{G}(x, y)$ be a vector field with [[Continuous]] first-order partial derivatives on $R \cup \partial R$. Then
 
 $$
 \iint_{R} \boldsymbol{\nabla} \cdot \mathbf{G} \mathrm{d} x \mathrm{~d} y=\int_{\partial R} \mathbf{G} \cdot \mathbf{n} \mathrm{d} s,

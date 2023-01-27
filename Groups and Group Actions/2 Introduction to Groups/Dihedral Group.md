@@ -1,7 +1,7 @@
 ## Dihedral Group
 #Groups 
 ### Definition
-Let $P_{n}$ be a regular $n$ -gon in the plane (here $n \geq 3$ ). For $n \geq 3$, define the $n^{\text {th }}$ [[Dihedral Group]] $D_{2 n}$ to be the set of [isometries](Isometry) of the plane that send $P_{n}$ to $P_{n}$. These isometries are called symmetries of $P_{n}$.
+Let $P_{n}$ be a regular $n$ -gon in the plane (here $n \geq 3$ ). For $n \geq 3$, define the $n^{\text {th }}$ [[Dihedral Group]] $D_{2 n}$ to be the set of [isometries](Isometry.md) of the plane that send $P_{n}$ to $P_{n}$. These isometries are called symmetries of $P_{n}$.
 
 ### Presentation
 $D_{2 n}=\left\langle r, s: r^{n}=e=s^{2}, s r=r^{-1} s\right\rangle .$

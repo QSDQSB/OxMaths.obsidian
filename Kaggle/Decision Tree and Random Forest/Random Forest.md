@@ -1,6 +1,7 @@
 ---
 aliases: [random forests]
 ---
+#ML 
 
 - _Random forests_ are a modification of [[Bootstrap Aggregating|bagged]] [[Decision Tree|decision trees]] that build a large collection of _de-correlated_ trees to further improve predictive performance.
 - [[Bootstrap Aggregating|Bagging]] trees introduces a random component into the tree building process by building many trees on bootstrapped copies of the training data.

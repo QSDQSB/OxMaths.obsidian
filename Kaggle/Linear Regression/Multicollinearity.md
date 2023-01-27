@@ -1,4 +1,6 @@
 
+#ML 
+
 ## Consequences
 1. Perfect [[multicollinearity]] makes the design matrix $X$ not full-rank, therefore $X^TX$ not invertible, i.e. the ordinary least square estimator $\hat{\beta}_{O L S}=\left(X^{\top} X\right)^{-1} X^{\top} y$ does not exist.
 2. 

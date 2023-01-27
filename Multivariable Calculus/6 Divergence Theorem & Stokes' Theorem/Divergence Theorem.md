@@ -154,7 +154,7 @@ $$
 $$
 ## Applications of the Divergence Theorem
 ### Uniqueness of the [[Dirichlet Boundary Condition]]
-Let $R \subseteq \mathbb{R}^{3}$ be a path-connected region with piecewise smooth boundary $\partial R$ and let $f$ be a [[continuous]] function defined on $\partial R$. Suppose that $\phi_{1}$ and $\phi_{2}$ are such that
+Let $R \subseteq \mathbb{R}^{3}$ be a path-connected region with piecewise smooth boundary $\partial R$ and let $f$ be a [[Continuous]] function defined on $\partial R$. Suppose that $\phi_{1}$ and $\phi_{2}$ are such that
 $$
 \begin{array}{r}
 \nabla^{2} \phi_{1}=0=\nabla^{2} \phi_{2} \text { in } R ; \\

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "06db81826ea869fa",
+        "id": "cb6f08ef8616bc2a",
         "type": "tabs",
         "children": [
           {
-            "id": "f5a01ea302b34480",
+            "id": "621c14bd368c01d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applied Statistics/2 Model Checking and Model Selection/Akaike Information Criterion.md",
+                "file": "SB1.2 Computational Statistics/Wilcoxon Rank Sum Test.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "f6c29ffa4b0b251b",
+            "id": "afa12511c922e6f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juan/Finance Jargons/Options/Covered Call.md",
+                "file": "Juan/Finance Jargons/Lognormal Distribution.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -34,12 +34,38 @@
             }
           },
           {
-            "id": "d2acab8d588dd7b9",
+            "id": "e8c5de51d453c66c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
+                "file": "B6.2 Optimisation for DS/Method of Steepest Descent.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e76289e782ccc0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SB1.2 Computational Statistics/Permutation Test.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98b9bf9b04be700c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SB1.2 Computational Statistics/Wilcoxon Rank Sum Test.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -97,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.50260543823242
+    "width": 200
   },
   "right": {
     "id": "ce9d5487f3afea6e",
@@ -124,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
+                "file": "B6.2 Optimisation for DS/Method of Steepest Descent.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kaggle/Decision Tree and Random Forest/Decision Tree.md"
+                "file": "B6.2 Optimisation for DS/Method of Steepest Descent.md"
               }
             }
           },
@@ -151,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
+                "file": "B6.2 Optimisation for DS/Method of Steepest Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -183,17 +209,17 @@
       "random-note:Open random note": false
     }
   },
-  "active": "d2acab8d588dd7b9",
+  "active": "e8c5de51d453c66c",
   "lastOpenFiles": [
-    "Kaggle/Decision Tree and Random Forest/Random Forest.md",
-    "Statistics/1 Estimation/Multivariate Normal Distribution.md",
-    "Juan/Finance Jargons/Options/Black Scholes Equation.md",
-    "Juan/Finance Jargons/Options/Naked Call.md",
-    "Juan/Finance Jargons/Options/Covered Call.md",
-    "Juan/OAF Stuffs/Fixed Income Arbitrage.md",
-    "Juan/OAF Stuffs/OAF Notes.md",
-    "Juan/OAF Stuffs/High Frequency Trading.md",
-    "Juan/OAF Stuffs/OTC Trading.md",
-    "Juan/Finance Jargons/Lognormal Distribution.md"
+    "A7 Numerical Analysis/Householder.md",
+    "B6.2 Optimisation for DS/Method of Steepest Descent.md",
+    "Juan/Finance Jargons/Lognormal Distribution.md",
+    "Juan/Finance Jargons/Options/Call Option.md",
+    "SB1.2 Computational Statistics/Monte Carlo Wilcoxon rank sum permutation test.md",
+    "SB1.2 Computational Statistics/Wilcoxon Rank Sum Test.md",
+    "SB1.2 Computational Statistics/Permutation Test.md",
+    "SB1.2 Computational Statistics/Exchangeable.md",
+    "What to Choose in Part B.md",
+    "Juan/Finance Jargons/Options/Black Scholes Equation.md"
   ]
 }

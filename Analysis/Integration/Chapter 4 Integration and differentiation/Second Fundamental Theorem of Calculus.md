@@ -1,7 +1,7 @@
 ## Second fundamental theorem of Calculus
 #Analysis
 >
-Suppose that $F:[a, b] \rightarrow \mathbb{R}$ is [[continuous]] on $[a, b]$ and [[differentiable]] on $(a, b)$. Suppose furthermore that its derivative $F^{\prime}$ is [[integrable]] on $(a, b)$. Then
+Suppose that $F:[a, b] \rightarrow \mathbb{R}$ is [[Continuous]] on $[a, b]$ and [[differentiable]] on $(a, b)$. Suppose furthermore that its derivative $F^{\prime}$ is [[integrable]] on $(a, b)$. Then
 >$$
 \int_{a}^{b} F^{\prime}=F(b)-F(a).
 >$$

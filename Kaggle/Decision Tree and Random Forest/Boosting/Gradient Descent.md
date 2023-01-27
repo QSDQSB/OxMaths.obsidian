@@ -1,5 +1,5 @@
 [[Gradient Boosting]] is considered a **_gradient descent_** algorithm.
-
+#ML
 -  The general idea of gradient descent is to tweak parameter(s) iteratively in order to minimise a cost function.
 - Gradient descent can be performed on any loss function that is differentiable.
 - An important parameter in gradient descent is the size of the steps which is controlled by the ___learning rate___.
