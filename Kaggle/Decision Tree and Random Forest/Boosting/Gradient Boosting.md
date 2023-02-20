@@ -15,15 +15,15 @@ Boosting is a framework that iteratively improves _any_ weak learning model. I
 
 #### Weak Models Training
 - A weak model is one whose error rate is only slightly better than random guessing.
-- With regards to decision trees, shallow trees (i.e., trees with relatively few splits) represent a weak learner. In boosting, trees with 1–6 splits are most common.
+- With regards to [[Decision Tree|decision trees]], shallow trees (i.e., trees with relatively few splits) represent a weak learner. In boosting, trees with 1–6 splits are most common.
 
 #### Sequential Training
 Boosted trees are grown sequentially; each tree is grown using information from previously grown trees to improve performance.
 
-1. Fit a decision tree to the data: $F_1(x)=y$,
+1. Fit a [[decision tree]] to the data: $F_1(x)=y$,
 2. We then fit the next decision tree to the residuals of the previous: $h_1(x)=y-F_1(x)$,
 3. Add this new tree to our algorithm: $F_2(x)=F_1(x)+h_1(x)$,
-4. Fit the next decision tree to the residuals of $F_2: h_2(x)=y-F_2(x)$,
+4. Fit the next [[decision tree]] to the residuals of $F_2: h_2(x)=y-F_2(x)$,
 5. Add this new tree to our algorithm: $F_3(x)=F_2(x)+h_2(x)$
 6. Continue this process until some mechanism (i.e. cross validation) tells us to stop.
 ### Dropout

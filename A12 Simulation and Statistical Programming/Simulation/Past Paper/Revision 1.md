@@ -41,7 +41,7 @@ rlaplace = function(mu=0, lambda=1) {
 3) $$\alpha = \min\{  1, \frac{q(x|y)p(y)}{q(y|x)p(x)} \}$$
 
 ### (d)
-[5 marks] Write an $\mathrm{R}$ function MHstep ( ) to perform a single Metropolis-Hastings step. It should have the following arguments:
+[5 marks] Write an $\mathrm{R}$ function MHstep ( ) to perform a single [[Metropolis Hastings Markov Chain Monte Carlo algorithm|Metropolis-Hastings]] step. It should have the following arguments:
 - $x$, the current state of the [[Markov chain]];
 - $p$, a function of one variable $\mathrm{x}$ that returns the density of a target distribution $p$;
 - $q$, a function of two variables $\mathrm{x}$ and $\mathrm{y}$ that returns the density of the proposal distribution $q(y \mid x)$.
@@ -49,7 +49,7 @@ rlaplace = function(mu=0, lambda=1) {
 
 The function should propose a new state to move to using the function q, perform the [[Metropolis Hastings Markov Chain Monte Carlo algorithm|Metropolis-Hastings]] step, and return a list containing
 - x, the new state of the [[Markov chain]];
-- move, an indicator of whether or not the chain moved from its previous step.
+- move, an indicator of whether or not the [[Markov chain|chain]] moved from its previous step.
 
 #### Solution
 ```R

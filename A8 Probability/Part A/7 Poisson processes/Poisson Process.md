@@ -1,8 +1,7 @@
 ---
-aliases: [process, Poisson processes]
+aliases: [Poisson processes]
+tags: [Probability]
 ---
-# Poisson Process
-#Probability 
 
 ## Definition
 Let $\lambda>0$. We will give two different definitions for what it means to be a Poisson process of rate $\lambda$. Afterwards we will show that these definitions are equivalent.
@@ -107,7 +106,7 @@ Consider a sequence of independent Bernoulli trials. In each trial (or time-slot
 
 Now consider $n$ large. Let $p=\lambda / n$, and rescale time by a factor of $1 / n$, so that a timeinterval of length $t$ corresponds to a run of $t n$ trials. Then the number of events in a timeinterval of length $t$ has $\operatorname{Binomial}(t n, \lambda / n)$ distribution, which is approximately $\operatorname{Poisson}(\lambda t)$, while the times between consecutive successes have Geometric $(\lambda / n)$ distribution rescaled by $1 / n$, which is approximately $\operatorname{Exp}(\lambda)$.
 
-So indeed, as $n \rightarrow \infty$, we obtain a continuous-time process in which the interarrival times are independent exponentials, and the increments on disjoint intervals are independent Poisson random variables. So we can see this exponential/Poisson relationship in the [[Poisson Process]] as a limit of the geometric/binomial relationship which is already familiar from sequences of independent trials.
+So indeed, as $n \rightarrow \infty$, we obtain a continuous-time process in which the interarrival times are independent exponentials, and the increments on disjoint intervals are independent Poisson random variables. So we can see this exponential/Poisson relationship in the [[Poisson Process]] as a limit of the geometric/binomial relationship which is already familiar from sequences of [[independent]] trials.
 
 ```ad-example
 title: Example 7.8
@@ -128,6 +127,22 @@ $$
 &=3 / 5
 \end{aligned}
 $$
-(In fact, it is not a coincidence that here the answer is the ratio of the rate of the "existing customer" [[Poisson Process|process]] to the rate of the two processes combined. This fact follows from Remark 7.7; we can consider a single process of rate 5 and "mark" each point with probability $3 / 5$, to arrive at two independent processes with rates 3 and 2. In particular, the probability that the first point is marked is then $3 / 5$.)
+(In fact, it is not a coincidence that here the answer is the ratio of the rate of the "existing customer" [[Poisson Process|process]] to the rate of the two processes combined. This fact follows from Remark 7.7; we can consider a single process of rate 5 and "mark" each point with probability $3 / 5$, to arrive at two [[independent]] processes with rates 3 and 2. In particular, the probability that the first point is marked is then $3 / 5$.)
 3) The process of calls resulting in contracts is a thinning of the process of calls from potential new customers. This gives us a new [[Poisson process]] of rate $1 / 4 \times 2=1 / 2$. So the total number of calls resulting in new contracts in a given time interval of length 60 has Poisson(30) distribution.
 ```
+
+# From Applied Probability
+
+## Third Alternative Definition
+```ad-definition
+title: Infinitesimal definition
+Suppose $X=\left(X_t\right)_{t \geq 0}$ is a right-continuous integer-valued increasing process started from 0. Then $X$ is a Poisson process of rate $\lambda>0$ if and only if it has independent increments and, as $h \downarrow 0$, uniformly in $t$,
+$$
+\mathbb{P}\left(X_{t+h}-X_t=0\right)=1-\lambda h+o(h), \quad \mathbb{P}\left(X_{t+h}-X_t=1\right)=\lambda h+o(h) .
+$$
+```
+## Theorem 2.11
+Let $X=\left(X_t\right)_{t \geq 0}$ be a Poisson process. Then conditional on $\left\{X_t=n\right\}$ the jump times $T_1, T_2, \ldots, T_n$ have the same distribution as an *ordered* sample of size $n$ from the uniform distribution on $[0, t]$.
+
+[[#Superposition of Poisson Process]]
+[[#Thinning of Poisson Process]]

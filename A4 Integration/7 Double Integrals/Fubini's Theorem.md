@@ -1,6 +1,7 @@
-# Fubini's Theorem
-
-#Integration 
+---
+aliases: [Fubini]
+tags: [Integration]
+---
 ```ad-theorem
 title: Fubini's Theorem
 Let $f: \mathbb{R}^{2} \rightarrow \mathbb{R}$ be integrable. Then, for almost all $y$, the function $x \mapsto f(x, y)$ is integrable. Moreover, if $F(y)$ is defined (for almost all y) by $F(y)=\int f(x, y) d x$, then $F$ is integrable, and

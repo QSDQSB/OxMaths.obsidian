@@ -8,72 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "621c14bd368c01d1",
+            "id": "c1b9a8975f5892bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SB1.2 Computational Statistics/Wilcoxon Rank Sum Test.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afa12511c922e6f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Juan/Finance Jargons/Lognormal Distribution.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8c5de51d453c66c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B6.2 Optimisation for DS/Method of Steepest Descent.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e76289e782ccc0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SB1.2 Computational Statistics/Permutation Test.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98b9bf9b04be700c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SB1.2 Computational Statistics/Wilcoxon Rank Sum Test.md",
+                "file": "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#OptimisationforDS",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,14 +97,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B6.2 Optimisation for DS/Method of Steepest Descent.md",
+                "file": "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -167,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B6.2 Optimisation for DS/Method of Steepest Descent.md"
+                "file": "Kaggle/Decision Tree and Random Forest/Cross Validation.md"
               }
             }
           },
@@ -177,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B6.2 Optimisation for DS/Method of Steepest Descent.md",
+                "file": "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -209,17 +156,33 @@
       "random-note:Open random note": false
     }
   },
-  "active": "e8c5de51d453c66c",
+  "active": "c1b9a8975f5892bc",
   "lastOpenFiles": [
-    "A7 Numerical Analysis/Householder.md",
-    "B6.2 Optimisation for DS/Method of Steepest Descent.md",
-    "Juan/Finance Jargons/Lognormal Distribution.md",
-    "Juan/Finance Jargons/Options/Call Option.md",
-    "SB1.2 Computational Statistics/Monte Carlo Wilcoxon rank sum permutation test.md",
-    "SB1.2 Computational Statistics/Wilcoxon Rank Sum Test.md",
-    "SB1.2 Computational Statistics/Permutation Test.md",
-    "SB1.2 Computational Statistics/Exchangeable.md",
-    "What to Choose in Part B.md",
-    "Juan/Finance Jargons/Options/Black Scholes Equation.md"
+    "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
+    "Kaggle/Decision Tree and Random Forest/Random Forest.md",
+    "Kaggle/Decision Tree and Random Forest/Get_Dummies Examples.md",
+    "Kaggle/Decision Tree and Random Forest/Boosting/XGBoost.md",
+    "Kaggle/Decision Tree and Random Forest/Boosting/Gradient Boosting.md",
+    "Kaggle/Decision Tree and Random Forest/Boosting/Bootstrap Aggregating.md",
+    "Kaggle/Decision Tree and Random Forest/Boosting/Adaboost.md",
+    "Kaggle/Decision Tree and Random Forest/Mean Absolute Error.md",
+    "Kaggle/Decision Tree and Random Forest/Pipelines.md",
+    "Kaggle/Decision Tree and Random Forest/Pruning.md",
+    "Kaggle/Linear Regression/Ridge Regression.md",
+    "Kaggle/Linear Regression/Lasso Regression.md",
+    "SB1.1 Applied Statistics/Generalised Linear Model/Generalised Linear Model.md",
+    "Kaggle/Comparison of Models.md",
+    "Kaggle/Time Series/Multivariate Adaptive Regression Splines.md",
+    "Kaggle/Time Series/Moving Average.md",
+    "Kaggle/Intro to ML/Underfitting and Overfitting.md",
+    "Kaggle/Decision Tree and Random Forest/Categorical Variables.md",
+    "Kaggle/Decision Tree and Random Forest/Data Leakage.md",
+    "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
+    "Kaggle/Linear Regression/Multicollinearity.md",
+    "A9 Statistics/3 Hypothesis Testing/Likelihood Ratio Statistic.md",
+    "A9 Statistics/3 Hypothesis Testing/Likelihood ratio test.md",
+    "A9 Statistics/2 Confidence Intervals/chi-square distribution.md",
+    "A9 Statistics/3 Hypothesis Testing/Hypothesis Testing.md",
+    "A9 Statistics/3 Hypothesis Testing/Neyman–Pearson lemma.md"
   ]
 }

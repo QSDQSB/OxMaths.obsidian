@@ -1,6 +1,5 @@
-# Hypothesis Testing
-#Statistics 
 
+#Statistics 
 Let $X_{1}, \ldots, X_{n}$ be a random sample from $f(x ; \theta)$ where $\theta \in \Theta$ is a scalar or vector parameter.
 #### Terminology
 ==null hypothesis== $H_{0}: \theta \in \Theta_{0}$
