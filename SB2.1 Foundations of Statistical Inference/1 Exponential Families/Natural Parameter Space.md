@@ -1,3 +1,4 @@
+#FOSI 
 ## Definition
 The [[Natural Parameter Space]] is defined to be
 $$

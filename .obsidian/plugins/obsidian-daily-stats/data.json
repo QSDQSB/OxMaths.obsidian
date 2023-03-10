@@ -46,12 +46,14 @@
     "2023/1/2": 317,
     "2023/1/6": 59,
     "2023/1/10": 1,
-    "2023/1/19": 0
+    "2023/1/19": 0,
+    "2023/2/1": 1,
+    "2023/2/5": 88
   },
   "todaysWordCount": {
-    "A9 Statistics/3 Hypothesis Testing/Hypothesis Testing.md": {
-      "initial": 955,
-      "current": 955
+    "A12 Simulation and Statistical Programming/Statistical Programming/R-plot.md": {
+      "initial": 0,
+      "current": 88
     }
   }
 }

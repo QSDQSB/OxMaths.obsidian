@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
+                "file": "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
+                "file": "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kaggle/Decision Tree and Random Forest/Cross Validation.md"
+                "file": "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
+                "file": "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -158,6 +158,19 @@
   },
   "active": "c1b9a8975f5892bc",
   "lastOpenFiles": [
+    "Kaggle/Learning Pandas.md",
+    "Kaggle/Intro to ML/Pandas.md",
+    "A12 Simulation and Statistical Programming/Statistical Programming/R-plot.md",
+    "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md",
+    "SB2.1 Foundations of Statistical Inference/1 Exponential Families/Natural Parameter Space.md",
+    "SB3.1 Applied Probability/Yule Process.md",
+    "Kaggle/Linear Regression/Lasso Regression.md",
+    "Kaggle/Linear Regression/Ridge Regression.md",
+    "A9 Statistics/3 Hypothesis Testing/Likelihood Ratio Statistic.md",
+    "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
+    "A8 Probability/Part A/5 Markov Chains/Recurrent.md",
+    "A12 Simulation and Statistical Programming/Statistical Programming/R-Apply.md",
+    "What to Choose in Part B.md",
     "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
     "Kaggle/Decision Tree and Random Forest/Random Forest.md",
     "Kaggle/Decision Tree and Random Forest/Get_Dummies Examples.md",
@@ -168,21 +181,8 @@
     "Kaggle/Decision Tree and Random Forest/Mean Absolute Error.md",
     "Kaggle/Decision Tree and Random Forest/Pipelines.md",
     "Kaggle/Decision Tree and Random Forest/Pruning.md",
-    "Kaggle/Linear Regression/Ridge Regression.md",
-    "Kaggle/Linear Regression/Lasso Regression.md",
     "SB1.1 Applied Statistics/Generalised Linear Model/Generalised Linear Model.md",
     "Kaggle/Comparison of Models.md",
-    "Kaggle/Time Series/Multivariate Adaptive Regression Splines.md",
-    "Kaggle/Time Series/Moving Average.md",
-    "Kaggle/Intro to ML/Underfitting and Overfitting.md",
-    "Kaggle/Decision Tree and Random Forest/Categorical Variables.md",
-    "Kaggle/Decision Tree and Random Forest/Data Leakage.md",
-    "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
-    "Kaggle/Linear Regression/Multicollinearity.md",
-    "A9 Statistics/3 Hypothesis Testing/Likelihood Ratio Statistic.md",
-    "A9 Statistics/3 Hypothesis Testing/Likelihood ratio test.md",
-    "A9 Statistics/2 Confidence Intervals/chi-square distribution.md",
-    "A9 Statistics/3 Hypothesis Testing/Hypothesis Testing.md",
-    "A9 Statistics/3 Hypothesis Testing/Neyman–Pearson lemma.md"
+    "Kaggle/Time Series/Multivariate Adaptive Regression Splines.md"
   ]
 }
