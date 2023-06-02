@@ -1,4 +1,3 @@
-# Removable Singularity
 #ComplexAnalysis 
 
 ## Definition

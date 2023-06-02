@@ -1,4 +1,3 @@
-# Argument Principle
 #ComplexAnalysis 
 
 ```ad-theorem

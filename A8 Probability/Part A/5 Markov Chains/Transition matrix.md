@@ -1,16 +1,15 @@
 ---
 aliases: [stochastic matrix]
 ---
-## Transition Matrix
 #Probability 
 
+## Definition
 The Markov **transition matrix** $P=\left(p_{i j}\right)_{i, j \in I}$.
 
----
 $P$ is a square (maybe infinite) matrix, whose rows and columns are indexed by $I . P$ is a [[stochastic matrix]] which means that all its entries are non-negative and every row sums to 1 . Equivalently, every row of $P$ is a probability distribution. The $i$ th row of $P$ is the distribution of $X_{n+1}$ given $X_{n}=i$.
 
 ---
-Every Markov transition matrix has 1 as an [[eigenvalue]].
+Every Markov transition matrix has **1** as an [[eigenvalue]].
 
 ---
 `here a different notation is used, where the transition matrix is taken by its transpose.`

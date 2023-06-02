@@ -1,4 +1,3 @@
-# Hermite Interpolating Polynomial
 #NumericalAnalysis 
 ```ad-question
 Given data $f_{i}$ and $g_{i}$ at distinct $x_{i}, i=0,1, \ldots, n$, with $x_{0}<x_{1}<$ $\cdots<x_{n}$, find a polynomial $p$ such that $p\left(x_{i}\right)=f_{i}$ and $p^{\prime}\left(x_{i}\right)=g_{i}$.

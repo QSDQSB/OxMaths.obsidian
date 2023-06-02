@@ -1,6 +1,5 @@
-## LimSup and LimInf
 #Integration
-### Definition
+## Definition
 For a sequence $\left(a_{n}\right)$ in $[-\infty, \infty]$, define
 $$
 \begin{aligned}
@@ -12,7 +11,7 @@ $$
 The limits exist, because $\left(\sup _{n \geq m} a_{n}\right)_{m \geq 1}$ is a decreasing sequence.
 So, $\limsup _{n \rightarrow \infty} a_{n}$ is the largest number $\ell$ such that there is a subsequence of $\left(a_{n}\right)$ converging to $\ell$.
 
-### Proposition 1.3
+## Proposition 1.3
 1. $\liminf _{n \rightarrow \infty} a_{n}=-\limsup _{n \rightarrow \infty}\left(-a_{n}\right)$;
 2. $\liminf _{n \rightarrow \infty} a_{n} \leq \limsup _{n \rightarrow \infty} a_{n} ;$
 3. $\lim _{n \rightarrow \infty} a_{n}$ exists if and only if $\liminf _{n \rightarrow \infty} a_{n}=\lim \sup _{n \rightarrow \infty} a_{n}$; then all are equal;

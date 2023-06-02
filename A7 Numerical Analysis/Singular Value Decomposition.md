@@ -1,6 +1,6 @@
-# Singular Value Decomposition
 #NumericalAnalysis 
 ```ad-theorem
+title: Singular Value Decomposition
 Every matrix $A \in \mathbb{R}^{m \times n}$ with $m \geq n$ can be written as
 $$
 \Large

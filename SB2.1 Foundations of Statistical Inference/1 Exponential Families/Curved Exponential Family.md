@@ -1,3 +1,4 @@
+#FOSI 
 ## Definition
 A family $\mathcal{P}=\{p(x ; \theta): \theta \in \Theta\}$ of probabilities (pmf or pdf) indexed by $\theta$ is called a [[Curved Exponential Family]] if there exists $q<k \in \mathbb{N}$, real-valued functions $\eta_1, \ldots, \eta_k$ and $B$ on $\Theta \subseteq \mathbb{R}^q$, real-valued statistics $T_1, \ldots, T_k$ and a non-negative real-valued function $h$ on $\mathcal{X}$ such that
 1. $\exists \theta: \operatorname{Cov}_\theta T$ is positive definite

@@ -1,10 +1,9 @@
 ---
 aliases: [chain]
 ---
-## Markov Chain
 #Probability
 
-### Definition
+## Definition
 Let $X=\left(X_{0}, X_{1}, X_{2}, \ldots\right)=\left(X_{n}, n \geq 0\right)$ be a sequence of random variables taking values in I. The process $X$ is called a [[Markov chain]] if for any $n \geq 0$ and any $i_{0}, i_{1}, \ldots, i_{n+1} \in I$,
 $$
 \mathbb{P}\left(X_{n+1}=i_{n+1} \mid X_{n}=i_{n}, \ldots, X_{0}=i_{0}\right)=\mathbb{P}\left(X_{n+1}=i_{n+1} \mid X_{n}=i_{n}\right).
@@ -21,14 +20,14 @@ We will work almost always with [[time-homogeneous|homogeneous]] chains. To desc
 - the initial distribution $\lambda$ of $X_{0}$. For each $i \in I, \lambda_{i}=\mathbb{P}\left(X_{0}=i\right)$.
 - the **[[Transition matrix]]** $P=\left(p_{i j}\right)_{i, j \in I}$.
 
-### Theorem 5.1
+## Theorem 5.1
 >
 For $i_{0}, i_{1}, \ldots, i_{n} \in I$,
 >$$
 \mathbb{P}\left(X_{0}=i_{0}, X_{1}=i_{1}, \ldots, X_{n}=i_{n}\right)=\lambda_{i_{0}} p_{i_{0} i_{1}} p_{i_{1} i_{2}} \ldots p_{i_{n-1} i_{n}}
 >$$
 
-#### Proof
+### Proof
 By the definition of conditional probabilities and cancellations,
 $$
 \begin{array}{l}
@@ -45,7 +44,7 @@ $$
 If $X$ is a [[Markov chain]] with initial distribution $\lambda$ and [[transition matrix]] $P$, we will sometimes write " $X \sim \operatorname{Markov}(\lambda, P)$ ".
 ```
 
-### Examples
+## Examples
 #### Random walk on a cycle
 >$I=\{0,1,2, \ldots, M-1\} .$ At each step the walk increases by $1(\bmod M)$ with probability $p$ and decreases by $1(\bmod M)$ with probability $1-p$. That is,
 >$$
@@ -82,7 +81,7 @@ p_{\alpha \beta}=\left\{\begin{array}{ll}
 ![[Markov Property#Memoryless]]
 
 ---
-### Notations
+## Notations
 ```ad-note
 It will be convenient to write ==$\mathbb{P}_{i}$== for the distribution conditioned on $X_{0}=i$. For example $\mathbb{P}_{i}\left(X_{1}=j\right)=p_{i j} .$
 
@@ -92,7 +91,7 @@ Write $p_{i j}^{(n)}=\mathbb{P}\left(X_{k+n}=j \mid X_{k}=i\right)$. This is an 
 ```
 
 ---
-### Example: General two-state Markov chain
+## Example: General two-state Markov chain
 Let $I=\{1,2\}$ and
 $$
 P=\left(\begin{array}{cc}
@@ -101,8 +100,8 @@ P=\left(\begin{array}{cc}
 \end{array}\right)
 $$
 What is $p_{11}^{(n)}$ ?
-#### Solution
-(1) $P$ has eigenvalues 1 and $1-\alpha-\beta$ (check! Every Markov transition matrix has 1 as an eigenvalue - why?). So we can diagonalise:
+### Solution
+(1) $P$ has eigenvalues 1 and $1-\alpha-\beta$ (check! Every Markov [[transition matrix]] has 1 as an eigenvalue - why?). So we can diagonalise:
 $$
 \begin{aligned}
 P &=U\left(\begin{array}{cc}
@@ -128,14 +127,14 @@ p_{11}^{(n)} &=p_{11}^{(n-1)}(1-\alpha)+p_{12}^{(n-1)} \beta \\
 $$
 This gives a linear recurrence relation for $p_{11}^{(n)}$, which we can solve using standard methods to find the answer.
 
-### Proposition 5.4: Markov chain criterion
+## Proposition 5.4: Markov chain criterion
 Suppose that $\left(Y_{n}, n \geq 0\right)$ is a random process, and for some function $f$ we can write, for each $n$,
 $$
 Y_{n+1}=f\left(Y_{n}, X_{n+1}\right)
 $$
 where $X_{n+1}$ is independent of $Y_{0}, Y_{1}, \ldots, Y_{n} .$ Then $\left(Y_{n}, n \geq 0\right)$ is a [[Markov chain]].
 
-#### Proof
+### Proof
 The idea is that to update the chain, we use only the current state and some "new" randomness. We have
 $$
 \begin{aligned}
@@ -148,5 +147,5 @@ $$
 $$
 
 ---
-### Hitting Probability
+## Hitting Probability
 ![[Hitting probability]]

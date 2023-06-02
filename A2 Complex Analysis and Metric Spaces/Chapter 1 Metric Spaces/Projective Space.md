@@ -1,4 +1,3 @@
-## Projective Space
 #ComplexAnalysis  
 
 Consider the set $\mathbf{P}\left(\mathbf{R}^{n}\right)$ of one-dimensional subspaces of $\mathbf{R}^{n}$, that is to say lines through the origin). One way to define a distance on this set is to take, for lines $L_{1}, L_{2}$, the distance between $L_{1}$ and $L_{2}$ to

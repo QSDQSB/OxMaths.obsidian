@@ -1,13 +1,12 @@
-## Outer Measure
 #Integration 
 
-### Definition
+## Definition
 For $A \subseteq \mathbb{R}$, we define the [[Outer Measure]] of $A$ to be
 $$
 m^{*}(A)=\inf \left\{\sum_{n=1}^{\infty} m\left(I_{n}\right): I_{n} \text { intervals, } A \subseteq \bigcup_{n=1}^{\infty} I_{n}\right\}
 $$
 
-### Proposition 2.1
+## Proposition 2.1
 1. $m^{*}(\emptyset)=0, m^{*}(\{x\})=0$;
 2. $m^{*}(I)=b-a$ if $I$ is any interval with endpoints $a, b$;
 3. $m^{*}(A+x)=m^{*}(x)$;
@@ -17,7 +16,7 @@ $$
 $6^{\prime} . m^{*}\left(\bigcup_{n=1}^{\infty} A_{n}\right) \leq \sum_{n=1}^{\infty} m^{*}\left(A_{n}\right)$.
 
 
-### Null
+## Null
 ![[Null#Definition]]
 
 ```ad-example

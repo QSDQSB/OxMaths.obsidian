@@ -1,7 +1,6 @@
-## Open
 #ComplexAnalysis #Topology 
 
-### Definition
+## Definition
 ```ad-definition
 title: Open Set
 If $X$ is a [[metric space]] then we say a subset $U \subseteq X$ is [[open]] (or [[open]] in $X$) if for each $y \in U$ there is some $\delta>0$ such that the [[open ball]] $B(y, \delta)$ is contained in $U$.
@@ -12,7 +11,6 @@ If $X$ is a [[metric space]] then we say a subset $U \subseteq X$ is [[open]] (o
 - The rationals $\mathbf{Q}$ are not [[open]] in $\mathbf{R}$;
 - If $X$ is a set with the discrete [[Metric Space|metric]], every set is [[open]].
 ```
-
 
 ### Lemma 4.1.2
 Every [[Open ball]] in an [[Metric Space]] is an [[Open]] set.

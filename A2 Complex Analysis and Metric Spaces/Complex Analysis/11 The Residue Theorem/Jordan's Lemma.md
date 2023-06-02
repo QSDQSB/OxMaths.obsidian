@@ -1,4 +1,3 @@
-# Jordan's Lemma
 #ComplexAnalysis 
 
 ```ad-theorem

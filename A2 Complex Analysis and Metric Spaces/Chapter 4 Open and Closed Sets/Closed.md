@@ -1,10 +1,12 @@
-## Closed
+---
+aliases: [closed]
+---
 #ComplexAnalysis 
 
-### Definition
+## Definition
 If $X$ is a [[Metric Space]], then a subset $F \subseteq X$ is said to be a [[A2 Complex Analysis and Metric Spaces/Chapter 4 Open and Closed Sets/Closed]] subset of $X$ if and only if its *complement* $F^{c}=X \backslash F$ is an [[Open]] subset.
-
 ```ad-example
+title: Example: singleton sets
 Singleton sets are closed.
 ```
 

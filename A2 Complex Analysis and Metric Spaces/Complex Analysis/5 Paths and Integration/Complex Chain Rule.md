@@ -1,7 +1,6 @@
-## Complex Chain Rule
 #ComplexAnalysis 
 
-### Chain Rule
+## Chain Rule
 
 ```ad-theorem
 title: Chain Rule
@@ -12,7 +11,7 @@ $$
 ```
 ^theorem
 
-#### Proof
+### Proof
 Assume that $\gamma$ is differentiable at $t_{0} \in[a, b]$ and let $z_{0}=\gamma\left(t_{0}\right) \in U$. By definition of $F^{\prime}$, there is a function $\epsilon(z)$ such that
 $$
 F(z)=F\left(z_{0}\right)+F^{\prime}\left(z_{0}\right)\left(z-z_{0}\right)+\epsilon(z)\left(z-z_{0}\right)

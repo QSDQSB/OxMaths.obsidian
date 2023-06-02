@@ -1,4 +1,3 @@
-# Deformation Theorem
 #ComplexAnalysis 
 
 ```ad-theorem

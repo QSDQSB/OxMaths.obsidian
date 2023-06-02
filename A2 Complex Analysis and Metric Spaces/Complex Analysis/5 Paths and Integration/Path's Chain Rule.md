@@ -1,16 +1,15 @@
 ---
 aliases: [chain rule]
 ---
-## Chain Rule for Path
 #ComplexAnalysis 
 
-### Chain Rule
+## Chain Rule (for Path)
 Let [$\gamma$](Path.md) $:[c, d] \rightarrow \mathbb{C}$ and $s:[a, b] \rightarrow[c, d]$ and suppose that $s$ is differentiable at $t_{0}$ and $\gamma$ is [[Path Differentiable|differentiable]] at $s_{0}=s\left(t_{0}\right)$. Then $\gamma \circ s$ is **differentiable** at $t_{0}$ with derivative
 $$
 (\gamma \circ s)^{\prime}\left(t_{0}\right)=s^{\prime}\left(t_{0}\right) \cdot \gamma^{\prime}\left(s\left(t_{0}\right)\right)
 $$
 
-#### Proof
+### Proof
 Let $\epsilon:[c, d] \rightarrow \mathbb{C}$ be given by $\epsilon\left(s_{0}\right)=0$ and
 $$
 \gamma(x)=\gamma\left(s_{0}\right)+\gamma^{\prime}\left(s_{0}\right)\left(x-s_{0}\right)+\left(x-s_{0}\right) \epsilon(x)

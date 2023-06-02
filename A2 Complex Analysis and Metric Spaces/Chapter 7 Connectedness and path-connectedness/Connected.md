@@ -1,10 +1,10 @@
 ---
 aliases: [disconnected, connected, connectedness, disconnect]
 ---
-## Connectedness
+
 #ComplexAnalysis #Topology  
 
-### Definition
+## Definition
 We say that a [[Metric Space]] is [[Connected|disconnected]] if we can write it as the disjoint union of two nonempty open sets. We say that a space is [[Connected]] if it is not [[Connected|disconnected]].
 
 If $X$ is written as a disjoint union of two nonempty open sets $U$ and $V$ then we say that these sets [[Connected|disconnect]] $X$.
@@ -14,13 +14,13 @@ If $X=[0,1] \cup[2,3] \subset \mathbf{R}$ then we have seen that both $[0,1]$ an
 ```
 
 ---
-### Lemma 7.1.2
+## Lemma 7.1.2
 Let $X$ be a [[Metric Space]]. Then the following are equivalent.
 (i) $X$ is [[Connected]].
 (ii) If $f: X \rightarrow\{0,1\}$ is a [[Continuous]] function then $f$ is constant.
-(iii) The only subsets of $X$ which are both [[Open]] and [[Groups and Group Actions/2 Introduction to Groups/Closed]] are $X$ and $\emptyset$.
+(iii) The only subsets of $X$ which are both [[Open]] and [[A2 Complex Analysis and Metric Spaces/Chapter 4 Open and Closed Sets/Closed|closed]] are $X$ and $\emptyset$.
 
-### Lemma 7.1.3
+## Lemma 7.1.3
 `ascertain connectedness`
 Let $X$ be a [[Metric Space]], and let $Y \subseteq X$ be a subset, considered as a metric space with the metric induced from $X$. Then $Y$ is [[Connected]] if and only if the following is true:
 

@@ -1,6 +1,5 @@
-## Stereographic Projection
 #ComplexAnalysis
-### Definition
+## Definition
 Let
 $$
 \mathbb{S}=\left\{(x, y, z) \in \mathbb{R}^{3}: x^{2}+y^{2}+z^{2}=1\right\}
@@ -15,7 +14,7 @@ Define a bijective map $S: \mathbb{C} \rightarrow \mathbb{S} \backslash\{N\}$ as
 
 >To determine $S(z)$, join $z$ to $N$ by a straight line, and let $S(z)$ be the point where this line meets the sphere $\mathbb{S}$. This map (or more accurately its inverse) is called [[Stereographic projection]].
 
-### Lemma 2.1: Formula for Stereographic Projection
+## Lemma 2.1: Formula for Stereographic Projection
 Suppose that $z=x+i y$. Then
 $$
 S(z)=\left(\frac{2 x}{x^{2}+y^{2}+1}, \frac{2 y}{x^{2}+y^{2}+1}, \frac{x^{2}+y^{2}-1}{x^{2}+y^{2}+1}\right).
@@ -28,7 +27,7 @@ $$
 d(z, w):=\|S(z)-S(w)\|
 $$
 Here is a formula for this metric.
-### Lemma 2.2: Metric for C
+## Lemma 2.2: Metric for C
 For any $z, w \in \mathbb{C}$ we have
 $$
 d(z, w)=\frac{2|z-w|}{\sqrt{1+|z|^{2}} \sqrt{1+|w|^{2}}}
@@ -51,7 +50,7 @@ $$
 for some $c_{1}, c_{2}>0$ depending on $K$. In fact, we could take $c_{2}=2$ and $c_{1}=\frac{1}{K^{2}}$ for $K \geq 1$.
 ```
 
-### Adding in $\infty$
+## Adding in $\infty$
 Extend the map $S$ to a map $S: \mathbb{C}_{\infty} \rightarrow \mathbb{S}$ by defining $S(\infty)=N$.
 #### Lemma 2.3
 For any $z \in \mathbb{C}$ we have

@@ -1,4 +1,3 @@
-# Conformally Equivalent
 #ComplexAnalysis 
 
 ## Definition

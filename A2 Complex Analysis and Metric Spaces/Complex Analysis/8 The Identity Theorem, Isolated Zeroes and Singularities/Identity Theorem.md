@@ -1,4 +1,3 @@
-# Identity Theorem
 #ComplexAnalysis 
 
 ## Theorem 8.3.

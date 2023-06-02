@@ -1,4 +1,3 @@
-## Chapman-Kolmogorov equations
 #Probability 
 ![[Markov chain#Notations]]
 ### Theorem 5.2: Chapman-Kolmogorov equations

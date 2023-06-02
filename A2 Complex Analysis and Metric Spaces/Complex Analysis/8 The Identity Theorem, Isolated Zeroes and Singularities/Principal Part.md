@@ -1,4 +1,3 @@
-# Principal Part
 #ComplexAnalysis 
 
 ## Definition

@@ -1,10 +1,7 @@
 ---
 aliases: [metric, metric spaces, metrics]
+tags: [ComplexAnalysis]
 ---
-
-## Metric Space
-#ComplexAnalysis  #Subject 
-
 ### Definition: Distance Function
 ```ad-definition
 title: Distance Function

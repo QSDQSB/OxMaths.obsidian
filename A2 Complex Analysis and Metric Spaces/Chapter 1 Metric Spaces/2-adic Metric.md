@@ -1,4 +1,3 @@
-## 2-adic Metric
 #ComplexAnalysis  
 Let $X=\mathbf{Z}$, and define $d(x, y)$ to be $2^{-m}$, where $2^{m}$ is the largest power of two dividing $x-y$.
 ### Ultrametric Property

@@ -1,10 +1,8 @@
 ---
 aliases: [connected components]
 ---
-## Connected Component
 #ComplexAnalysis  
-
-### Definition
+## Definition
 From [[Connected#Sunflower Lemma]] for each $x \in X$, there is a unique maximal [[Connected]] subset of $X$ containing $x$, which contains all other such sets (take the union of all connected subsets of $X$ containing $x)$. This is called the [[Connected Component]] of $X$ containing $x$.
 
 ### Proposition 7.1.7 

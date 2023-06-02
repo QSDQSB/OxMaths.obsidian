@@ -1,4 +1,3 @@
-# Gauss Quadrature
 #NumericalAnalysis 
 
 ## Quadrature Formula

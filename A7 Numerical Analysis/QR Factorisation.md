@@ -1,5 +1,3 @@
-
-# QR Factorisation
 #NumericalAnalysis 
 
 ## Theorem: QR Factorisation

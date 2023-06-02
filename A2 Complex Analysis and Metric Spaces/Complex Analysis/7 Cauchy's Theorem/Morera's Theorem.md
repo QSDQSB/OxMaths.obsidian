@@ -1,4 +1,3 @@
-# Morera's theorem
 #ComplexAnalysis 
 
 ## Theorem 7.17.

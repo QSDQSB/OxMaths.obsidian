@@ -1,8 +1,6 @@
 ---
 aliases: [Laurent's series]
 ---
-
-# Laurent's Theorem
 #ComplexAnalysis 
 
 ## Theorem 238
@@ -16,6 +14,9 @@ Then there exist unique $c_{k}(k \in \mathbb{Z})$ such that
 $$
 f(z)=\sum_{k=-\infty}^{\infty} c_{k}(z-a)^{k} \quad(z \in A)
 $$
+```
+^Laurent-theorem
+
 where
 
 $$
@@ -24,8 +25,6 @@ c_{k}=\frac{1}{2 \pi i} \int_{\gamma(a, r)} \frac{f(w)}{(w-a)^{k+1}} \mathrm{~d}
 $$
 ^Laurent-Series
 
-```
-^Laurent-theorem
 
 ### Proof
 It is too long. I suggest I give up. Let  us pretend Panos will not examine it.
@@ -73,4 +72,3 @@ $$
 
 [Source](https://sym.lboro.ac.uk/resources/Handout-Laurent.pdf)
 ```
-

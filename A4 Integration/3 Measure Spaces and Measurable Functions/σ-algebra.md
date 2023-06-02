@@ -1,7 +1,6 @@
-## σ-algebra
 #Integration 
 
-### Definition
+## Definition
 Let $\Omega$ be any set, and $\mathcal{F} \subseteq \mathcal{P}(\Omega) .$ We say that $\mathcal{F}$ is a [[A4 Integration/3 Measure Spaces and Measurable Functions/σ-algebra]] (or $\sigma$-field ) on $\Omega$ if:
 1. $\emptyset \in \mathcal{F}$,
 2. If $E \in \mathcal{F}$, then $\Omega \backslash E \in \mathcal{F}$,

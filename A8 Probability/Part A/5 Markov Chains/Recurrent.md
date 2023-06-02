@@ -1,7 +1,6 @@
-## Recurrent
 #Probability 
 
-### Definition
+## Definition
 If the [[Markov chain|chain]] starts in state $i$, what is the chance that it returns to $i$ at some point in the future? We can distinguish two possibilities:
 1)  
 $$
@@ -23,9 +22,9 @@ $$
 $$
 The state $i$ is called [[Recurrent]].
 
-### Theorem 5.8
+## Theorem 5.8
 State $i$ is [[Recurrent]] if and only if $\sum_{n=0}^\infty p_{ii}^{(n)}=\infty$.
 
-### Proposition 5.9
+## Proposition 5.9
 1) Let $C$ be a [[Communicating Class]]. Either all states in $C$ are [[Recurrent]], or all are ***transient*** (so we may refer to the whole class as transient or recurrent).
 2) Every recurrent class is closed. Every finite closed class is [[Recurrent]].

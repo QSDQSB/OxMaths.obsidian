@@ -1,7 +1,6 @@
 ---
 aliases: [orthogonal polynomials, orthogonal polynomial]
 ---
-# Gram–Schmidt Orthogonalization Procedure
 #NumericalAnalysis 
 ## Description
 the solution of the [[Least-squares Approximation#Normal Equations|normal equations]] $A \alpha=\varphi$ for best [[Least-squares Approximation|Least-Squares Polynomimal Approximation]] would be easy if $A$ were **diagonal**.

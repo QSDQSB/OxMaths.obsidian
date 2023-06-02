@@ -34,6 +34,6 @@ $$
 Hence $\left|c\left(x_k\right)\right| \geq\left|c\left(x_j\right)\right|$.
 - For `Point (2)`, assume the contrary and remove the last digit from the longest codeword. This would still give a [[Classes of Codes|prefix code]] and this new [[Classes of Codes|prefix code]] would have strictly smaller expected length. Hence, the two longest codewords must have the same expected length. 
 	- Non-identical is ensured by [[Classes of Codes|prefix code]].
-- For `Point (3)`, identify a prefix code with a rooted tree. A codeword of maximum length must have a sibling (a leaf connecting to same vertex; otherwise, we could remove the last digit and get a prefix code of shorter expected length). Now exchange codewords until the two elements of $\mathcal{X}$ with lowest probabilities are associated with two siblings on the tree.
+- For `Point (3)`, identify a prefix code with a rooted tree. A codeword of maximum length must have a sibling (a leaf connecting to same vertex; otherwise, we could remove the last digit and get a [[Classes of Codes|prefix code]] of shorter expected length). Now exchange codewords until the two elements of $\mathcal{X}$ with lowest probabilities are associated with two siblings on the tree.
 
 

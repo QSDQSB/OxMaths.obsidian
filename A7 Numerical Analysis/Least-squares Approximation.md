@@ -1,8 +1,7 @@
 ---
 aliases: [best polynomial approximation, best approximation, Least-Squares Polynomimal Approximation]
+tags: [NumericalAnalysis]
 ---
-# Least-squares Polynomial Approximation
-#NumericalAnalysis 
 
 ## Description
 Aim to find the [[Least-squares Approximation|best polynomial approximation]] to $f \in \mathrm{L}_{w}^{2}(a, b)$, i.e., find $p_{n} \in \Pi_{n}$ for which

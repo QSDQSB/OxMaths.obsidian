@@ -104,3 +104,5 @@ $$
 - ==type II== error: not rejecting $H_{0}$ when $H_{0}$ is false.
 - $1-\beta=P\left(\right.$ reject $H_{0} \mid H_{1}$ true $)$ is called the `power` of the test.
 
+
+

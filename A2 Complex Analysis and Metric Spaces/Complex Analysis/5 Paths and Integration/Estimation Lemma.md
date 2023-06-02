@@ -1,7 +1,6 @@
 ---
 aliases: [Estimation Theorem]
 ---
-## Estimation Lemma
 #ComplexAnalysis 
 
 ```ad-theorem
@@ -11,7 +10,7 @@ $$\left|\int_{\gamma} f(z) d z\right| \leq \sup _{z \in \gamma^{*}}|f(z)| \cdot 
 ```
 ^lemma
 
-### Proof
+## Proof
 First note that [$\gamma([a, b])$](Path.md) is [[Sequential Compactness|compact]] in $\mathbb{C}$ since it is the image of the compact set $[a, b]$ under a [[Continuous]] map. It follows that the function $|f|$ is bounded on this set so that $\sup _{z \in \gamma([a, b])}|f(z)|$ exists. Thus we have
 $$
 \begin{aligned}
@@ -23,12 +22,12 @@ $$
 $$
 where for the first inequality we use [[Complex Riemann Integrable#Lemma 5.10: Triangle Inequality for Complex-Valued Functions]] and the positivity of the Riemann integral for the second inequality.
 
-### Proposition 5.16
+## Proposition 5.16
 Let $f_{n}: U \rightarrow \mathbb{C}$ be a sequence of [[Continuous]] functions on an open subset $U$ of the complex plane. Suppose that $\gamma:[a, b] \rightarrow \mathbb{C}$ is a [[Path]] whose image is contained in $U .$ If $\left(f_{n}\right)$ converges **uniformly** to a function $f$ on the image of $\gamma$ then
 $$
 \int_{\gamma} f_{n}(z) d z \rightarrow \int_{\gamma} f(z) d z
 $$
-#### Proof
+### Proof
 We have
 $$
 \begin{aligned}

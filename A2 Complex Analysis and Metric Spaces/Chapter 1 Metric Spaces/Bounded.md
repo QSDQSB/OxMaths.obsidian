@@ -1,4 +1,3 @@
-## Bounded
 #ComplexAnalysis 
 
 ### Definition

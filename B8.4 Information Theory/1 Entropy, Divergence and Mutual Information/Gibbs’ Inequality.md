@@ -17,4 +17,4 @@ $$
 &=-\log (1)=0
 \end{aligned}
 $$
-where the inequality follows by [[Jensen's Inequality]] applied to $f(x)=-\log (x)$ (a strictly convex function). Note that by Jensen's equality holds iff $\frac{q(x)}{p(x)}$ is constant.
+where the inequality follows by [[Jensen's Inequality]] applied to $f(x)=-\log (x)$ (a strictly [[convex]] function). Note that by Jensen's equality holds iff $\frac{q(x)}{p(x)}$ is constant.

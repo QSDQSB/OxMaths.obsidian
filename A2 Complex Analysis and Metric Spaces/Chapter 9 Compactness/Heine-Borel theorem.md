@@ -1,4 +1,3 @@
-# Heine-Borel theorem
 #ComplexAnalysis 
 
 ## Proposition 9.3.1.

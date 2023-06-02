@@ -1,4 +1,3 @@
-# Liouville's Theorem
 #ComplexAnalysis 
 
 ```ad-theorem

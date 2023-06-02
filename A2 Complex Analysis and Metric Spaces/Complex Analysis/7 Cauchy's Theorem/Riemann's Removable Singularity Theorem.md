@@ -1,4 +1,3 @@
-# Riemann's Removable Singularity Theorem
 #ComplexAnalysis 
 
 ```ad-theorem

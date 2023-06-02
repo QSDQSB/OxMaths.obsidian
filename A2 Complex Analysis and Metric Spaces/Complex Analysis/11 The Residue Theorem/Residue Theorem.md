@@ -1,4 +1,3 @@
-# Residue Theorem
 #ComplexAnalysis #MostCrucial 
 
 ```ad-theorem

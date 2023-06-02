@@ -1,4 +1,3 @@
-# Inverse Function Theorem
 #ComplexAnalysis 
 
 ```ad-theorem

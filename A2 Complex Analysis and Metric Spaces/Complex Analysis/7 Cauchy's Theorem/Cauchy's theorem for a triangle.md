@@ -1,4 +1,3 @@
-# Cauchy's theorem for a triangle
 #ComplexAnalysis 
 
 ```ad-theorem

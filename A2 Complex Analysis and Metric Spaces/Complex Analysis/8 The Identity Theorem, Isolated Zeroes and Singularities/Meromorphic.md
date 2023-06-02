@@ -1,4 +1,3 @@
-# Meromorphic
 #ComplexAnalysis 
 
 ## Definition

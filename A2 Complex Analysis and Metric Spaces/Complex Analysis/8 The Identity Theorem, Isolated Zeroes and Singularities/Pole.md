@@ -1,7 +1,6 @@
 ---
 aliases: [simple pole,poles,simple poles]
 ---
-# Pole
 #ComplexAnalysis 
 
 ## Definition

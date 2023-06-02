@@ -1,9 +1,8 @@
 ---
 aliases: [measure of length]
 ---
-## Measure
 #Integration 
-### Definition
+## Definition
 A [[Measure of Length]] for (all) subsets of $\mathbb{R}$ should be a function $m: \mathcal{P}(\mathbb{R}) \rightarrow[0, \infty]$ satisfying:
 (i) $m(\emptyset)=0, m(\{x\})=0$;
 (ii) $m(I)=b-a$ if $I$ is an interval with endpoints $a, b$, where $a<b$;

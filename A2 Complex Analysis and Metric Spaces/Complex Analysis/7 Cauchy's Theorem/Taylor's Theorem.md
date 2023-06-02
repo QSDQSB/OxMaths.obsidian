@@ -1,7 +1,6 @@
 ---
 aliases: [Taylor series]
 ---
-# Taylor's Theorem
 #ComplexAnalysis 
 
 ```ad-theorem

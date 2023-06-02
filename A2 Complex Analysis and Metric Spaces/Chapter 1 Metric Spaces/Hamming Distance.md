@@ -1,4 +1,3 @@
-## Hamming Distance
 #ComplexAnalysis 
 
 Let $X=\{0,1\}^{n}$ (the boolean cube), the set of all strings of $n$ zeroes and ones. Define $d(x, y)$ to be the number of coordinates in which $x$ and $y$ differ.

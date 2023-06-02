@@ -1,4 +1,3 @@
-# Tonelli's Theorem
 #Integration 
 ```ad-theorem
 title: Tonelli's Theorem

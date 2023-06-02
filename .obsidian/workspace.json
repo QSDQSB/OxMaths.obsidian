@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1b9a8975f5892bc",
+            "id": "cfdf746734208991",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md",
+                "file": "A2 Complex Analysis and Metric Spaces/Chapter 9 Compactness/Compact.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OptimisationforDS",
+                "query": "tag:#ComplexAnalysis",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,6 +63,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "faf8f4a237644e44",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -97,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md",
+                "file": "A2 Complex Analysis and Metric Spaces/Chapter 9 Compactness/Compact.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md"
+                "file": "A2 Complex Analysis and Metric Spaces/Chapter 9 Compactness/Compact.md"
               }
             }
           },
@@ -124,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md",
+                "file": "A2 Complex Analysis and Metric Spaces/Chapter 9 Compactness/Compact.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,33 +164,33 @@
       "random-note:Open random note": false
     }
   },
-  "active": "c1b9a8975f5892bc",
+  "active": "788c206ebc7d9809",
   "lastOpenFiles": [
-    "Kaggle/Learning Pandas.md",
-    "Kaggle/Intro to ML/Pandas.md",
-    "A12 Simulation and Statistical Programming/Statistical Programming/R-plot.md",
-    "SB1.1 Applied Statistics/Generalised Linear Model/IRLS Algorithm.md",
-    "SB2.1 Foundations of Statistical Inference/1 Exponential Families/Natural Parameter Space.md",
-    "SB3.1 Applied Probability/Yule Process.md",
-    "Kaggle/Linear Regression/Lasso Regression.md",
-    "Kaggle/Linear Regression/Ridge Regression.md",
-    "A9 Statistics/3 Hypothesis Testing/Likelihood Ratio Statistic.md",
-    "Kaggle/Decision Tree and Random Forest/Cross Validation.md",
+    "A2 Complex Analysis and Metric Spaces/Chapter 6 Completeness/Cantor's Intersection Theorem.md",
+    "A2 Complex Analysis and Metric Spaces/Chapter 5 Interiors, closures, limit points/Boundary.md",
+    "A8 Probability/Gamma Distribution.md",
+    "A8 Probability/Part A/7 Poisson processes/Poisson Process.md",
+    "A8 Probability/Part A/5 Markov Chains/Transition matrix.md",
+    "A8 Probability/Part A/5 Markov Chains/time-homogeneous.md",
+    "A8 Probability/Part A/5 Markov Chains/Reversible Markov Chain.md",
     "A8 Probability/Part A/5 Markov Chains/Recurrent.md",
-    "A12 Simulation and Statistical Programming/Statistical Programming/R-Apply.md",
-    "What to Choose in Part B.md",
-    "Kaggle/Decision Tree and Random Forest/Decision Tree.md",
-    "Kaggle/Decision Tree and Random Forest/Random Forest.md",
-    "Kaggle/Decision Tree and Random Forest/Get_Dummies Examples.md",
-    "Kaggle/Decision Tree and Random Forest/Boosting/XGBoost.md",
-    "Kaggle/Decision Tree and Random Forest/Boosting/Gradient Boosting.md",
-    "Kaggle/Decision Tree and Random Forest/Boosting/Bootstrap Aggregating.md",
-    "Kaggle/Decision Tree and Random Forest/Boosting/Adaboost.md",
-    "Kaggle/Decision Tree and Random Forest/Mean Absolute Error.md",
-    "Kaggle/Decision Tree and Random Forest/Pipelines.md",
-    "Kaggle/Decision Tree and Random Forest/Pruning.md",
-    "SB1.1 Applied Statistics/Generalised Linear Model/Generalised Linear Model.md",
-    "Kaggle/Comparison of Models.md",
-    "Kaggle/Time Series/Multivariate Adaptive Regression Splines.md"
+    "A8 Probability/Part A/5 Markov Chains/Period.md",
+    "A8 Probability/Part A/5 Markov Chains/Markov Property.md",
+    "A8 Probability/Part A/5 Markov Chains/Markov chain.md",
+    "A8 Probability/Part A/5 Markov Chains/Hitting probability.md",
+    "A8 Probability/Part A/5 Markov Chains/Chapman-Kolmogorov equations.md",
+    "A8 Probability/Part A/2 Convergence of Random Variables, and Limit Theorems/Strong Law of Large Numbers.md",
+    "A7 Numerical Analysis/Singular Value Decomposition.md",
+    "A7 Numerical Analysis/QR Factorisation.md",
+    "A7 Numerical Analysis/QR Algorithm.md",
+    "A7 Numerical Analysis/LU Factorisation.md",
+    "A7 Numerical Analysis/Lagrange Interpolating Polynomial.md",
+    "A7 Numerical Analysis/Householder.md",
+    "A7 Numerical Analysis/Hermite Interpolating Polynomial.md",
+    "A7 Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
+    "A7 Numerical Analysis/Gerschgorin’s Theorem.md",
+    "A7 Numerical Analysis/Gauss Quadrature.md",
+    "A4 Integration/7 Double Integrals/Fubini's Theorem.md",
+    "A4 Integration/7 Double Integrals/Tonelli's Theorem.md"
   ]
 }

@@ -1,4 +1,3 @@
-# Homotopic
 #ComplexAnalysis 
 
 ## Definition

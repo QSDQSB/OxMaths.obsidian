@@ -1,4 +1,3 @@
-# Cauchy's Integral Formula
 #ComplexAnalysis 
 ## Theorem 7.8.
 

@@ -1,7 +1,6 @@
-## Markov Property
 #Probability 
 
-### Memoryless
+## Memoryless
 Markov chains are ***memoryless***. If we know the current state, any information about previous states is irrelevant to the future evolution of the chain. We can say that "the future is [[Independent]] of the past, given the present". This is known as the [[Markov Property]]:
 $$
 \begin{array}{l}

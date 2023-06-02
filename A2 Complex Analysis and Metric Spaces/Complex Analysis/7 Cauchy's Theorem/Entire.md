@@ -1,4 +1,3 @@
-# Entire
 #ComplexAnalysis 
 
 ## Definition

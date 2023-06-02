@@ -1,4 +1,3 @@
-# Cauchy's Theorem
 #ComplexAnalysis #MostCrucial 
 
 ```ad-theorem

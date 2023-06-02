@@ -1,6 +1,6 @@
-## Cantor's Intersection Theorem
-#ComplexAnalysis  
 
+#ComplexAnalysis  
+## Theorem
 
 >Let $X$ be a [[Complete]] metric space and suppose that $S_{1} \supseteq S_{2} \supseteq\cdots$ form a **nested** sequence of non-empty closed sets in $X$ with the property that $\operatorname{diam}\left(S_{n}\right) \rightarrow 0$ as $n \rightarrow \infty$. Then $\bigcap_{n=1}^{\infty} S_{n}$ contains a unique point $a .$
 

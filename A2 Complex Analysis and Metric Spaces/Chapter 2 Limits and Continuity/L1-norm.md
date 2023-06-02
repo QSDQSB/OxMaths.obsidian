@@ -1,4 +1,3 @@
-## L1-norm
 #ComplexAnalysis 
 
 ### Lemma 2.3.7

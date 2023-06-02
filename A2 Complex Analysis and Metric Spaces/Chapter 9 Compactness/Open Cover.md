@@ -1,4 +1,4 @@
-# Open Cover
+
 #ComplexAnalysis 
 
 ## Definition

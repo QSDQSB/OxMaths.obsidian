@@ -1,7 +1,6 @@
-## Interior
 #ComplexAnalysis  
 
-### Definition
+## Definition
 Let $X$ be a [[Metric Space]], and let $S \subset X$. The [[Interior]] $\operatorname{int}(S)$ of $S$ is defined to be the union of all [[Open]] subsets of $X$ contained in $S$. 
 
 ```ad-example

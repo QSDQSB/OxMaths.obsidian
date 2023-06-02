@@ -1,9 +1,7 @@
 ---
 aliases: [Gerschgorin's 1st Theorem, Gerschgorin's 2nd Theorem, Gerschgorin]
 ---
-# Gerschgorin's Theorem
 #NumericalAnalysis 
-
 ## Gerschgorin's 1st Theorem
 ```ad-theorem
 title: Gerschgorin's Theorem

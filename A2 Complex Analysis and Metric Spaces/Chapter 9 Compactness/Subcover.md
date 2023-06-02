@@ -1,4 +1,3 @@
-# Subcover
 #ComplexAnalysis 
 
 ## Definition

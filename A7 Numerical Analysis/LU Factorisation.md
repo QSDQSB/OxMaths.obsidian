@@ -1,4 +1,3 @@
-# LU Factorisation
 #NumericalAnalysis 
 
 ## Pre-Multiplication of Lower-Triangular Matrix

@@ -1,8 +1,7 @@
-## Complex Logarithm
 #ComplexAnalysis 
 
 ![[#^ComplexLogarithm]]
-### Proposition 168
+## Proposition 168
 (a) Any $z \in \mathbb{C} \backslash(-\infty, 0]$ can be written as $z=r e^{i \theta}$ where $r>0, \theta \in(-\pi, \pi)$ in a unique fashion.
 (b) The function $L: \mathbb{C} \backslash(-\infty, 0] \rightarrow \mathbb{C}$ given by
 
@@ -11,7 +10,7 @@ $$\Large L(z)=\log r+i \theta$$
 
 satisfies $\exp (L(z))=z$ and is [[Holomorphic]] with $L^{\prime}(z)=1 / z$.
 
-#### Proof
+### Proof
 (a) follows from choosing $r=|z|$ and $\theta=\arg z$, which takes a unique principal value in the given range.
 For (b) we firstly note that
 $$
@@ -46,8 +45,8 @@ $$
 Of course what has happened is that zw has in effect moved into the domain of a different [[holomorphic]] [[branch]].
 ```
 
-### Proposition 177
+## Proposition 177
 For $z, w, a, b \in \mathbb{C}$ with $z, w \neq 0$
-(a) $[\log z]+[\log w]=[\log (z w)]$;
-(b) $\left[z^{a}\right] \cdot\left[w^{a}\right]=\left[(z w)^{a}\right]$
-(c) in general $\left[z^{a}\right] \cdot\left[z^{b}\right]$ does not equal $\left[z^{a+b}\right]$.
+1) $[\log z]+[\log w]=[\log (z w)]$;
+2) $\left[z^{a}\right] \cdot\left[w^{a}\right]=\left[(z w)^{a}\right]$
+3) in general $\left[z^{a}\right] \cdot\left[z^{b}\right]$ does not equal $\left[z^{a+b}\right]$.

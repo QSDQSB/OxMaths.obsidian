@@ -1,13 +1,12 @@
-## Closure
 #ComplexAnalysis #Topology  
 
-### Definition
+## Definition
 Let $X$ be a metric space, and let $S \subset X$. The [[Closure]] $\bar{S}$ is defined to be the intersection of all closed subsets of $X$ containing $S$.
 
  A set $S \subseteq X$ is said to be [[Dense]] if $\bar{S}=X$.
  
 > Since an arbitrary intersection of closed sets is closed, $\bar{S}$ is the unique smallest closed subset of $X$ containing $S$. If $S$ is itself closed then evidently $S=\bar{S}$.
-### Lemma 5.1.4
+## Lemma 5.1.4
 Let $X$ be a [[Metric Space]], and let $S \subseteq X$ be a subset. Then $a \in$ [$\bar{S}$](Closure.md) if and only if the following is true: every [[Open ball]] $B(a, \varepsilon)$ contains a point of $S$.
 #### Proof
 Suppose $a \in \bar{S}$. If $B(a, \varepsilon)$ does not meet $S$, then $B(a, \varepsilon)^{c}$ is a closed set containing $S$. Therefore $B(a, \varepsilon)^{c}$ contains $\bar{S}$, and hence it contains $a$, which is obviously nonsense.

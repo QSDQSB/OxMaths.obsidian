@@ -1,7 +1,6 @@
 ---
 aliases: [singular, isolated singularity, singularities]
 ---
-# Singular
 #ComplexAnalysis 
 
 ## Definition

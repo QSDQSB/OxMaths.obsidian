@@ -1,7 +1,6 @@
-## Winding Number
 #ComplexAnalysis 
 
-### Proposition 6.2
+## Proposition 6.2
 Let $\gamma:[0,1] \rightarrow \mathbb{C} \backslash\{0\}$ be a path. Then there is [[Continuous]] function $a:[0,1] \rightarrow \mathbb{R}$ such that
 $$
 \gamma(t)=|\gamma(t)| e^{2 \pi i a(t)}
@@ -17,15 +16,15 @@ It follows there exists a continuous functions $a_{i}:[j / n,(j+1) / n] \rightar
 
 Finally, the uniqueness statement follows because $e^{2 \pi i(a(t)-b(t))}=1$, hence $a(t)-b(t) \in \mathbb{Z}$, and since $[0,1]$ is connected it follows $a(t)-b(t)$ is constant as required.
 
-### Definition
+## Definition
 If $\gamma:[0,1] \rightarrow \mathbb{C} \backslash\{0\}$ is a **closed** [[Path]] and $\gamma(t)=|\gamma(t)| e^{2 \pi i a(t)}$ as in the previous lemma, then since $\gamma(0)=\gamma(1)$ we must have $a(1)-a(0) \in$ $\mathbb{Z}$. This integer is called the [[Winding Number]] $I(\gamma, 0)$ of $\gamma$ around $0 .$ It is uniquely determined by the [[Path]] $\gamma$ because the function $a$ is unique up to an integer. By translation, if $\gamma$ is any closed path and $z_{0}$ is not in the image of $\gamma$, we may define the [[Winding Number]] $I\left(\gamma, z_{0}\right)$ of $\gamma$ about $z_{0}$ in the same fashion. Explicitly, if $\gamma$ is a closed path with $z_{0} \notin \gamma^{*}$ then let $t: \mathbb{C} \rightarrow \mathbb{C}$ be given by $t(z)=z-z_{0}$ and define $I\left(\gamma, z_{0}\right)=I(t \circ \gamma, 0)$.
 
-### Lemma 6.5
+## Lemma 6.5
 Let $\gamma$ be a piecewise $C^{1}$ closed [[Path]] and $z_{0} \in \mathbb{C}$ a point not in the image of $\gamma$. Then the [[Winding Number]] $I\left(\gamma, z_{0}\right)$ of $\gamma$ around $z_{0}$ is given by
 $$
 I\left(\gamma, z_{0}\right)=\frac{1}{2 \pi i} \int_{\gamma} \frac{d z}{z-z_{0}}
 $$
-#### Proof
+### Proof
 If $\gamma:[0,1] \rightarrow \mathbb{C}$ we may write $\gamma(t)=z_{0}+r(t) e^{2 \pi i a(t)}$ (where $r(t)=$ $\left|\gamma(t)-z_{0}\right|>0$ is continuous and the existence of $a(t)$ is guaranteed by [[#Proposition 6.2]]). Then we have
 $$
 \begin{aligned}
@@ -36,7 +35,7 @@ $$
 $$
 since $r(1)=r(0)=\left|\gamma(0)-z_{0}\right|$.
 
-### Proposition 6.7
+## Proposition 6.7
 Let $U$ be an open set in $\mathbb{C}$ and let $\gamma:[0,1] \rightarrow U$ be a closed path. If $f(z)$ is a continuous function on $\gamma^{*}$ then the function
 $$
 I_{f}(\gamma, w)=\frac{1}{2 \pi i} \int_{\gamma} \frac{f(z)}{z-w} d z
@@ -44,7 +43,7 @@ $$
 is [[Analytic]] in $w$.
 In particular, if $f(z)=1$ this shows that the function $w \mapsto I(\gamma, w)$ is a continuous function on $\mathbb{C} \backslash \gamma^{*}$, and hence, since it is integer-valued, it is constant on the connected components of $\mathbb{C} \backslash \gamma^{*}$.
 
-#### Proof
+### Proof
 We wish to show that for each $z_{0} \notin \gamma^{*}$ we can find a disk $B\left(z_{0}, \epsilon\right)$ within which $I_{f}(\gamma, w)$ is given by a power series in $\left(w-z_{0}\right)$. Translating if necessary we may assume $z_{0}=0$
 
 Now since $\mathbb{C} \backslash \gamma^{*}$ is open, there is some $r>0$ such that $B(0,2 r) \cap \gamma^{*}=\emptyset$. We claim that $I_{f}(\gamma, w)$ is [[Holomorphic]] in $B(0 . r)$. Indeed if $w \in B(0, r)$ and $z \in \gamma^{*}$ it follows that $|w / z|<1 / 2 .$ Moreover, since $\gamma^{*}$ is [[Sequential Compactness|compact]], $M=\sup \left\{|f(z)|: z \in \gamma^{*}\right\}$ is finite, and hence
@@ -61,7 +60,7 @@ I_{f}(\gamma, w)=\frac{1}{2 \pi i} \int_{\gamma} \frac{f(z) d z}{z-w}=\sum_{n=0}
 $$
 hence $I_{f}(\gamma, w)$ is given by a power series in $B(0, r)$ (and hence is also [[Holomorphic]] there) as required. Finally, if $f=1$, then since $I_{1}(\gamma, z)=I(\gamma, z)$ is integer-valued, it follows it must be constant on any connected component of $\mathbb{C} \backslash \gamma^{*}$ as required.
 
-#### Remark 6.9
+### Remark 6.9
 If $\gamma$ is a closed path then $\gamma^{*}$ is [[Compact]] and hence bounded. Thus there is an $R>0$ such that the connected set $\mathbb{C} \backslash B(0, R) \cap \gamma^{*}=\emptyset .$ It follows that $\mathbb{C} \backslash \gamma^{*}$ has exactly one unbounded connected component. Since
 $$
 \left|\int_{\gamma} \frac{d \zeta}{\zeta-z}\right| \leq \ell(\gamma) \cdot \sup _{\zeta \in \gamma^{*}}|1 /(\zeta-z)| \rightarrow 0

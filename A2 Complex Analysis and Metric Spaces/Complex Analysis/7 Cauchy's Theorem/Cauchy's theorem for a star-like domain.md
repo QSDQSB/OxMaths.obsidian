@@ -1,4 +1,3 @@
-# Cauchy's theorem for a star-like domain
 #ComplexAnalysis 
 
 ```ad-theorem

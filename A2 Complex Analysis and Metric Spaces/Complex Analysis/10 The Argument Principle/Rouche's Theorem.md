@@ -1,4 +1,3 @@
-# Rouche's Theorem
 #ComplexAnalysis 
 
 ```ad-theorem

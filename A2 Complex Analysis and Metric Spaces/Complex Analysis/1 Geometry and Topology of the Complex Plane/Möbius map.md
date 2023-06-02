@@ -1,7 +1,6 @@
 ---
 aliases: [Möbius transformations, Möbius transformation, Möbius maps]
 ---
-# Möbius Map
 #ComplexAnalysis 
 
 ## Definition

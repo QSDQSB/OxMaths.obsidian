@@ -1,4 +1,3 @@
-# Fatou's Lemma
 #Integration 
 
 ```ad-theorem
@@ -10,6 +9,6 @@ $$
 ```
 ^theorem
 
-### Proof
+## Proof
 Let $g_{r}:=\inf _{n \geq r} f_{n}$.  Then $\left(g_{r}\right)$ increases to $\liminf _{n \rightarrow \infty} f_{n}$ and $g_{r} \leq f_{r}$ and $\int g_{r} \leq$ $\int f_{r}$.
 By MCT, $\int \liminf \operatorname{inm}_{n \rightarrow \infty} f_{n}=\lim _{r \rightarrow \infty} \int g_{r}=\liminf r \rightarrow \infty \int g_{r} \leq \liminf _{r \rightarrow \infty} \int f_{r}$.

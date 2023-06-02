@@ -1,10 +1,9 @@
 ---
 aliases: [differentiable]
 ---
-## Path Differentiable
 #ComplexAnalysis 
 
-### Definition 
+## Definition 
 We will say that a [[Path]] $\gamma:[a, b] \rightarrow \mathbb{C}$ is [[Path Differentiable|differentiable]] if its real and imaginary parts are [[Complex Differentiable|differentiable]] as real-valued functions. Equivalently, $\gamma$ is differentiable at $t_{0} \in[a, b]$ if
 $$
 \lim _{t \rightarrow t_{0}} \frac{\gamma(t)-\gamma\left(t_{0}\right)}{t-t_{0}}

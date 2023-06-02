@@ -1,7 +1,6 @@
 ---
 aliases: [normed]
 ---
-## Norm
 #ComplexAnalysis  
 
 ### Definition

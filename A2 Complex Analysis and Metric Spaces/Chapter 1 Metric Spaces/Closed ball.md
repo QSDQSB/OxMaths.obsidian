@@ -1,4 +1,3 @@
-## Closed Ball
 #ComplexAnalysis 
 
 Let $X$ be a [[Metric Space]]. If $a \in X$ and $\varepsilon>0$ then we  define the [[Closed ball]] of radius $\epsilon$ about $a$ to be the set

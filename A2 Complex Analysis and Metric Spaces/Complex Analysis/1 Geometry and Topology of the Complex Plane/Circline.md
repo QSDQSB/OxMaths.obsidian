@@ -1,18 +1,17 @@
 ---
 aliases: [circlines]
 ---
-## Circline
 #ComplexAnalysis 
 
-### Definition
+## Definition
 A [[Circline]] is either
 - A circle in $\mathbb{C}$ (considered as a subset of $\mathbb{C}_{\infty}$ ) or
 - A line in $\mathbb{C}$ (considered as a subset of $\mathbb{C}_{\infty}$ ) together with the point $\{\infty\}$
 
-### Proposition 2.14
+## Proposition 2.14
 > [[Möbius map]] takes [[Circline|circlines]] to [[Circline|circlines]].
 
-#### Proof
+### Proof
 By [[Möbius map#Lemma 2.12]] it is enough to check this for translations, dilations and inversions. The first two are easy and #TODO; it remains to show that inversion preserves [[Circline|circlines]].
 
 We consider the case of circles first. Suppose we have a circle $|z-a|=r$. 

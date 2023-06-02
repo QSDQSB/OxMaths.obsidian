@@ -1,7 +1,6 @@
 ---
 aliases: [simply connected]
 ---
-# Simply-Conencted
 #ComplexAnalysis 
 
 ## Definition

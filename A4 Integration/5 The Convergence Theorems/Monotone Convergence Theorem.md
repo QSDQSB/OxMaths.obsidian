@@ -1,16 +1,15 @@
 ---
 aliases: [MCT]
 ---
-# Monotone Convergence Theorem
 #Integration 
 
 
-### MCT Version 1
+## MCT Version 1
 ```ad-theorem
 title: Monotone Convergence Theorem, Version 1
 If $\left(f_{n}\right)$ is an increasing sequence of non-negative [[measurable]] functions and $f=\lim _{n \rightarrow \infty} f_{n}$, then $\int f=\lim _{n \rightarrow \infty} \int f_{n}$
 ```
-#### Proof
+### Proof
 Since $f_{n} \leq f$, it is immediate that $\sup _{n} \int f_{n} \leq \int f$.
 For the reverse inequality, we consider a simple function $\phi$ such that $0 \leq \phi \leq f$. We have to show that $\int \phi \leq \lim _{n \rightarrow \infty} \int f_{n}$. It then follows from the definition of $\int f$ that $\int f \leq \lim _{n \rightarrow \infty} \int f_{n}$.
 Take $\alpha \in(0,1)$, and let
@@ -31,14 +30,14 @@ $$
 $$
 Letting $\alpha \rightarrow 1-$ gives the required inequality.
 
-### Baby MCT
+## Baby MCT
 ```ad-theorem
 title: Baby MCT
 Let $f$ be a non-negative measurable function, $\left(E_{n}\right)$ be an increasing sequence of measurable sets, and $E=\bigcup_{n=1}^{\infty} E_{n}$. Then $f$ is integrable over $E$ if and only if $\sup _{n} \int_{E_{n}} f<\infty$. Then $\int_{E} f=\sup _{n} \int_{E_{n}} f=\lim _{n \rightarrow \infty} \int_{E_{n}} f$.
 ```
 Proof. Apply Theorem $4.2$ with $f_{n}=f \chi_{E_{n}}$, noting that $\chi_{E_{n}} \leq \chi_{E_{n+1}}$ and $f \geq 0$, so $f_{n} \leq f_{n+1}$ and $\chi_{E}(x)=\lim _{n \rightarrow \infty} \chi_{E_{n}}(x)$
 
-### MCT Version 2
+## MCT Version 2
 ```ad-theorem
 title: Monotone Convergence Theorem, Version 2
 Let $\left(f_{n}\right)$ be a sequence of integrable functions such that:

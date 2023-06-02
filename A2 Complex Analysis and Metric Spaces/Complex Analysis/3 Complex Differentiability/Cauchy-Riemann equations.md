@@ -1,5 +1,3 @@
-
-## Cauchy-Riemann equation
 #ComplexAnalysis 
 
 ```ad-theorem
@@ -18,10 +16,10 @@ and $$f^{\prime}(a)=\partial_{x} u(a)+i \partial_{x} v(a)$$
 **Proof**. Let $u, v: \mathbb{R}^{2} \rightarrow \mathbb{R}$ be the components of $f$. Then clearly $u(x, y)=x$, $v(x, y)=-y$ and so $\partial_{x} u=1, \partial_{y} u=0, \partial_{x} v=0, \partial_{y} v=-1$. Thus $\partial_{x} u$ is never equal to $\partial_{y} v$, so the [[Cauchy-Riemann equations]] are never satisfied.
 ```
 
-### Theorem 3.9
+## Theorem 3.9
 Suppose that $U \subseteq \mathbb{C}$ is open and that $f: U \rightarrow \mathbb{C}$ is a function. Let the components of $f$ be $(u, v)$, where $u, v: \mathbb{R}^{2} \rightarrow \mathbb{R}$. Suppose that all four partial derivatives $\partial_{x} u, \partial_{y} u, \partial_{x} v, \partial_{y} v$ exist, are continuous in $\dot{U}$, and satisfy the [[Cauchy-Riemann equations|Cauchy-Riemann equations]]. Then $f$ is [[Holomorphic]] on $U$, with derivative $\partial_{x} u+i \partial_{x} v$.
 
-### Proposition 148
+## Proposition 148
 (Goursat) Given $f: U \rightarrow \mathbb{C}$, let $u=\operatorname{Re} f, v=\operatorname{Im} f$. Suppose that $u_{x}, u_{y}, v_{x}, v_{y}$ exist, are continuous and satisfy the Cauchy-Riemann Equations at $z \in U$. Then $f$ is differentiable at $z$.
 
 Proof Let $z=x+i y \in U$ and $\varepsilon>0$ be such that $D(z, \varepsilon) \subseteq U$. Let $h=p+i q$ where $|h|<\varepsilon$. Then $(f(z+h)-f(z)) / h$ equals
@@ -44,5 +42,5 @@ exists.
 
 ---
 
-### Examples
+## Examples
 We can use [[Cauchy-Riemann equations]] to prove non-differentiability: Try $f(z)=|z|.$

@@ -1,10 +1,9 @@
 ---
 aliases: [homeomorphic]
 ---
-## Homeomorphism
 #ComplexAnalysis 
 
-### Definition
+## Definition
 Let $f: X \rightarrow Y$ be a [[Continuous]] function between [[Metric Space|metric spaces]] $X$ and $Y$. We say that $f$ is a [[Homeomorphism]] if it is continuous, a bijection, and if its **inverse** $f^{-1}: Y \rightarrow X$ is also continuous.
 
 ```ad-example

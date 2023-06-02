@@ -1,4 +1,3 @@
-# Rieman's Mapping Theorem
 #ComplexAnalysis 
 
 ```ad-theorem
