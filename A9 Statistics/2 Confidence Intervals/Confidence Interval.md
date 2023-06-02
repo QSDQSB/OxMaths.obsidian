@@ -1,4 +1,3 @@
-# Confidence Interval
 #Statistics 
 ## Definition
 ```ad-definition

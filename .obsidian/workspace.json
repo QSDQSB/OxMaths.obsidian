@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A2 Complex Analysis and Metric Spaces/Chapter 9 Compactness/Compact.md",
+                "file": "A12 Simulation and Statistical Programming/Simulation/Metropolis Hastings Markov Chain Monte Carlo algorithm.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56f2bb2d57bcc163",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A2 Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Laurent's Theorem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A2 Complex Analysis and Metric Spaces/Chapter 9 Compactness/Compact.md",
+                "file": "A2 Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Laurent's Theorem.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A2 Complex Analysis and Metric Spaces/Chapter 9 Compactness/Compact.md"
+                "file": "A2 Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Laurent's Theorem.md"
               }
             }
           },
@@ -132,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A2 Complex Analysis and Metric Spaces/Chapter 9 Compactness/Compact.md",
+                "file": "A2 Complex Analysis and Metric Spaces/Complex Analysis/8 The Identity Theorem, Isolated Zeroes and Singularities/Laurent's Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,33 +178,33 @@
       "random-note:Open random note": false
     }
   },
-  "active": "788c206ebc7d9809",
+  "active": "56f2bb2d57bcc163",
   "lastOpenFiles": [
-    "A2 Complex Analysis and Metric Spaces/Chapter 6 Completeness/Cantor's Intersection Theorem.md",
-    "A2 Complex Analysis and Metric Spaces/Chapter 5 Interiors, closures, limit points/Boundary.md",
-    "A8 Probability/Gamma Distribution.md",
-    "A8 Probability/Part A/7 Poisson processes/Poisson Process.md",
-    "A8 Probability/Part A/5 Markov Chains/Transition matrix.md",
-    "A8 Probability/Part A/5 Markov Chains/time-homogeneous.md",
-    "A8 Probability/Part A/5 Markov Chains/Reversible Markov Chain.md",
-    "A8 Probability/Part A/5 Markov Chains/Recurrent.md",
-    "A8 Probability/Part A/5 Markov Chains/Period.md",
-    "A8 Probability/Part A/5 Markov Chains/Markov Property.md",
-    "A8 Probability/Part A/5 Markov Chains/Markov chain.md",
-    "A8 Probability/Part A/5 Markov Chains/Hitting probability.md",
-    "A8 Probability/Part A/5 Markov Chains/Chapman-Kolmogorov equations.md",
-    "A8 Probability/Part A/2 Convergence of Random Variables, and Limit Theorems/Strong Law of Large Numbers.md",
-    "A7 Numerical Analysis/Singular Value Decomposition.md",
-    "A7 Numerical Analysis/QR Factorisation.md",
-    "A7 Numerical Analysis/QR Algorithm.md",
-    "A7 Numerical Analysis/LU Factorisation.md",
-    "A7 Numerical Analysis/Lagrange Interpolating Polynomial.md",
-    "A7 Numerical Analysis/Householder.md",
-    "A7 Numerical Analysis/Hermite Interpolating Polynomial.md",
-    "A7 Numerical Analysis/Gram–Schmidt Orthogonalization Procedure.md",
-    "A7 Numerical Analysis/Gerschgorin’s Theorem.md",
-    "A7 Numerical Analysis/Gauss Quadrature.md",
-    "A4 Integration/7 Double Integrals/Fubini's Theorem.md",
-    "A4 Integration/7 Double Integrals/Tonelli's Theorem.md"
+    "A2 Complex Analysis and Metric Spaces/Complex Analysis/7 Cauchy's Theorem/Taylor's Theorem.md",
+    "A2 Complex Analysis and Metric Spaces/Complex Analysis/7 Cauchy's Theorem/Cauchy's Integral Formula.md",
+    "A2 Complex Analysis and Metric Spaces/Complex Analysis/7 Cauchy's Theorem/Cauchy's theorem for a star-like domain.md",
+    "A2 Complex Analysis and Metric Spaces/Complex Analysis/7 Cauchy's Theorem/Cauchy's theorem for a triangle.md",
+    "A2 Complex Analysis and Metric Spaces/Complex Analysis/7 Cauchy's Theorem/Deformation Theorem.md",
+    "A2 Complex Analysis and Metric Spaces/Complex Analysis/7 Cauchy's Theorem/Cauchy's Theorem.md",
+    "A2 Complex Analysis and Metric Spaces/Complex Analysis/5 Paths and Integration/Equivalent Path.md",
+    "A12 Simulation and Statistical Programming/Simulation/Metropolis Hastings Markov Chain Monte Carlo algorithm.md",
+    "A2 Complex Analysis and Metric Spaces/Chapter 9 Compactness/Compact.md",
+    "A12 Simulation and Statistical Programming/Statistical Programming/R-Numeric.md",
+    "A12 Simulation and Statistical Programming/Simulation/Rejection Sampling.md",
+    "A12 Simulation and Statistical Programming/Simulation/Gamma Distribution Simulation.md",
+    "A12 Simulation and Statistical Programming/Simulation/Gibbs Sampling.md",
+    "A12 Simulation and Statistical Programming/Simulation/Normal Distribution Simulation.md",
+    "A12 Simulation and Statistical Programming/Simulation/Importance Sampling.md",
+    "A9 Statistics/STATS@TODO😤😵‍💫😭.md",
+    "A9 Statistics/3 Hypothesis Testing/Pearson's Chi-Squared Statistic.md",
+    "A9 Statistics/3 Hypothesis Testing/Neyman–Pearson lemma.md",
+    "A9 Statistics/3 Hypothesis Testing/Likelihood ratio test.md",
+    "A9 Statistics/3 Hypothesis Testing/Likelihood Ratio Statistic.md",
+    "A9 Statistics/3 Hypothesis Testing/Hypothesis Testing.md",
+    "A9 Statistics/2 Confidence Intervals/t-distribution.md",
+    "A9 Statistics/2 Confidence Intervals/Sample Mean and Sample Variance.md",
+    "A9 Statistics/2 Confidence Intervals/Confidence Interval.md",
+    "A9 Statistics/1 Estimation/Q-Q Plot.md",
+    "A9 Statistics/1 Estimation/Order Statistics.md"
   ]
 }

@@ -1,7 +1,6 @@
 ---
 aliases: [NP lemma,critical region,most powerful test]
 ---
-# The Neyman–Pearson lemma
 #Statistics 
 
 Consider testing a **simple** null hypothesis against a **simple** alternative:

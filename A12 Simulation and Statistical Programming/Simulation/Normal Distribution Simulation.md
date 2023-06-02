@@ -1,4 +1,3 @@
-# Normal Distribution Simulation
 If $U_{1}$ and $U_{2}$ are independent $U(0,1) \mathrm{rv}$, and
 $$
 \begin{array}{l}

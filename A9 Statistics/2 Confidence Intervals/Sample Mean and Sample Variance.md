@@ -1,7 +1,6 @@
 ---
 aliases: [sample mean, sample variance]
 ---
-# Sample Mean and Sample Variance
 #Statistics 
 
 Let $X_{1}, \ldots, X_{n} \stackrel{\text { iid }}{\sim} N\left(\mu, \sigma^{2}\right)$

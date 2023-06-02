@@ -1,4 +1,3 @@
-# Likelihood Ratio Statistic
 #Statistics 
 ```ad-definition
 title: Likelihood Ratio Statistic

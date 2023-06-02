@@ -1,4 +1,3 @@
-# Rejection Sampling
 #Statistics
 
 Suppose we can find a constant $M$ satisfying $M \geq p(x) / q(x)$ for all $x \in \Omega$. The following 'Rejection algorithm' returns $X \sim p$.

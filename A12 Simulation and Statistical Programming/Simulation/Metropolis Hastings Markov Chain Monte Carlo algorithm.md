@@ -1,9 +1,7 @@
 ---
 aliases: [MCMC, Metropolis-Hastings, Metropolis-Hastings algorithm, MH-MCMC]
 ---
-# Metropolis Hastings Markov Chain Monte Carlo Algorithm
 #Statistics 
-
 ```ad-remark
 The [[Metropolis Hastings Markov Chain Monte Carlo algorithm]] (or [[Metropolis Hastings Markov Chain Monte Carlo algorithm|MCMC]], for short) is an algorithm for simulating a [[Markov Chain]] with any given equilibrium distribution.
 ```

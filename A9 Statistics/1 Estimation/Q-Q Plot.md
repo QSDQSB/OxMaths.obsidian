@@ -1,6 +1,4 @@
-# Q-Q Plot
 #Statistics 
-
 ```ad-theorem
 title: Lemma 1.8.
 Suppose $X$ is a continuous $R V$ taking values in $(a, b)$, with strictly increasing $c d f F(x)$ for $x \in(a, b)$. Let $Y=F(X)$. Then $Y \sim U(0,1)$.

@@ -1,4 +1,3 @@
-# Order statistics
 #Statistics 
 
 The [[Order Statistics]] of data $x_{1}, \ldots, x_{n}$ are their values in **increasing** order, which we denote $x_{(1)} \leqslant x_{(2)} \leqslant \cdots \leqslant x_{(n)}$.

@@ -1,4 +1,3 @@
-# T-Distribution
 #Statistics 
 
 ## Definition

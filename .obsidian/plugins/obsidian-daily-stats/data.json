@@ -54,7 +54,7 @@
     "2023/4/1": 0,
     "2023/4/20": 1,
     "2023/4/29": 5,
-    "2023/5/2": 72
+    "2023/5/2": 73
   },
   "todaysWordCount": {
     "A2 Complex Analysis and Metric Spaces/Complex Analysis/🥺☹️😶‍🌫️CA-TODO-BEFORE-THE-EXAM.md": {
@@ -544,6 +544,74 @@
     "A8 Probability/Part A/5 Markov Chains/Transition matrix.md": {
       "initial": 600,
       "current": 601
+    },
+    "A9 Statistics/2 Confidence Intervals/chi-square distribution.md": {
+      "initial": 281,
+      "current": 281
+    },
+    "A9 Statistics/1 Estimation/Delta Method.md": {
+      "initial": 405,
+      "current": 405
+    },
+    "A9 Statistics/1 Estimation/Information.md": {
+      "initial": 810,
+      "current": 810
+    },
+    "A9 Statistics/1 Estimation/Order Statistics.md": {
+      "initial": 773,
+      "current": 773
+    },
+    "A9 Statistics/1 Estimation/Q-Q Plot.md": {
+      "initial": 541,
+      "current": 541
+    },
+    "A9 Statistics/2 Confidence Intervals/Confidence Interval.md": {
+      "initial": 57,
+      "current": 57
+    },
+    "A9 Statistics/2 Confidence Intervals/Sample Mean and Sample Variance.md": {
+      "initial": 681,
+      "current": 681
+    },
+    "A9 Statistics/2 Confidence Intervals/t-distribution.md": {
+      "initial": 103,
+      "current": 103
+    },
+    "A9 Statistics/3 Hypothesis Testing/Hypothesis Testing.md": {
+      "initial": 955,
+      "current": 955
+    },
+    "A9 Statistics/3 Hypothesis Testing/Likelihood Ratio Statistic.md": {
+      "initial": 262,
+      "current": 262
+    },
+    "A9 Statistics/3 Hypothesis Testing/Neyman–Pearson lemma.md": {
+      "initial": 591,
+      "current": 591
+    },
+    "A9 Statistics/3 Hypothesis Testing/Pearson's Chi-Squared Statistic.md": {
+      "initial": 153,
+      "current": 153
+    },
+    "A9 Statistics/STATS@TODO😤😵‍💫😭.md": {
+      "initial": 81,
+      "current": 82
+    },
+    "A12 Simulation and Statistical Programming/Simulation/Importance Sampling.md": {
+      "initial": 169,
+      "current": 169
+    },
+    "A12 Simulation and Statistical Programming/Simulation/Rejection Sampling.md": {
+      "initial": 170,
+      "current": 170
+    },
+    "A12 Simulation and Statistical Programming/Simulation/Normal Distribution Simulation.md": {
+      "initial": 63,
+      "current": 63
+    },
+    "A12 Simulation and Statistical Programming/Simulation/Metropolis Hastings Markov Chain Monte Carlo algorithm.md": {
+      "initial": 1607,
+      "current": 1607
     }
   }
 }

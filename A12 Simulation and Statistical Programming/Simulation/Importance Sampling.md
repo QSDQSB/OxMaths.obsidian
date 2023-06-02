@@ -1,4 +1,3 @@
-# Importance Sampling
 #Statistics 
 ## Definition
 Let $Y_{i} \sim q, i=1,2, \ldots, n$ be iid continuous random variables distributed for $Y_{i} \in \Omega$ with density $q$. We will require $p(x)>0 \Rightarrow q(x)>0$ for all $x \in \Omega$ (which is weaker than $p / q$ bounded as in rejection). Then

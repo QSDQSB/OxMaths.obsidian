@@ -1,7 +1,6 @@
 ---
 aliases: [Fisher information]
 ---
-# Information
 ## Observed Information
 ```ad-definition
 In a model with scalar parameter $\theta$ and log-likelihood $\ell(\theta)$, the ==observed information== $J(\theta)$ is defined by

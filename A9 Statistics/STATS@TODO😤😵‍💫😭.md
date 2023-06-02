@@ -1,9 +1,9 @@
 # STATISTICS TODO 😤
 #Statistics #TODO #MostCrucial 
-- [ ] Estimation
+- [x] Estimation
 	- [x] [[Delta Method]]
 	- [x] [[Order Statistics]]
-	- [ ] Q-Q Plot
+	- [x] Q-Q Plot
 	- [x] MND
 	- [x] Information
 	- [x] Properties of MLE

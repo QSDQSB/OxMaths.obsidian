@@ -1,4 +1,3 @@
-# Pearson's chi-squared statistic
 #Statistics 
 
 Write

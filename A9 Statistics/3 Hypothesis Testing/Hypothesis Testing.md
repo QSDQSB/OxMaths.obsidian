@@ -10,7 +10,7 @@ Let $X_{1}, \ldots, X_{n}$ be a random sample from $f(x ; \theta)$ where $\theta
 ==critical region== $C \subset \mathbb{R}^{n}$ such that if $\mathbf{x} \in C$ then we reject $H_{0}$, otherwise not
 ==type I error== rejecting $H_{0}$ when $H_{0}$ is true
 ==type II error== not rejecting $H_{0}$ when $H_{0}$ is false.
-==size== of the test: ==type I error== probability $\alpha$; 
+`size` of the test: ==type I error== probability $\alpha$; 
 - $\alpha=\sup _{\theta \in \Theta_{0}} P(\mathbf{X} \in C \mid \theta)$ if $H_0$ is composite
 
 ==power== of the test: $1-\beta=P\left(\right.$ reject $H_{0} \mid H_{1}$ true $)$, the probability of correctly detecting that $H_0$ is false

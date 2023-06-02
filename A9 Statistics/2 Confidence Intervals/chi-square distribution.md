@@ -1,4 +1,3 @@
-# Chi-square Distribution
 #Statistics 
 ### Definition
 Let $Z_{1}, \ldots, Z_{r} \stackrel{\text { iid }}{\sim} N(0,1) .$ We say that $Y=Z_{1}^{2}+\cdots+Z_{r}^{2}$ has the ==$c h i$-squared== distribution with $r$ degrees of freedom. Write $Y \sim \chi_{r}^{2}$.

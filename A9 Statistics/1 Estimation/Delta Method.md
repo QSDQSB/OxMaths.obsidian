@@ -1,7 +1,6 @@
-# Delta Method
 #Statistics 
 
-#### Prerequisite
+### Prerequisite
 $$\frac{\bar{X}-\mu}{\sigma / \sqrt{n}} \stackrel{\mathrm{D}}{\approx} N(0,1)$$
 ## Idea: Taylor Expansion Around Mean 
 Taylor series expansion of $g(\bar{X})$ about $g(\mu)$ gives
