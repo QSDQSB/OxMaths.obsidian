@@ -31,7 +31,7 @@ The convergence is **almost surely**, which already implies convergence in proba
 
 ```ad-algorithm
 ==$p$== is a given p.m.f. of the target distribution.
-==$\tilde{p}$== is an unnormalised p.m.f., with ==$Z_{p}$== being its normalising factor
+==$\tilde{p}$== is an unnormalised p.m.f., with $Z_{p}$ being its normalising factor
 ==$q(x\mid y)$== is a proposal distribution, something arbitrarily chosen, as long as it has the same probability space as $p$. 
 (**Quote**: $\color{green}\text{Anything irreducible will do.}$)
 

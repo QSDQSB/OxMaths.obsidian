@@ -1,0 +1,3 @@
+- How to evaluate the model apart from eyeballing?
+- Details of the Bayesian update for $\sigma$.
+- How to ensure convergence?

@@ -760,6 +760,13 @@ body.is-mobile:not(.floating-button-off).advanced-toolbar
 .tag[href^="#NumericalAnalysis"]::before {
   content: '🏮';
 }
+.tag[href^="#TODO"]::before {
+  content: '🪣';
+}
+.tag[href^="#TODO"] {
+  background-color: #5599a5 !important;
+  font-style: italic;
+}
 .tag[href^="#DE"] {
   background-color: #922142 !important;
 }
